@@ -1,6 +1,9 @@
 ﻿# IDE
+
 ## IntelliJ
+
 ### ショートカット
+
 - [忙しい人のためのIntelliJ IDEAショートカット集](https://qiita.com/yoppe/items/f7cbeb825c071691d3f2)
 
   グループ|動作|Windows|Mac
@@ -17,9 +20,11 @@
   ^|インライン展開 (I"n"line)|Ctrl + Alt + N|Command + Option + N
 
 ### モジュール
+
 - TODO あとで調べる
 
 ### その他
+
 - `.iml`という拡張子で、設定ファイルが生成される。
 - Updating indexex実行中はできる限り放置しておく。（コードを変更したりすると、無限にこの処理が繰り返される）
 - Windowsでは、標準でターミナルの日本語が文字化けするので、以下で対処する。

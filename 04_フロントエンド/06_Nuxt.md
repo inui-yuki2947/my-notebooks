@@ -1,8 +1,11 @@
 ﻿# Nuxt
+
 ## 概要
+
 - [Nuxt - インストール](https://nuxtjs.org/ja/docs/get-started/installation)
 
 ## ライフサイクル
+
 - [Nuxt.jsのライフサイクル覚書 - astamuse Lab](http://lab.astamuse.co.jp/entry/2019/05/29/114500)
 - [【Vue.js】middlewareやplugins, fetchなどの実行順序 | HAFILOG](https://hafilog.com/execution-order)
 - 親created　→　子created　→　子mounted　→　親mounted
@@ -18,6 +21,7 @@
   [Nuxt.jsのSSR/CSR処理について - 株式会社Japonline](https://www.japon-line.co.jp/tech/nuxt-js%E3%81%AEssr-csr%E5%87%A6%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/)
 
 ## Vuex
+
 - ミューテーション
   - 「store.commit」がトリガーとなる。
   - ミューテーションは同期的でなければならない。
@@ -28,6 +32,7 @@
   [Nuxt.js + TypeScript + Vuexをvuex-module-decoratorsでがっちりインテリセンスを効かせる - Qiita](https://qiita.com/azukiazusa/items/a50b1ffe05d9937a4db0)
 
 ## エラーページ
+
 - エラーページに遷移したい場合、errorを投げてもメソッドは終了しない（終了したかったらreturnを打つ）
 - SSRのレイアウトは、「static layout」で指定し、
   CSRのレイアウトは、「nuxt.setLayout」で指定する。
@@ -35,12 +40,15 @@
   [Nuxt.js で layout を(ページ読み込み後に)動的に変える - Qiita](https://qiita.com/ymneet/items/d177115662534ce49937)
 
 ## Composition API
+
 - [Introduction - Nuxt Composition API](https://composition-api.nuxtjs.org/)
 - [vuejs/composition-api: Composition API plugin for Vue 2](https://github.com/vuejs/composition-api)
 - 「ref」はプリミティブ型に使い、「reactive」は参照型に使う。
 
 ## Nuxt TypeScript
+
 - [Nuxt TypeScript](https://typescript.nuxtjs.org/ja)
 
 ## その他
+
 - キャッシュのクリアは、`yarn clean:cache`
