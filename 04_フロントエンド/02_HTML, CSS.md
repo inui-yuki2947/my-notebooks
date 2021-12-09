@@ -2,8 +2,8 @@
 ## 共通
 ### 空要素
 - 空要素（内容を持たない＝閉じタグが要らない要素）は、以下のように記述する。
-	- `<タグ名>`：通常の書き方
-	- `<タグ名 />`：XHTML準拠の書き方
+  - `<タグ名>`：通常の書き方
+  - `<タグ名 />`：XHTML準拠の書き方
 
 ### タグの入れ子
 - [HTML5 コンテンツモデル ガイド | HTML5 Content Models Guide](https://webgoto.net/html5/)
@@ -13,7 +13,7 @@
 - 特殊文字は、`&キーワード;`あるいは`&#番号;`の形式で記述する。[特殊文字リファレンス](http://www.htmq.com/text/)
 - 特殊文字のコードを、contentプロパティの値にするには、`&#十進数;`→`¥0十六進数`のように書き換える。
   記号「»」の場合…「&#187;」→「¥0bb」<br>
-	[CSS - contentで記号（特殊文字）を表示する方法。コード表やシミュレーター有り(疑似要素:beforeや:afterにて)｜及川WEB室](https://www.oikawa-sekkei.com/web/design/css/content.html)
+  [CSS - contentで記号（特殊文字）を表示する方法。コード表やシミュレーター有り(疑似要素:beforeや:afterにて)｜及川WEB室](https://www.oikawa-sekkei.com/web/design/css/content.html)
 
 ## HTML
 ### html
@@ -26,18 +26,18 @@
 
 ### a
 - `target="_blank"`とすると、リンクを別タブで開くことができるが、以下のようにセキュリティに留意する。
-	- `rel="noopener"`とすることで、新しいタブを別スレッドで開くことができる。
-	- `rel=”noreferrer”`とすることで、参照先に対して参照元のリンクを渡さないようにすることができる。
+  - `rel="noopener"`とすることで、新しいタブを別スレッドで開くことができる。
+  - `rel=”noreferrer”`とすることで、参照先に対して参照元のリンクを渡さないようにすることができる。
 
 ### table
 - 列幅を固定したい場合は、`table-layout: fixed;`を用いる。
-	- [table-layout - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/table-layout)
-	- [CSSでtable幅を設定するためのまとめ: 小粋空間](http://www.koikikukan.com/archives/2012/08/20-005555.php)
+  - [table-layout - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/table-layout)
+  - [CSSでtable幅を設定するためのまとめ: 小粋空間](http://www.koikikukan.com/archives/2012/08/20-005555.php)
 - 「jquery-resizable-columns」は、テーブル幅をドラッグで変更できるようにするプラグイン。ただし挙動がいまいち。
-	- [GitHub](https://github.com/dobtco/jquery-resizable-columns)
-	- [tableの幅を変更できるプラグイン「jQuery Resizable Columns」を使ってみる | cly7796.net]((http://cly7796.net/wp/javascript/using-plugin-jquery-resizable-columns-which-can-change-the-width-of-table/))
+  - [GitHub](https://github.com/dobtco/jquery-resizable-columns)
+  - [tableの幅を変更できるプラグイン「jQuery Resizable Columns」を使ってみる | cly7796.net]((http://cly7796.net/wp/javascript/using-plugin-jquery-resizable-columns-which-can-change-the-width-of-table/))
 - テーブル内での文字省略
-	- [table-layout: fixed; せずに text-overflow: ellipsis; する - コンパイラかく語りき](https://chuckwebtips.hatenablog.com/entry/2017/07/09/183527)
+  - [table-layout: fixed; せずに text-overflow: ellipsis; する - コンパイラかく語りき](https://chuckwebtips.hatenablog.com/entry/2017/07/09/183527)
 
 ### article/section
 - article/sectionタグは、コンテンツをまとめるために使用する。
@@ -78,10 +78,10 @@
 
 ### margin/padding
 - 4辺の指定は以下の通り。上から時計回りのイメージ。
-	- 値を1つ指定した場合：[上下左右]
-	- 値を2つ指定した場合：[上下][左右]
-	- 値を3つ指定した場合：[上][左右][下]
-	- 値を4つ指定した場合：[上][右][下][左]
+  - 値を1つ指定した場合：[上下左右]
+  - 値を2つ指定した場合：[上下][左右]
+  - 値を3つ指定した場合：[上][左右][下]
+  - 値を4つ指定した場合：[上][右][下][左]
 
 ### 横並び系
 - floatを使うと要素が浮いてしまうので注意。

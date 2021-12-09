@@ -37,9 +37,9 @@ https://maku77.github.io/kotlin/generics/variant.html
 ## その他
 ### 三項演算子
 - 三項演算子のような記述がしたい場合は、以下のように書く。
-	```kotlin
-	if (条件) 値1 else 値2
-	```
+  ```kotlin
+  if (条件) 値1 else 値2
+  ```
 
 ### スプレッド演算子
 - `*配列`などとすると、その配列の要素が展開できる。

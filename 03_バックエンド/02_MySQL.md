@@ -18,8 +18,8 @@
   ```
 - `-p`オプションとパスワードの間には、スペースを入れない。https://dev.mysql.com/doc/refman/5.6/ja/command-line-options.html
 - デフォルトでうまく接続できない場合は、ホスト名に`127.0.0.1`を指定する。https://qiita.com/TanukiTam/items/f6a08740d0fcda0db7be
-	- `localhost`（デフォルト）：ソケットで接続される
-	- `127.0.0.1`：TCP経由で接続される。
+  - `localhost`（デフォルト）：ソケットで接続される
+  - `127.0.0.1`：TCP経由で接続される。
 - `-e SQL`オプションで、SQLを直接実行できる。
 - `-N`オプションで、出力のカラム名を非表示にする。
 - `-B`オプションで、出力で値のみ表示する。
@@ -46,13 +46,13 @@
 ### ユーザー定義変数
 - ユーザー定義変数は、`@var_name`と記述する。
 - 書式1
-	```sql
-	SET @var_name = expr
-	```
+  ```sql
+  SET @var_name = expr
+  ```
 - 書式2
-	```sql
-	@t4 := @t1+@t2+@t3;
-	```
+  ```sql
+  @t4 := @t1+@t2+@t3;
+  ```
 - IN句などで変数を使いたい場合は、代わりに以下のようにするとよい。
   ```sql
   WHERE FIND_IN_SET(値, @カンマ区切り文字列を格納する変数)
@@ -84,13 +84,13 @@
 ## 関数と演算子
 ### 型のキャスト
 - 書式1
-	```sql
-	CAST(expr AS type)
-	```
+  ```sql
+  CAST(expr AS type)
+  ```
 - 書式2
-	```sql
-	CONVERT(expr, type)
-	```
+  ```sql
+  CONVERT(expr, type)
+  ```
 
 ### 文字コードの変換
 - 書式
@@ -131,15 +131,15 @@
 
 ### 暗号化
 - 暗号化には、`AES_ENCRYPT`関数を使う。
-	```sql
-	AES_ENCRYPT(文字列, 暗号化鍵 [,初期化ベクトル])
-	```
+  ```sql
+  AES_ENCRYPT(文字列, 暗号化鍵 [,初期化ベクトル])
+  ```
 
 ### 複合
 - 復号には、`AES_DECRYPT`関数を使う。
-	```sql
-	AES_DECRYPT(文字列, 暗号化鍵 [,初期化ベクトル])
-	```
+  ```sql
+  AES_DECRYPT(文字列, 暗号化鍵 [,初期化ベクトル])
+  ```
 - 暗号化鍵が暗号化時のものと異なると、`NULL`を返す。
 
 ## MySQL WorkBench

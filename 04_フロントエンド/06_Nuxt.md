@@ -11,19 +11,19 @@
   [Vue.jsのSSRではcreatedが2回実行される!? - VELTRA Engineering - Medium](https://medium.com/veltra-engineering/in-ssr-vue-js-is-created-twice-7f9122de9b77)
 - 「asyncData」と「fetch」
   [Nuxt.jsのasyncDataとfetchは何が違うのか - Qiita](https://qiita.com/Tsuyoshi84/items/2e47b7f5e7fb8c0c3c66)
-	- 「asyncData」は、コンポーネントへのデータ引き渡しに使う。（戻り値がdataとしてマージされる）また、storeを触ることもできる。
-	- 「fetch」は、ストアへのデータ引き渡しに使う。
-	  [Difference between Asyncdata vs Fetch](https://stackoverflow.com/questions/49251437/difference-between-asyncdata-vs-fetch)
+  - 「asyncData」は、コンポーネントへのデータ引き渡しに使う。（戻り値がdataとしてマージされる）また、storeを触ることもできる。
+  - 「fetch」は、ストアへのデータ引き渡しに使う。
+    [Difference between Asyncdata vs Fetch](https://stackoverflow.com/questions/49251437/difference-between-asyncdata-vs-fetch)
 - SSRとCSR
   [Nuxt.jsのSSR/CSR処理について - 株式会社Japonline](https://www.japon-line.co.jp/tech/nuxt-js%E3%81%AEssr-csr%E5%87%A6%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/)
 
 ## Vuex
 - ミューテーション
-	- 「store.commit」がトリガーとなる。
-	- ミューテーションは同期的でなければならない。
+  - 「store.commit」がトリガーとなる。
+  - ミューテーションは同期的でなければならない。
 - アクション
-	- 「store.dispatch」がトリガーとなる。
-	- 任意の非同期処理を含むことができる。
+  - 「store.dispatch」がトリガーとなる。
+  - 任意の非同期処理を含むことができる。
 - 型付け
   [Nuxt.js + TypeScript + Vuexをvuex-module-decoratorsでがっちりインテリセンスを効かせる - Qiita](https://qiita.com/azukiazusa/items/a50b1ffe05d9937a4db0)
 

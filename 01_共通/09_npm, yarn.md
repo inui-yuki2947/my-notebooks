@@ -2,9 +2,9 @@
 ## 共通
 ### init
 - `init`コマンドは、カレントディレクトリに`package.json`を作成する。
-	```bash
-	npm init
-	```
+  ```bash
+  npm init
+  ```
 
 ## npm
 ### 概要
@@ -39,13 +39,13 @@
 
 ### install
 - 当コマンドは、package.jsonの内容に従ってインストールを行う。
-	```bash
-	yarn install
-	```
+  ```bash
+  yarn install
+  ```
 
 ### add
 - 当コマンドは、特定のパッケージのみインストールする。
-	```bash
-	yarn add パッケージ名
-	```
+  ```bash
+  yarn add パッケージ名
+  ```
 

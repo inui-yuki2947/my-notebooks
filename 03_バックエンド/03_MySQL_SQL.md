@@ -21,9 +21,9 @@
 
 ### TABLE
 - `RENAME, MODIFY, CHANGE`の違い
-	- `RENAME`は、テーブル・インデックス・カラム名の変更。
-	- `MODIFY`は、カラム定義の変更。
-	- `CHANGE`は、カラム名と定義の変更。
+  - `RENAME`は、テーブル・インデックス・カラム名の変更。
+  - `MODIFY`は、カラム定義の変更。
+  - `CHANGE`は、カラム名と定義の変更。
 - `CREATE TEMPORARY TABLE`文で、一時的なテーブルを作成できる。
   ```sql
   CREATE TEMPORARY TABLE テーブル名 SELECT ...;
@@ -94,21 +94,21 @@
 
 ### SELECT
 - 記述順
-	- SELECT
-	- FROM
-	- WHERE
-	- GROUP BY
-	- HAVING
-	- ORDER BY
-	- LIMIT
+  - SELECT
+  - FROM
+  - WHERE
+  - GROUP BY
+  - HAVING
+  - ORDER BY
+  - LIMIT
 - DISTINCT
-	- DISTINCTを行う場合、ORDER BYするカラムはSELECTしている必要がある。
+  - DISTINCTを行う場合、ORDER BYするカラムはSELECTしている必要がある。
 - ORDER BY
-	- NULLのレコードは、**先に来る**（最小値として評価される）。（※DBMS依存）
-	  NULLの順番を制御したい場合は、IF関数などを使うか、先にIS NULLの判定を行う。
+  - NULLのレコードは、**先に来る**（最小値として評価される）。（※DBMS依存）
+    NULLの順番を制御したい場合は、IF関数などを使うか、先にIS NULLの判定を行う。
 - UNION
-	- 「UNION」は重複を除いて結合、「UNION ALL」は**重複を含めて**結合。
-	- 「UNION」する場合は、型を一致させるよう注意する。（UNSIGNEDなど）
+  - 「UNION」は重複を除いて結合、「UNION ALL」は**重複を含めて**結合。
+  - 「UNION」する場合は、型を一致させるよう注意する。（UNSIGNEDなど）
 
 ### INSERT
 - 「INSERT ... ON DUPLICATE KEY UPDATE」構文を用いることで、
@@ -169,7 +169,7 @@
 ### SHOW
 - `SHOW DATABASES`文で、データベース一覧を表示する。
 - `SHOW PROCESSLIST`文で、実行されているスレッドを表示する。
-	- PROCESS権限がない場合は、同ユーザーのスレッドのみを表示する。
+  - PROCESS権限がない場合は、同ユーザーのスレッドのみを表示する。
 
 ### USE
 - `USE データベース名`構文で、以降のステートメントのデフォルトのデータベースを指定する。
