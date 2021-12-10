@@ -136,8 +136,9 @@
   git revert 打ち消したいコミット
   ```
 
-- `--mainline, -m <parent-number>`オプションで、マージコミットを打ち消すことができる。[GitでMerge CommitをRevertする方法 - Qiita](https://qiita.com/awakia/items/5fad0c454ddc7b478ff1)
+- `--mainline, -m <parent-number>`オプションで、マージコミットを打ち消すことができる。
   - `<parent-number>`は、`1`がマージされた側のブランチ、`2`がマージする側のブランチ。（なので基本的には`1`を指定する）
+  - [GitでMerge CommitをRevertする方法 - Qiita](https://qiita.com/awakia/items/5fad0c454ddc7b478ff1)
 
 ## ブランチ・タグ操作
 
