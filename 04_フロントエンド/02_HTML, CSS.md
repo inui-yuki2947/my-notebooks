@@ -17,7 +17,7 @@
 
 - 特殊文字は、`&キーワード;`あるいは`&#番号;`の形式で記述する。[特殊文字リファレンス](http://www.htmq.com/text/)
 - 特殊文字のコードを、contentプロパティの値にするには、`&#十進数;`→`¥0十六進数`のように書き換える。
-  記号「»」の場合…「&#187;」→「¥0bb」<br>
+  記号「»」の場合…「&#187;」→「¥0bb」
   [CSS - contentで記号（特殊文字）を表示する方法。コード表やシミュレーター有り(疑似要素:beforeや:afterにて)｜及川WEB室](https://www.oikawa-sekkei.com/web/design/css/content.html)
 
 ## HTML

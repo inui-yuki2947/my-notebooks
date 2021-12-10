@@ -2,7 +2,7 @@
 
 ## リポジトリ
 
-- リポジトリ名は、ケバブケースを推奨。<br>
+- リポジトリ名は、ケバブケースを推奨。
   [gitリポジトリの命名規則](https://zenn.dev/iwatos/articles/cb79814a4b31ed)
 
 ## GitHub CLI

@@ -1,11 +1,11 @@
-﻿# Windows
+# Windows
 
 ## 共通
 
 ### ユーザーフォルダ名
 
 - ユーザーフォルダ名は、**スペースを含まない半角英数字**のみにするのが望ましい。そうしなければ、ディレクトリ・ファイルパスの扱いが甘いアプリケーションでエラーが出ることがある。
-- ユーザーフォルダ名を変更したい場合は以下のような手順で行う。（結構めんどくさいので覚悟が必要）<br>
+- ユーザーフォルダ名を変更したい場合は以下のような手順で行う。（結構めんどくさいので覚悟が必要）
   [Windows10のユーザーフォルダ名変更 - Qiita](https://qiita.com/aaaKUKIaaa/items/83d6234b69b0d958d3f1)
 
 ### Windowsサービス
@@ -19,8 +19,8 @@
 
 ## cmd
 
-- Windowキー、「cmd」、エンターと打つと、速攻でコマンドプロンプトが起動できる。<br>
-[【Windows10】1秒でコマンドプロンプトを起動する方法【ショートカットキー】 | Tipstour](https://tipstour.net/windows10-command-prompt-shortcut)
+- Windowキー、「cmd」、エンターと打つと、速攻でコマンドプロンプトが起動できる。
+  [【Windows10】1秒でコマンドプロンプトを起動する方法【ショートカットキー】 | Tipstour](https://tipstour.net/windows10-command-prompt-shortcut)
 
 ## PowerShell
 

@@ -16,15 +16,15 @@
 
 ### 型エイリアス
 
-- 型エイリアス（type演算子）は、型に別名をつけることができる。<br>
-[TypeScriptの型システム - TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/type-system#eiriasutype-alias)
+- 型エイリアス（type演算子）は、型に別名をつけることができる。
+  [TypeScriptの型システム - TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/type-system#eiriasutype-alias)
 
   ```ts
   type StrOrNum = string|number;
   ```
 
-- typeとinterfaceは共通点もあるが、typeは交差型などが使えるなどの違いがある。<br>
-[TypeScriptのInterfaceとTypeの比較 - Qiita](https://qiita.com/tkrkt/items/d01b96363e58a7df830e)
+- typeとinterfaceは共通点もあるが、typeは交差型などが使えるなどの違いがある。
+  [TypeScriptのInterfaceとTypeの比較 - Qiita](https://qiita.com/tkrkt/items/d01b96363e58a7df830e)
 - 一般的にはinterfaceを使い、共用体やタプル型を使いたいときにtypeを使うべき。
   [高等な型 | TypeScript 日本語ハンドブック | js STUDIO](https://js.studio-kingdom.com/typescript/handbook/advanced_types)
 

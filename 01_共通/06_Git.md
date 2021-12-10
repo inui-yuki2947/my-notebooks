@@ -352,6 +352,6 @@
 
 - `.gitignore`ファイルには、Git管理に含めないファイルを記述する。
 - 値がスラッシュから始まらない場合、全サブディレクトリの同名ファイル・ディレクトリが除外される。
-- あとからgitignoreを追加する場合は、`git rm --cached`を行う必要がある。<br>
-ただしその場合、それをプルした他ユーザーは、そのファイルが消えてしまう。<br>
-[.gitignoreを後から設定し、git管理から除外する方法 - Qiita](https://qiita.com/yutosa3/items/25ab031c8061e8c9a4c4)
+- あとからgitignoreを追加する場合は、`git rm --cached`を行う必要がある。
+  ただしその場合、それをプルした他ユーザーは、そのファイルが消えてしまう。
+  [.gitignoreを後から設定し、git管理から除外する方法 - Qiita](https://qiita.com/yutosa3/items/25ab031c8061e8c9a4c4)
