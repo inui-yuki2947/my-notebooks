@@ -1,5 +1,30 @@
 # Markdown
 
+## 文法
+
+### コードブロック
+
+- （GitHubで）使用可能な言語： [linguist/languages.yml at master · github/linguist](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+- 言語を指定しない場合は、`text`または`plaintext`とする。
+
+## markdownlint
+
+- インストール
+
+  ```bash
+  brew install markdownlint-cli
+  ```
+
+- CLIでは、`markdownlint`コマンドを使う。
+
+  ```bash
+  markdownlint [パス]
+  ```
+
+- `-f, --fix`オプションで、違反箇所を自動で修正する。
+
+## 規約
+
 ### CSS
 
 ```css
