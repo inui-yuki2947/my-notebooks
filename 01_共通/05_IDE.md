@@ -7,7 +7,7 @@
 - [忙しい人のためのIntelliJ IDEAショートカット集](https://qiita.com/yoppe/items/f7cbeb825c071691d3f2)
 
   グループ|動作|Windows|Mac
-  --|--|--|--
+  ---|---|---|---
   タブ|前のタブに移動||Command + Shift + [
   ^|後ろのタブに移動||Command + Shift + ]
   編集|選択箇所をif、while、forなどで囲む|Ctrl + Alt + T|Command + Option+ T
