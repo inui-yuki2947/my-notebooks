@@ -7,13 +7,18 @@
 - （GitHubで）使用可能な言語： [linguist/languages.yml at master · github/linguist](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 - 言語を指定しない場合は、`text`または`plaintext`とする。
 
-## markdownlint
+## markdownlint-cli
 
+### 概要
+
+- [igorshubovych/markdownlint-cli: MarkdownLint Command Line Interface](https://github.com/igorshubovych/markdownlint-cli)
 - インストール
 
   ```bash
   brew install markdownlint-cli
   ```
+
+### CLI
 
 - CLIでは、`markdownlint`コマンドを使う。
 
@@ -22,6 +27,10 @@
   ```
 
 - `-f, --fix`オプションで、違反箇所を自動で修正する。
+
+### 設定
+
+- `.markdownlint.json`に設定を記述すると、自動で読み込まれる。
 
 ## 規約
 
