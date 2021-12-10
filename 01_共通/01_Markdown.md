@@ -1,4 +1,4 @@
-﻿# 記述規約
+# Markdown
 
 ### CSS
 
