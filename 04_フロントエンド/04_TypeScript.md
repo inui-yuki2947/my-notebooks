@@ -1,5 +1,7 @@
 ﻿# TypeScript
 
+## 共通
+
 ### 概要
 
 - [TypeScript: The starting point for learning TypeScript](https://www.typescriptlang.org/docs/)
