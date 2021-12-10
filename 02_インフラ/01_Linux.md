@@ -1,15 +1,14 @@
-﻿# Linux
+# Linux
 
 ## OS
 
 ### Linuxディストリビューション
 
-- Linuxディストリビューションには以下のものがある。
-
-  ディストリビューション|例|特徴|パッケージ管理
-  ---|---|---|---
-  RedHat (RHEL)系|Fedora, CentOS|有償で安定性がある。|rpm, yum
-  Debian系|Ubuntu|無償で開発スピードが速い。|dpkg, apt
+| 項目           | RedHat (RHEL)系      | Debian系                   |
+| -------------- | -------------------- | -------------------------- |
+| 例             | Fedora, CentOS       | Ubuntu                     |
+| 特徴           | 有償で安定性がある。 | 無償で開発スピードが速い。 |
+| パッケージ管理 | rpm, yum             | dpkg, apt                  |
 
 - 「Alpine Linux」は、軽量なLinuxディストリビューション。
 
