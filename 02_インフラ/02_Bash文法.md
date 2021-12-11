@@ -102,13 +102,6 @@
   fi
   ```
 
-- `bashrc`おすすめ設定
-
-  ```bash
-  pwd
-  stty stop undef
-  ```
-
 ## コマンド履歴
 
 ### コマンド履歴のフロー
