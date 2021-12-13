@@ -1,4 +1,4 @@
-﻿# MySQL
+# MySQL
 
 ## 共通
 
@@ -17,9 +17,11 @@
 - オプションファイルには、環境変数などを記述する。
 - オプションファイルは、`/etc/my.cnf`, `~/.my.cnf`などの優先順で読み込まれる。
 
-### CLI
+## CLI
 
-- ログインは以下の通り行う。
+### mysql
+
+- `mysql`コマンドで、ログインができる。
 
   ```bash
   mysql -h ホスト名 -u ユーザー名 -pパスワード [データベース名]
@@ -38,6 +40,17 @@
   ```bash
   MYSQL_HISTFILE=/dev/null mysql ...
   ```
+
+### mysqldump
+
+- `mysqldump`コマンドは、dumpを標準出力に出力する。（通常はファイルにリダイレクトする）
+
+  ```bash
+  mysqldump [データベース名 [テーブル名...]]
+  ```
+
+- バージョンの違いでエラーが出た場合は、`--skip-column-statistics`オプションを付ける。
+  [mysqldumpコマンドで "Unknown table 'COLUMN_STATISTICS' in information_schema (1109)" と怒られる原因と対策 - モヒカンメモ](https://blog.pinkumohikan.com/entry/mysqldump-disable-column-statistics)
 
 ## MySQL サーバーの管理
 
