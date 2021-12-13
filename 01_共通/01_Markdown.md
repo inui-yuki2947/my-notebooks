@@ -2,6 +2,11 @@
 
 ## 文法
 
+### インラインコード
+
+- インラインコードの中にバッククォートを含めたい場合は、囲うバッククォートを増やす。（例``a`a``）
+- インラインコードの先頭または末尾がバッククォートである場合は、半角スペースを空ける。（例：`` `aa` ``）
+
 ### コードブロック
 
 - （GitHubで）使用可能な言語： [linguist/languages.yml at master · github/linguist](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
