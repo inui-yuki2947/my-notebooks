@@ -1,6 +1,8 @@
 # Mac OS
 
-## Homebrew
+## 標準ツール
+
+### Homebrew
 
 - brew自体のアップデート
 
@@ -20,26 +22,33 @@
   brew list
   ```
 
-## Finder
+### Finder
 
 - 起動は、`Command + Option + Space`あるいは`Ctrl + F3 → Enter`
 - 隠しファイルの表示は、`Command + Shift + .`
+
+## 外部ツール
 
 ### HyperSwitch
 
 - 「HyperSwitch」は、ウィンドウの切り替えをサポートするツール。
 - [HyperSwitch](https://bahoom.com/hyperswitch)
 
-## Clipy
+### Karabiner-Elements
+
+- 「Karabiner-Elements」は、キーバインドを変更するツール。
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+
+### KeyboardCleanTool
+
+- 「KeyboardCleanTool」は、キーボードのロックを行うツール。
+- [folivora.ai - Great Tools for your Mac!](https://folivora.ai/keyboardcleantool)
+
+### Clipy
 
 - 「Clipy」は、コピペ履歴を保持するツール。
 - [Clipy for Mac - 無料・ダウンロード](https://clipy.softonic.jp/mac)
 - 貼り付けは、`Command + Control + V`
-
-## KeyboardCleanTool
-
-- 「KeyboardCleanTool」は、キーボードのロックを行うツール。
-- [folivora.ai - Great Tools for your Mac!](https://folivora.ai/keyboardcleantool)
 
 ## その他
 
