@@ -46,3 +46,4 @@
 - `/etc/hosts`ファイルで、ホスト名とIPアドレスを対応させることができる。
   [/etc/hosts」ファイル | Linux技術者認定 LinuC | LPI-Japan](https://linuc.org/study/knowledge/506/)
 - 絵文字の入力は、`Command + Control + Space`
+- 「システム環境設定 -> セキュリティとプライバシー -> 一般」から、不明な開発元の実行を許可できる。
