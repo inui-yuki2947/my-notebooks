@@ -8,6 +8,7 @@
   （例：`RUN cd /tmp`などとしても、次のコマンドのカレントディレクトリは`/`である。）
 - キャッシュを効かせるため、ファイルのコピーより`yarn install`などを先に書くべき。
 - [Dockerfile リファレンス — Docker-docs-ja 20.10 ドキュメント](https://docs.docker.jp/engine/reference/builder.html)
+- [Dockerfile のベスト・プラクティス — Docker-docs-ja 19.03 ドキュメント](https://docs.docker.jp/develop/develop-images/dockerfile_best-practices.html)
 
 ### パーサ・ディレクティブ
 
@@ -27,7 +28,7 @@
 
 ### RUN
 
-- `RUN`句で、実行するOSコマンドを指定する。
+- `RUN`句で、イメージ構築時に実行するOSコマンドを指定する。
 
   ```dockerfile
   RUN コマンド
@@ -54,6 +55,7 @@
 - [DockerfileのCMDとENTRYPOINTを改めて解説する - Qiita](https://qiita.com/uehaj/items/e6dd013e28593c26372d)
 - `ENTRYPOINT`句は、コンテナ起動時に実行するコマンドを指定する。
 - `CMD`句は、`run`コマンドに渡すコマンド・引数のデフォルト値を指定する。
+  （別途`ENTRYPOINT`句を指定している場合は、そのデフォルト引数を設定できる）
 - `run`コマンドでは、
   - `ENTRYPOINT`句を指定しない場合、そのプロセスで実行するコマンド・引数が渡せる。
   - `ENTERPOINT`句を指定する場合、そのプロセスに対する追加引数のみが渡せる。
@@ -63,25 +65,45 @@
 
 - exec形式（推奨）
 
+  - 書式1
+
   ```dockerfile
-  CMD [["コマンド"], "パラメータ1", "パラメータ2"]
+  CMD ["コマンド", "引数1", "引数2"...]
   ```
+
+  - 書式2
+
+  ```dockerfile
+  CMD ["引数1", "引数2"...]
+  ```
+
+  - 文字列内のシェル変数は、変数展開されない。
 
 - shell形式
 
+  - 書式
+
   ```dockerfile
-  CMD コマンド パラメータ1 パラメータ2
+  CMD コマンド パラメータ1 パラメータ2 ...
   ```
 
-- exec形式では、シェル変数は変数展開されない。
-- shell形式では、`/bin/sh -c`が勝手に付与されてしまうため、exec形式が推奨である。
+  - 指定したコマンドは、`/bin/sh -c`が付与されて実行される。
+
 
 ### ENV
 
-- `ENV`句は、以降に続く構築ステージ、及びイメージから実行したコンテナで使える環境変数を定義する。
+- `ENV`句は、以降の命令及びイメージから実行したコンテナで使える環境変数を定義する。
 
   ```dockerfile
   ENV キー=値 ...
+  ```
+
+### WORKDIR
+
+- `WORKDIR`句は、以降の命令での作業ディレクトリを指定する。
+
+  ```dockerfile
+  WORKDIR パス
   ```
 
 ### マルチステージビルド
