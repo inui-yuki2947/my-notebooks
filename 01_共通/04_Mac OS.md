@@ -56,3 +56,4 @@
   [/etc/hosts」ファイル | Linux技術者認定 LinuC | LPI-Japan](https://linuc.org/study/knowledge/506/)
 - 絵文字の入力は、`Command + Control + Space`
 - 「システム環境設定 -> セキュリティとプライバシー -> 一般」から、不明な開発元の実行を許可できる。
+- Mac OS X v10.5以前は「1KB=1024B」、以降は「1KB=1000B」で計算している。
