@@ -28,9 +28,25 @@
 
 - `ls`コマンドは、当該データを一覧表示する。
 
+  ```bash
+  docker リソース ls
+  ```
+
 ### inspect
 
-- `inspect データ`コマンドは、当該データの詳細を表示する。
+- `inspect`コマンドは、当該データの詳細を表示する。
+
+  ```bash
+  docker リソース inspect 識別子...
+  ```
+
+### rm
+
+- `rm`コマンドは、当該データを削除する。
+
+  ```bash
+  docker リソース rm 識別子...
+  ```
 
 ## container
 
@@ -47,6 +63,18 @@
   - exited
   - dead
 - コンテナ内のファイルは、コンテナが破棄されるときに破棄される。
+
+### ls
+
+- `-a, --all`オプションで、実行中以外のコンテナも表示する。
+
+### inspect
+
+- `inspect`コマンドは、コンテナの詳細を表示する。
+
+  ```bash
+  docker container inspect コンテナ...
+  ```
 
 ### run, create
 
