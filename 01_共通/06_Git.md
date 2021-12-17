@@ -402,3 +402,8 @@
 - あとからgitignoreを追加する場合は、`git rm --cached`を行う必要がある。
   ただしその場合、それをプルした他ユーザーは、そのファイルが消えてしまう。
   [.gitignoreを後から設定し、git管理から除外する方法 - Qiita](https://qiita.com/yutosa3/items/25ab031c8061e8c9a4c4)
+
+### Gitフック
+
+- TODO あとで調べる
+  [Git - Git フック](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA-Git-%E3%83%95%E3%83%83%E3%82%AF)
