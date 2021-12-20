@@ -17,6 +17,13 @@
 
 - WSL（Windows Subsystem for Linux）とは、Linuxのバイナリ実行ファイルを、Windows 10およびWindows Server上でネイティブ実行するための互換レイヤー。
 
+## Linux起動の流れ
+
+1. BIOS/UEFI
+1. ブートローダ
+1. カーネル
+1. 初期プロセス（SysVinit, Upstart, systemd）
+
 ## ハードウェア
 
 ### 接続形態
@@ -92,19 +99,6 @@
   ```
 
 - `-a`オプションで、詳細情報を表示する。
-
-## 起動とシャットダウン
-
-### Linux起動の流れ
-
-1. BIOS/UEFI
-1. ブートローダ
-1. カーネル
-1. 初期プロセス
-
-### 初期プロセス
-
-- 初期プロセスとしては、SysVinit, Upstart, systemdがある。（現在はsystemdが主流）
 
 ## ブートローダ
 
