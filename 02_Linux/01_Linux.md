@@ -116,26 +116,53 @@
 - Linuxで扱うデバイスには、ブロックデバイスとキャラクタデバイスがある。
 - `lsblk`コマンドは、ブロックデバイスの一覧を表示する。
 
+  ```bash
+  lsblk [デバイス...]
+  ```
+
 ### blkid
 
 - `blkid`コマンドは、ブロックデバイスの情報を表示する。
 
+  ```bash
+  blkid [デバイス...]
+  ```
+
 ### lspci
 
-- `lspci`コマンドは、PCIデバイスの情報を表示する。
 - PCI (Peripheral Component Interconnect)は、コンピュータ内部で装置間を結ぶデータ伝送路の規格の一つ。
+- `lspci`コマンドは、PCIデバイスの情報を表示する。
+
+  ```bash
+  lspci
+  ```
 
 ### lsusb
 
 - `lsusb`コマンドは、USBデバイスの情報を表示する。
 
+  ```bash
+  lsusb
+  ```
+
+## カーネル
+
 ### lsmod
 
 - `lsmod`コマンドは、ロードされているカーネルモジュールを表示する。
+  （`/proc/modules`ファイルを見やすく表示する）
+
+  ```bash
+  lsmod
+  ```
 
 ### modprobe
 
 - `modprobe`コマンドは、カーネルモジュールのロード・アンロードを行う。
+
+  ```bash
+  modprobe [カーネルモジュール名]
+  ```
 
 ## 起動とシャットダウン
 
