@@ -17,16 +17,6 @@
 
 - WSL（Windows Subsystem for Linux）とは、Linuxのバイナリ実行ファイルを、Windows 10およびWindows Server上でネイティブ実行するための互換レイヤー。
 
-### GNUとBSD
-
-- LinuxはGNU系、MacはBSD系であり、挙動が異なるコマンドがある。
-- MacでGNU版のコマンドを利用するには、GNU版のコマンドをインストールするとよい。
-
-  ```bash
-  brew install grep
-  brew install gnu-sed
-  ```
-
 ## ディレクトリ
 
 ### 概要
