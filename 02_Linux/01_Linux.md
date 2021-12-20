@@ -90,62 +90,6 @@
 - `/dev/random`は、乱数を再利用せず、真の乱数文字列を出力する。
 - `/dev/urandom`は、乱数を再利用して、擬似乱数文字列を出力する。
 
-## ブートローダ
-
-### 概要
-
-- ブートローダの主な役割は、起動デバイス上からカーネルをメモリ上に読み込むことである。
-
-### GRUB
-
-- GRUB (GRand Unified Bootloader)は、Linuxの代表的なブートローダである。
-- GRUBには以下のバージョンがある。
-  - バージョン0.9x系の、GRUB Legacy
-  - バージョン1.9x系の、GRUB 2
-- 起動時の画面で「E」キーを押すと、ブートオプションを設定できる。
-
-### grub-install
-
-- `grub-install`コマンドで、GRUBをインストールできる。
-
-  ```bash
-  grub-install インストールデバイス
-  ```
-
-### grub-mkconfig
-
-- `grub-mkconfig`コマンドは、`/etc/default/grub`ファイルをもとに、`/boot/grub/grub.cfg`ファイルを生成する。
-- GRUB Legacyでは、当コマンドを使わず、`/boot/grub/menu.lst`ファイルを直接編集する。
-
-## カーネル
-
-### lsmod
-
-- `lsmod`コマンドは、ロードされているカーネルモジュールを表示する。
-  （`/proc/modules`ファイルを見やすく表示する）
-
-  ```bash
-  lsmod
-  ```
-
-### modprobe
-
-- `modprobe`コマンドは、カーネルモジュールのロード・アンロードを行う。
-
-  ```bash
-  modprobe [カーネルモジュール名]
-  ```
-
-### uname
-
-- `uname`コマンドは、システムのアーキテクチャやOSを表示する。
-
-  ```bash
-  uname
-  ```
-
-- `-a`オプションで、詳細情報を表示する。
-
 ## パーティション
 
 ### 概要
@@ -360,3 +304,59 @@
 ### /etc
 
 - 設定ファイルなどが格納される。
+
+## ブートローダ
+
+### 概要
+
+- ブートローダの主な役割は、起動デバイス上からカーネルをメモリ上に読み込むことである。
+
+### GRUB
+
+- GRUB (GRand Unified Bootloader)は、Linuxの代表的なブートローダである。
+- GRUBには以下のバージョンがある。
+  - バージョン0.9x系の、GRUB Legacy
+  - バージョン1.9x系の、GRUB 2
+- 起動時の画面で「E」キーを押すと、ブートオプションを設定できる。
+
+### grub-install
+
+- `grub-install`コマンドで、GRUBをインストールできる。
+
+  ```bash
+  grub-install インストールデバイス
+  ```
+
+### grub-mkconfig
+
+- `grub-mkconfig`コマンドは、`/etc/default/grub`ファイルをもとに、`/boot/grub/grub.cfg`ファイルを生成する。
+- GRUB Legacyでは、当コマンドを使わず、`/boot/grub/menu.lst`ファイルを直接編集する。
+
+## カーネル
+
+### lsmod
+
+- `lsmod`コマンドは、ロードされているカーネルモジュールを表示する。
+  （`/proc/modules`ファイルを見やすく表示する）
+
+  ```bash
+  lsmod
+  ```
+
+### modprobe
+
+- `modprobe`コマンドは、カーネルモジュールのロード・アンロードを行う。
+
+  ```bash
+  modprobe [カーネルモジュール名]
+  ```
+
+### uname
+
+- `uname`コマンドは、システムのアーキテクチャやOSを表示する。
+
+  ```bash
+  uname
+  ```
+
+- `-a`オプションで、詳細情報を表示する。
