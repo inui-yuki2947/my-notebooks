@@ -1,4 +1,4 @@
-﻿# Ruby
+# Ruby
 
 - `&:method_name`で、ブロックの代わりにメソッド名を渡すことができる。
   [Ruby初心者を脱した人が悩みがちな、ちょっと特殊な記法・演算子・イディオム - Qiita](https://qiita.com/nashirox/items/0c885edf7d78fd5a83f1)

@@ -1,4 +1,4 @@
-﻿# npm, yarn
+# npm, yarn
 
 ## 共通
 

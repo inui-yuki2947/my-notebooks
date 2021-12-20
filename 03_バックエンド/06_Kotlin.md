@@ -1,4 +1,4 @@
-﻿# Kotlin
+# Kotlin
 
 ## 共通
 
