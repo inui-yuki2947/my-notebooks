@@ -37,6 +37,25 @@
 - BIOSは、キーボードやハードディスクなどのデバイスを制御する、もっとも基本的な制御プログラムである。
 - 現在では、BIOSの後継となるファームウェア規格の、UEFI (Unified Extensible Firmware Interface)が普及している。
 
+### lspci
+
+- PCI (Peripheral Component Interconnect)は、コンピュータ内部で装置間を結ぶデータ伝送路の規格の一つ。
+- `lspci`コマンドは、PCIデバイスの情報を表示する。
+
+  ```bash
+  lspci
+  ```
+
+### lsusb
+
+- `lsusb`コマンドは、USBデバイスの情報を表示する。
+
+  ```bash
+  lsusb
+  ```
+
+## デバイス
+
 ### ブロックデバイスとキャラクタデバイス
 
 - ブロックデバイスは、HDDやSSDなど、メディア上の任意の場所にアクセスできるデバイス。
@@ -58,22 +77,18 @@
   blkid [デバイス...]
   ```
 
-### lspci
+### デバイスファイル
 
-- PCI (Peripheral Component Interconnect)は、コンピュータ内部で装置間を結ぶデータ伝送路の規格の一つ。
-- `lspci`コマンドは、PCIデバイスの情報を表示する。
+- `/dev/sda, sdb, sdc, sdd`は、1〜4番目のハードディスクである。
+- `/dev/sr0`は、1番目のCD/DVDドライブである。
+- `/dev/st0`は、1番目のテープドライブである。
 
-  ```bash
-  lspci
-  ```
+### 疑似デバイス
 
-### lsusb
-
-- `lsusb`コマンドは、USBデバイスの情報を表示する。
-
-  ```bash
-  lsusb
-  ```
+- `/dev/null`は、あらゆる入力を受け付け、それを捨てる。
+- `/dev/zero`は、NULL文字を出力する。
+- `/dev/random`は、乱数を再利用せず、真の乱数文字列を出力する。
+- `/dev/urandom`は、乱数を再利用して、擬似乱数文字列を出力する。
 
 ## ブートローダ
 
@@ -302,15 +317,6 @@
 
 - デバイスファイルが格納される。
 - udev (Userspace DEVice management)という仕組みによって、自動的に作成される。
-- デバイスファイル
-  - `/dev/sda, sdb, sdc, sdd`は、1〜4番目のハードディスクである。
-  - `/dev/sr0`は、1番目のCD/DVDドライブである。
-  - `/dev/st0`は、1番目のテープドライブである。
-- 疑似デバイス
-  - `/dev/null`は、あらゆる入力を受け付け、それを捨てる。
-  - `/dev/zero`は、NULL文字を出力する。
-  - `/dev/random`は、乱数を再利用せず、真の乱数文字列を出力する。
-  - `/dev/urandom`は、乱数を再利用して、擬似乱数文字列を出力する。
 
 ### /media
 
