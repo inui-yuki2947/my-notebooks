@@ -1,26 +1,73 @@
 # Mac OS
 
-## 標準ツール
+## Homebrew
 
-### Homebrew
+### 用語
 
-- brew自体のアップデート
+- フォーミュラとは、パッケージ定義のこと。
+
+### update
+
+- `update`コマンドは、brew自体をアップデートする。
 
   ```bash
   brew update
   ```
 
-- インストールされたものをアップデート
+### install
+
+- `install`コマンドは、フォーミュラをインストールする。
 
   ```bash
-  brew upgrade [formula]
+  brew install フォーミュラ
   ```
 
-- インストールされたものを一覧表示
+### uninstall
+
+- `uninstall`コマンドは、フォーミュラをアンインストールする。
+
+  ```bash
+  brew uninstall フォーミュラ
+  ```
+
+
+### upgrade
+
+- `upgrade`コマンドは、全てのフォーミュラをアップデートする。
+
+  ```bash
+  brew upgrade
+  ```
+
+- `upgrade フォーミュラ`コマンドは、指定したフォーミュラをアップデートする。
+
+  ```bash
+  brew upgrade フォーミュラ名
+  ```
+
+### list
+
+- `list`コマンドは、インストールされたフォーミュラを表示する。
 
   ```bash
   brew list
   ```
+
+### search
+
+- `search`コマンドは、フォーミュラを検索する。
+
+  ```bash
+  brew search キーワード
+  ```
+
+### cask
+
+- homebrew-caskは、GUIのツールをインストールできる拡張機能。
+- `--cask`オプションで、GUIツールのインストールができる。
+  （以前は、`cask install`としていた）
+
+## 標準ツール
 
 ### Finder
 
