@@ -1,6 +1,6 @@
 # Linux
 
-## OS
+## 共通
 
 ### Linuxディストリビューション
 
@@ -10,12 +10,9 @@
 | Debian系        | Ubuntu         | 無償で開発スピードが速い。 |
 
 - 「Alpine Linux」は、軽量なLinuxディストリビューション。
+- 「WSL」（Windows Subsystem for Linux）とは、Linuxのバイナリ実行ファイルを、Windows 10およびWindows Server上でネイティブ実行するための互換レイヤー。
 
-### WSL
-
-- WSL（Windows Subsystem for Linux）とは、Linuxのバイナリ実行ファイルを、Windows 10およびWindows Server上でネイティブ実行するための互換レイヤー。
-
-## Linux起動の流れ
+### Linux起動の流れ
 
 1. BIOS/UEFI
 1. ブートローダ
@@ -37,6 +34,16 @@
 - BIOSは、キーボードやハードディスクなどのデバイスを制御する、もっとも基本的な制御プログラムである。
 - 現在では、BIOSの後継となるファームウェア規格の、UEFI (Unified Extensible Firmware Interface)が普及している。
 
+### ブロックデバイスとキャラクタデバイス
+
+- ブロックデバイスは、HDDやSSDなど、メディア上の任意の場所にアクセスできるデバイス。
+- キャラクタデバイスは、キーボードやシリアルポートなど、文字単位でアクセスするデバイス。
+
+### lscpu
+
+- `lscpu`コマンドは、CPUの情報を表示する。
+  （`/proc/cpuinfo`ファイルを見やすく表示する）
+
 ### lspci
 
 - `lspci`コマンドは、PCIデバイスの情報を表示する。
@@ -52,13 +59,6 @@
   ```bash
   lsusb
   ```
-
-## デバイス
-
-### ブロックデバイスとキャラクタデバイス
-
-- ブロックデバイスは、HDDやSSDなど、メディア上の任意の場所にアクセスできるデバイス。
-- キャラクタデバイスは、キーボードやシリアルポートなど、文字単位でアクセスするデバイス。
 
 ### lsblk
 
