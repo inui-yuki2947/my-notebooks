@@ -29,6 +29,8 @@
 - SATA (Serial ATA)は、現在主流となっている規格である。
 - SAS (Serial Attached SCSI)は、SATAよりも高速で信頼性も高い規格である。
 - SCSIは、さまざまな周辺機器を接続するための一般的な規格である。
+- DMAは、CPUを介することなく、メインメモリと周辺機器の間で直接的に情報転送を行う方式。（`/proc/dma`）
+- PCI (Peripheral Component Interconnect)は、コンピュータ内部で装置間を結ぶデータ伝送路の規格の一つ。
 
 ### BIOS/UEFI
 
@@ -37,7 +39,6 @@
 
 ### lspci
 
-- PCI (Peripheral Component Interconnect)は、コンピュータ内部で装置間を結ぶデータ伝送路の規格の一つ。
 - `lspci`コマンドは、PCIデバイスの情報を表示する。
 
   ```bash
@@ -296,6 +297,7 @@
 - `/usr/bin, /usr/sbin`には、緊急時のシステム管理に必須でないコマンドが配置される。
 - `/usr/local`は、更に`bin, sbin lib`などのディレクトリに細分化され、
   ローカルシステムで必要とされるコマンド、自作のコマンドなどが配置される。
+- `/usr/share/man`には、マニュアルが配置される。
 
 ### /lib
 
