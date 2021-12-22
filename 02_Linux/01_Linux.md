@@ -269,11 +269,13 @@
 ### /proc
 
 - `/proc`ディレクトリには、カーネルが認識しているデバイスの情報が確認できる。
+- `/proc/cpuinfo`は、CPUに関する情報。
+- `/proc/meminfo`は、メモリに関する情報。
 - `/proc/modules`は、ロードされているカーネルモジュールに関する情報。
 - `/proc/dma`は、使用中のDMAチャネルに関する情報。
 - `/proc/scsi/scsi`は、SCSIデバイスに関する情報。
-- `/proc/cpuinfo`は、CPUに関する情報。
-- `/proc/meminfo`は、メモリに関する情報。
+- `/proc/bus/usb/*`は、USBデバイスの情報。
+- `/proc/bus/pci/*`は、PCIデバイスの情報。
 
 ### /home, /root
 
