@@ -15,6 +15,7 @@
 
 - マネジメントコンソールで、AWSをブラウザ上で操作できる。
 - マネジメントコンソールは、リージョンごとに別物で、使用できるサービスにも違いがある。
+- [AWS Management Console](https://ap-northeast-1.console.aws.amazon.com/console/home?region=ap-northeast-1)
 
 ### リージョン
 
@@ -98,3 +99,23 @@
 - VPCには物理的なルーターがなく、ソフトウェアがルーティングを行う。
 - デフォルトVPCは「/16」、デフォルトのサブネットは「/20」である。
 - VPCエンドポイントは、インターネットゲートウェイを通らず、S3などの非VPCサービスとVPCを接続する。
+
+## AWS CLI
+
+### 概要
+
+- [AWS Command Line Interface Documentation](https://docs.aws.amazon.com/cli/index.html)
+
+- 書式
+
+  ```bash
+  aws コマンド サブコマンド [パラメータ]
+  ```
+
+### configure
+
+- `configure`コマンドは、AWS CLIのオプションを設定する。
+
+  ```bash
+  aws configure
+  ```
