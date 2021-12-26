@@ -30,7 +30,6 @@
   brew uninstall フォーミュラ
   ```
 
-
 ### upgrade
 
 - `upgrade`コマンドは、全てのフォーミュラをアップデートする。
