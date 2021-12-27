@@ -23,6 +23,10 @@
 
 - TODO あとで調べる
 
+### 設定
+
+- 「Version Control」-> 「Git」の「enable staging area」をONにすると、Gitのステージング機能が利用できる。
+
 ### その他
 
 - `.iml`という拡張子で、設定ファイルが生成される。
