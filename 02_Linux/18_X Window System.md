@@ -28,6 +28,12 @@
   ...
   ```
   
+- セクション
+
+  - `Files`：フォントやカラーデータベースのパス名
+  - `InputDevice`：キーボードやマウスなどの入力装置の設定
+  - `Device`：ビデオカードの設定
+
 - `Xorg -configure`コマンドは、ハードウェアをスキャンして、`xorg.conf`ファイルを自動生成する。
 
 ### ログファイル
@@ -67,7 +73,9 @@
 - **ディスプレイマネージャ**は、GUIでログイン画面を表示し、ユーザー認証を行う。
 - 例
   - XDM（X Window Display Manager）
-  - GDM（GNOME ディスプレイマネージャー）
+  - GDM（GNOME Display Manager）
+  - SDDM（Simple Desktop Display Manager）
+  - LightDM（Light Display Manager）
 - **XDMCP（X Display Manager Control Protocol）**は、ディスプレイマネージャをネットワーク越しに利用できるプロトコルである。
 
 ### ウィンドウマネージャ
