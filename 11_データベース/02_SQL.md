@@ -1,4 +1,4 @@
-# MySQL_SQL
+# SQL
 
 ## DDL(Data Definition Language)
 
