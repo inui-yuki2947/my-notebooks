@@ -10,6 +10,20 @@
   go サブコマンド
   ```
 
+### gore
+
+- 「gore」は、Go言語のREPLツールである。
+
+  ```bash
+  gore
+  ```
+
+- `:import パッケージ`で、パッケージをインポートする。
+
+- `:quit`で、セッションを終了する。
+
+- [x-motemen/gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/x-motemen/gore)
+
 ## ビルド・実行
 
 ### run
