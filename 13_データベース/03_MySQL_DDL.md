@@ -1,8 +1,8 @@
-# SQL
+# MySQL_DDL
 
-## DDL(Data Definition Language)
+## 共通
 
-### 共通
+### キーワード
 
 - `CREATE`は作成
 - `ALTER`は変更
@@ -118,48 +118,6 @@
 
 - 外部キー制約の影響を受けるため、必要に応じて事前に制約を無効にしておく。
 
-## DML(Data Manipulation Language)
-
-### CALL
-
-- CALLステートメントは、ストアドプロシージャを実行する。
-
-  ```sql
-  CALL ストアドプロシージャ名(引数)
-  ```
-
-### SELECT
-
-- 記述順
-  - SELECT
-  - FROM
-  - WHERE
-  - GROUP BY
-  - HAVING
-  - ORDER BY
-  - LIMIT
-- DISTINCT
-  - DISTINCTを行う場合、ORDER BYするカラムはSELECTしている必要がある。
-- ORDER BY
-  - NULLのレコードは、**先に来る**（最小値として評価される）。（※DBMS依存）
-    NULLの順番を制御したい場合は、IF関数などを使うか、先にIS NULLの判定を行う。
-- UNION
-  - 「UNION」は重複を除いて結合、「UNION ALL」は**重複を含めて**結合。
-  - 「UNION」する場合は、型を一致させるよう注意する。（UNSIGNEDなど）
-
-### INSERT
-
-- 「INSERT ... ON DUPLICATE KEY UPDATE」構文を用いることで、
-  レコードの重複が生じた場合、代わりにUPDATEを行うことができる。
-
-### DELETE
-
-- DELETE文でJOINを行いたい場合は、DELETEとFROMの間に、**削除したいテーブル名のエイリアス**を入れる
-
-  ```sql
-  DELETE t1 FROM sample_table t1 JOIN ...
-  ```
-
 ## トランザクション
 
 - 記法
@@ -170,64 +128,8 @@
   COMMIT;
   ```
 
-## 複合ステートメント
+## その他
 
-### 概要
+### 経路列挙モデル
 
-- 複合ステートメント構文は、ストアドプロシージャ、ストアドファンクション、トリガー、およびイベント内で使用する。
-
-  ```sql
-  BEGIN
-      処理
-  END;
-  ```
-
-### IF構文
-
-- 記法
-
-  ```sql
-  IF 判定条件1 THEN
-      処理内容1
-  ELSEIF 判定条件2 THEN
-      処理内容2
-  ELSE
-      処理内容3
-  END IF;
-  ```
-
-### WHILE構文
-
-- 記法
-
-  ```sql
-  WHILE 継続条件 DO
-      繰り返したい処理
-  END WHILE;
-  ```
-
-### REPEAT構文
-
-- 記法
-
-  ```sql
-  REPEAT
-      繰り返したい処理
-  UNTIL 終了条件 END REPEAT;
-  ```
-  
-## データベース管理ステートメント
-
-### SHOW
-
-- `SHOW DATABASES`文で、データベース一覧を表示する。
-- `SHOW PROCESSLIST`文で、実行されているスレッドを表示する。
-  - PROCESS権限がない場合は、同ユーザーのスレッドのみを表示する。
-
-### USE
-
-- `USE データベース名`構文で、以降のステートメントのデフォルトのデータベースを指定する。
-
-### KILL
-
-- `KILL プロセスリストID`文で、スレッドを強制終了する。
+- パスの先頭・末尾にも区切り文字を入れた方が、使い勝手がよい。
