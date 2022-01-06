@@ -37,11 +37,10 @@
 - 日付の演算には、`INTERVAL`関数が使える。
 
   ```sql
-  -- 今日から1ヶ月前を計算する
   SELECT NOW() - INTERVAL 1 MONTH
   ```
-
-- 「yyyyMM」形式の数値には、`PERIOD_ADD`関数が使える。
+  
+- `yyyyMM`形式の数値には、`PERIOD_ADD`関数が使える。
 
 ### 文字列型
 

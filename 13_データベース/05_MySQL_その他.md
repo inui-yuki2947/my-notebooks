@@ -18,23 +18,61 @@
 - ステータス変数は、サーバーの操作についての情報を提供する変数。
 - `SHOW STATUS`構文で、ステータス変数の一覧を表示する。
 
-## データベース管理ステートメント
+## メタ情報
 
-### SHOW
+### SHOW DATABASES
 
-- `SHOW DATABASES`文で、データベース一覧を表示する。
-- `SHOW PROCESSLIST`文で、実行されているスレッドを表示する。
-  - PROCESS権限がない場合は、同ユーザーのスレッドのみを表示する。
+- `SHOW DATABASES`文は、データベース一覧を表示する。
+
+  ```sql
+  SHOW DATABASES
+  ```
+
+### SHOW TABLES
+
+- `SHOW TABLES`文は、テーブル一覧を表示する。
+
+  ```sql
+  SHOW TABLES [FROM|IN データベース名]
+  ```
+
+### SHOW COLUMNS
+
+- `SHOW COLUMNS`文は、カラム一覧を表示する。
+
+  ```sql
+  SHOW COLUMNS FROM|IN テーブル名 [FROM|IN データベース名]
+  ```
+
+## プロセス管理
+
+### SHOW PROCESSLIST
+
+- `SHOW PROCESSLIST`文は、実行されているスレッドを表示する。
+
+  ```sql
+  SHOW PROCESSLIST
+  ```
+
+- PROCESS権限がない場合は、同ユーザーのスレッドのみを表示する。
+
+### KILL
+
+- `KILL`文は、スレッドを強制終了する。
+
+  ```sql
+  KILL プロセスリストID
+  ```
 
 ## その他
 
 ### USE
 
-- `USE データベース名`構文で、以降のステートメントのデフォルトのデータベースを指定する。
+- `USE`文は、以降のステートメントのデフォルトのデータベースを指定する。
 
-### KILL
-
-- `KILL プロセスリストID`文で、スレッドを強制終了する。
+  ```sql
+  USE データベース名
+  ```
 
 ### 暗号化・復号
 
