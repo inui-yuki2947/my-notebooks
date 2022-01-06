@@ -8,6 +8,22 @@
 - `ALTER`は変更
 - `DROP`は削除
 
+## テーブル
+
+### CREATE TABLE
+
+- `RENAME, MODIFY, CHANGE`の違い
+
+  - `RENAME`は、テーブル・インデックス・カラム名の変更。
+  - `MODIFY`は、カラム定義の変更。
+  - `CHANGE`は、カラム名と定義の変更。
+
+- `CREATE TEMPORARY TABLE`文で、一時的なテーブルを作成できる。
+
+  ```sql
+  CREATE TEMPORARY TABLE テーブル名 SELECT ...;
+  ```
+
 ### AUTO_INCREMENT
 
 - 値の確認（方法1）
@@ -28,18 +44,6 @@
   ALTER TABLE テーブル名 AUTO_INCREMENT = 再設定したい値;
   ```
 
-### TABLE
-
-- `RENAME, MODIFY, CHANGE`の違い
-  - `RENAME`は、テーブル・インデックス・カラム名の変更。
-  - `MODIFY`は、カラム定義の変更。
-  - `CHANGE`は、カラム名と定義の変更。
-- `CREATE TEMPORARY TABLE`文で、一時的なテーブルを作成できる。
-
-  ```sql
-  CREATE TEMPORARY TABLE テーブル名 SELECT ...;
-  ```
-
 ### 制約
 
 - PRIMARY制約は、UNIQUE制約をテーブルに一つしか設定できないようにしたもの
@@ -50,15 +54,21 @@
   SET FOREIGN_KEY_CHECKS = 0;
   ```
 
+## インデックス
+
 ### INDEX
 
 - MySQL 8.0から、逆順インデックスがサポートされた。
 
-### VIEW
+## ビュー
+
+### CREATE VIEW
 
 - [MySQL :: MySQL 5.6 リファレンスマニュアル :: 20.5.2 ビュー処理アルゴリズム](https://dev.mysql.com/doc/refman/5.6/ja/view-algorithms.html)
 
-### PROCEDURE
+## ストアドプロシージャ
+
+### CREATE PROCEDURE
 
 - 基本的な構文は以下の通り。
 
@@ -79,7 +89,7 @@
   ```sql
   CREATE PROCEDURE sample()
   INSERT ...;
-
+  
   -- あるいは
   DELIMITER //
   CREATE PROCEDURE sample()
@@ -92,7 +102,7 @@
 - 「ALTER PROCEDURE」ステートメントでは、**パラメータや本体を変更できない**ので、
   そうしたい場合は「DROP PROCEDURE」と「CREATE PROCEDURE」を組み合わせる。
 
-### FUNCTION
+### CREATE FUNCTION
 
 - `RETURNS`句で戻り値の型を、`RETURN`ステートメントで実際の戻り値を指定する。
 
@@ -102,31 +112,19 @@
   RETURN CONCAT('Hello, ',s,'!');
   ```
 
-### TRIGGER
+### CALL
+
+- CALLステートメントは、ストアドプロシージャを実行する。
+
+  ```sql
+  CALL ストアドプロシージャ名(引数)
+  ```
+
+## トリガー
+
+### CREATE TRIGGER
 
 - [トリガーの開発方法＆デバッグ方法 - Qiita](https://qiita.com/suin/items/269fa582e40f439d012f)
-
-### TRUNCATE
-
-- `TRUNCATE TABLE`文は、**テーブルを削除して再作成**することにより、テーブルを完全に空にする。
-
-  ```sql
-  TRUNCATE TABLE テーブル名
-  ```
-
-- ロールバックなどはできないが、DELETE文より高速である。
-
-- 外部キー制約の影響を受けるため、必要に応じて事前に制約を無効にしておく。
-
-## トランザクション
-
-- 記法
-
-  ```sql
-  START TRANSACTION;
-  処理
-  COMMIT;
-  ```
 
 ## その他
 

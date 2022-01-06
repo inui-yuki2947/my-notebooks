@@ -32,10 +32,24 @@
   DELETE t1 FROM sample_table t1 JOIN ...
   ```
 
-## CALL
+## TRUNCATE
 
-- CALLステートメントは、ストアドプロシージャを実行する。
+- `TRUNCATE TABLE`文は、**テーブルを削除して再作成**することにより、テーブルを完全に空にする。
 
   ```sql
-  CALL ストアドプロシージャ名(引数)
+  TRUNCATE TABLE テーブル名
+  ```
+
+- ロールバックなどはできないが、DELETE文より高速である。
+
+- 外部キー制約の影響を受けるため、必要に応じて事前に制約を無効にしておく。
+
+## トランザクション
+
+- 記法
+
+  ```sql
+  START TRANSACTION;
+  処理
+  COMMIT;
   ```
