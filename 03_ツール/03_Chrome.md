@@ -23,3 +23,8 @@
 - [Keepa - Amazon Price Tracker - Chrome ウェブストア](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
 - [The QR Code Extension - Chrome ウェブストア](https://chrome.google.com/webstore/detail/the-qr-code-extension/oijdcdmnjjgnnhgljmhkjlablaejfeeb)
 - [Vue.js devtools - Chrome ウェブストア](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+
+## API
+
+- TODO あとで調べる
+- [API Reference - Chrome Developers](https://developer.chrome.com/docs/extensions/reference/)
