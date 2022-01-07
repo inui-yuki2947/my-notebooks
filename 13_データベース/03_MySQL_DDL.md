@@ -1,22 +1,16 @@
 # MySQL_DDL
 
-## 共通
-
-### キーワード
-
-- `CREATE`は作成
-- `ALTER`は変更
-- `DROP`は削除
-
 ## テーブル
 
 ### CREATE TABLE
 
-- `RENAME, MODIFY, CHANGE`の違い
+- `RENAME, MODIFY, CHANGE`句の違い
 
-  - `RENAME`は、テーブル・インデックス・カラム名の変更。
-  - `MODIFY`は、カラム定義の変更。
-  - `CHANGE`は、カラム名と定義の変更。
+  | 句       | 概要                                   |
+  | -------- | -------------------------------------- |
+  | `RENAME` | テーブル・インデックス・カラム名の変更 |
+  | `MODIFY` | カラム定義の変更                       |
+  | `CHANGE` | カラム名と定義の変更                   |
 
 - `CREATE TEMPORARY TABLE`文で、一時的なテーブルを作成できる。
 
