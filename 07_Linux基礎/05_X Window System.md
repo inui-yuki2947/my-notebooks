@@ -98,6 +98,8 @@
 
 ### リモートデスクトップ
 
-- **VNC（Virtual Network Computing）**は、クロスプラットフォーム対応のリモートデスクトップソフトウェアである。
-- **RDP（Remote Desktop Protocol）**は、Windows標準のリモートデスクトッププロトコルである。
-- **SPICE（Simple Protocol for Independent Computing Environments）**は、RDPと同様の画面転送プロトコルで、オープンソースで開発されている。
+| 名称                                                         | 概要                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| VNC（Virtual Network Computing）                             | クロスプラットフォーム対応のリモートデスクトップソフトウェア。 |
+| RDP（Remote Desktop Protocol）                               | Windows標準のリモートデスクトッププロトコル。                |
+| SPICE（Simple Protocol for Independent Computing Environments） | RDPと同様の画面転送プロトコルで、オープンソースで開発されている。 |
