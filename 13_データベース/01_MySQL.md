@@ -10,29 +10,43 @@
 
 - [Mac へ MySQL を Homebrew でインストールする手順 - Qiita](https://qiita.com/hkusu/items/cda3e8461e7a46ecf25d)
 
-## CLI
+## CUI
 
 ### mysql
 
 - `mysql`コマンドで、ログインができる。
 
   ```bash
-  mysql -h ホスト名 -u ユーザー名 -pパスワード [データベース名]
+  mysql [データベース名]
   ```
 
-- `-p`オプションとパスワードの間には、スペースを入れない。<https://dev.mysql.com/doc/refman/5.6/ja/command-line-options.html>
-- デフォルトでうまく接続できない場合は、ホスト名に`127.0.0.1`を指定する。<https://qiita.com/TanukiTam/items/f6a08740d0fcda0db7be>
-  - `localhost`（デフォルト）：ソケットで接続される
-  - `127.0.0.1`：TCP経由で接続される。
-- `-e SQL`オプションで、SQLを直接実行できる。
-- `-N`オプションで、出力のカラム名を非表示にする。
-- `-B`オプションで、出力で値のみ表示する。
-- インタラクティブに実行されたステートメントのログは、`~/.mysql_history`に出力される。
-- ログを残したくない場合は、以下のようにログインする。
+- 接続情報系オプション
 
-  ```bash
-  MYSQL_HISTFILE=/dev/null mysql ...
-  ```
+  - `-h ホスト名`オプションで、ホストを指定できる。
+    - `localhost`（デフォルト）：ソケットで接続される
+    - `127.0.0.1`：TCP経由で接続される。
+    - デフォルトでうまく接続できない場合は、ホスト名に`127.0.0.1`を指定する。
+      [MySQLでlocalhostと127.0.0.1の違い - Qiita](https://qiita.com/TanukiTam/items/f6a08740d0fcda0db7be)
+
+  - `-u ユーザー名`オプションで、ユーザー名を指定できる。
+  - `-pパスワード`オプションで、パスワードを指定できる。（間にスペースは入れない）
+    [MySQL :: MySQL 5.6 リファレンスマニュアル :: 4.2.4 コマンド行でのオプションの使用](https://dev.mysql.com/doc/refman/5.6/ja/command-line-options.html)
+
+- その他オプション
+
+  - `-e SQL文`オプションで、SQLを直接実行できる。
+  - `-N`オプションで、カラム名を出力しないようにする。
+  - `-B`オプションで、値のみ出力するようにする。
+
+- ログ
+
+  - CLIでインタラクティブに実行されたログは、`MYSQL_HISTFILE`（通常は`~/.mysql_history`）に出力される。
+
+  - ログを残したくない場合は、以下のようにログインする。
+
+    ```bash
+    MYSQL_HISTFILE=/dev/null mysql ...
+    ```
 
 ### mysqldump
 
@@ -45,7 +59,9 @@
 - バージョンの違いでエラーが出た場合は、`--skip-column-statistics`オプションを付ける。
   [mysqldumpコマンドで "Unknown table 'COLUMN_STATISTICS' in information_schema (1109)" と怒られる原因と対策 - モヒカンメモ](https://blog.pinkumohikan.com/entry/mysqldump-disable-column-statistics)
 
-## MySQL WorkBench
+## GUI
+
+### MySQL WorkBench
 
 - 主キーをWHERE条件とせずDELETEを行いたい場合は、以下のようにする。
 
