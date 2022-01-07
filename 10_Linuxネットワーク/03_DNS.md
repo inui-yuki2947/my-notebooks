@@ -6,11 +6,49 @@
 
 - DNSサーバには、DNSキャッシュサーバと権威DNSサーバ（ネームサーバ）がある。
 
-### 設定
+### /etc/hosts
 
 - `/etc/hosts`ファイルには、ホスト名とIPアドレスの対応を記述する。（簡易的なDNS）
+
+- 例
+
+  ```text
+  127.0.0.1   localhost localhost.localdomain 
+  192.168.0.10  station10  station10.example.net
+  192.168.0.11  station11  station11.example.net
+  ```
+
+### /etc/resolv.conf
+
 - `/etc/resolv.conf`ファイルには、参照先のDNSサーバを記述する。
+
+- 項目
+
+  - `nameserver`は、名前解決に使用するDNSサーバ
+  - `domain`は、自サーバの所属するドメイン名
+  - `search`は、名前解決の際に省略され得るドメイン名のリスト
+
+- 例
+
+  ```text
+  nameserver     192.168.0.1
+  nameserver     192.168.0.2
+  domain         localdomain
+  search         dm1.example.org   dm2.example.org
+  ```
+
+### /etc/nsswitch.conf
+
 - `/etc/nsswitch.conf`ファイルには、名前解決を行う順序を記述する。
+
+- 例
+
+  ```text
+  hosts: files dns
+  ```
+
+### /etc/systemd/resolved.conf
+
 - `/etc/systemd/resolved.conf`ファイルは、systemdを採用したシステムで、systemd-resolvedサービスの設定を行う。
 
 ## コマンド
