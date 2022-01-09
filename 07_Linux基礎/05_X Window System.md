@@ -105,8 +105,10 @@
 
 ### リモートデスクトップ
 
-| 名称                                                         | 概要                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| VNC（Virtual Network Computing）                             | クロスプラットフォーム対応のリモートデスクトップソフトウェア。 |
-| RDP（Remote Desktop Protocol）                               | Windows標準のリモートデスクトッププロトコル。                |
-| SPICE（Simple Protocol for Independent Computing Environments） | RDPと同様の画面転送プロトコルで、オープンソースで開発されている。 |
+- 一覧
+
+  | 名称                                                         | 概要                                                         |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | VNC（Virtual Network Computing）                             | クロスプラットフォーム対応のリモートデスクトップソフトウェア。 |
+  | RDP（Remote Desktop Protocol）                               | Windows標準のリモートデスクトッププロトコル。                |
+  | SPICE（Simple Protocol for Independent Computing Environments） | RDPと同様の画面転送プロトコルで、オープンソースで開発されている。 |
