@@ -114,8 +114,8 @@
 
 ### configure
 
-- `configure`コマンドは、AWS CLIのオプションを設定する。
+- コマンド
 
-  ```bash
-  aws configure
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`aws configure`|AWS CLIのオプションを設定する。|

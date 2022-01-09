@@ -50,11 +50,11 @@
 
 ### mysqldump
 
-- `mysqldump`コマンドは、dumpを標準出力に出力する。（通常はファイルにリダイレクトする）
+- コマンド
 
-  ```bash
-  mysqldump [データベース名 [テーブル名...]]
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`mysqldump [データベース名 [テーブル名...]]`|dumpを標準出力に出力する。（通常はファイルにリダイレクトする）|
 
 - バージョンの違いでエラーが出た場合は、`--skip-column-statistics`オプションを付ける。
   [mysqldumpコマンドで "Unknown table 'COLUMN_STATISTICS' in information_schema (1109)" と怒られる原因と対策 - モヒカンメモ](https://blog.pinkumohikan.com/entry/mysqldump-disable-column-statistics)

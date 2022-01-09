@@ -26,27 +26,27 @@
 
 ### ls
 
-- `ls`コマンドは、当該データを一覧表示する。
+- コマンド
 
-  ```bash
-  docker リソース ls
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker リソース ls`|当該データを一覧表示する。|
 
 ### inspect
 
-- `inspect`コマンドは、当該データの詳細を表示する。
+- コマンド
 
-  ```bash
-  docker リソース inspect 識別子...
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker リソース inspect 識別子...`|当該データの詳細を表示する。|
 
 ### rm
 
-- `rm`コマンドは、当該データを削除する。
+- コマンド
 
-  ```bash
-  docker リソース rm 識別子...
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker リソース rm 識別子...`|当該データを削除する。|
 
 ## container
 
@@ -70,19 +70,19 @@
 
 ### inspect
 
-- `inspect`コマンドは、コンテナの詳細を表示する。
+- コマンド
 
-  ```bash
-  docker container inspect コンテナ...
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker container inspect コンテナ...`|コンテナの詳細を表示する。|
 
 ### run, create
 
-- `run, create`コマンドは、コンテナを作成する。
+- コマンド
 
-  ```bash
-  docker container run, create イメージ [コマンド] [引数]
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker container run, create イメージ [コマンド] [引数]`|コンテナを作成する。|
 
 - コマンド
 
@@ -112,21 +112,21 @@
 
 ### commit
 
-- 当コマンドは、コンテナのファイル変更や設定をもとに、新しいイメージを作成する。
+- コマンド
 
-  ```bash
-  docker container commit コンテナ [リポジトリ[:タグ]]
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker container commit コンテナ [リポジトリ[:タグ]]`|コンテナのファイル変更や設定をもとに、新しいイメージを作成する。|
 
 - これでイメージを作成すると、何の操作をしてできたものなのかが分かりにくいため、**暫定的に**Dockerイメージにしておきたい場合などのみ使うべき。（Dockerfileをできるだけ使うべき）
 
 ### attach
 
-- 当コマンドは、実行中のコンテナで起動している**PID=1**のプロセスの標準入出力に接続する。（exitするとコンテナが停止する）
+- コマンド
 
-  ```bash
-  docker container attach コンテナ
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker container attach コンテナ`|実行中のコンテナで起動している**PID=1**のプロセスの標準入出力に接続する。（exitするとコンテナが停止する）|
 
 ### exec
 
@@ -139,11 +139,11 @@
 
 ### cp
 
-- 当コマンドは、ファイルを移動する。
+- コマンド
 
-  ```bash
-  docker container cp 移動元 移動先
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker container cp 移動元 移動先`|ファイルを移動する。|
 
 - `コンテナ名:ファイル名`でコンテナを指定できる。
 
@@ -157,11 +157,11 @@
 
 ### build
 
-- `build`コマンドは、**Dockerfile**などをもとにイメージを作成する。
+- コマンド
 
-  ```bash
-  docker image build Dockerfileのあるディレクトリ
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker image build Dockerfileのあるディレクトリ`|**Dockerfile**などをもとにイメージを作成する。|
 
 - オプション
 
@@ -172,35 +172,35 @@
 
 ### tag
 
-- `tag`コマンドは、イメージにタグを付与する。
+- コマンド
 
-  ```bash
-  docker image tag イメージ 新しいイメージ
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker image tag イメージ 新しいイメージ`|イメージにタグを付与する。|
 
 ### pull
 
-- 当コマンドは、レジストリからイメージを取得する。
+- コマンド
 
-  ```bash
-  docker image pull イメージ
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker image pull イメージ`|レジストリからイメージを取得する。|
 
 ### push
 
-- `push`コマンドは、レジストリにイメージをプッシュする。
+- コマンド
 
-  ```bash
-  docker image push イメージ
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker image push イメージ`|レジストリにイメージをプッシュする。|
 
 ### history
 
-- `history`コマンドは、イメージがどう構築されたかを表示する。
+- コマンド
 
-  ```bash
-  docker image history イメージ
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker image history イメージ`|イメージがどう構築されたかを表示する。|
 
 ## volume
 
@@ -211,11 +211,11 @@
 
 ### create
 
-- `create`コマンドは、ボリュームを作成する。
+- コマンド
 
-  ```bash
-  docker volume create ボリューム名
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker volume create ボリューム名`|ボリュームを作成する。|
 
 ## network
 
@@ -226,11 +226,11 @@
 
 ### create
 
-- `create`コマンドは、新しいネットワークを作成する。
+- コマンド
 
-  ```bash
-  docker network create ネットワーク名
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker network create ネットワーク名`|新しいネットワークを作成する。|
 
 ## Docker Compose
 
