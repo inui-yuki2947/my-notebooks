@@ -61,13 +61,14 @@
 - ドット表記
   - [git diff と git log におけるドット表記](https://zenn.dev/yoichi/articles/git-dotted-notations)
 
-### add, rm, clean
+### add, reset, rm, clean
 
 - コマンド
 
   |コマンド|概要|
   |---|---|
-  |`git add ファイル`|指定したファイルを、インデックスに追加（ステージ）する。|
+  |`git add ファイル`|指定したファイルを、ステージする。|
+  |`git reset ファイル`|指定したファイルを、アンステージする。|
   |`git rm ファイル`|指定したファイルを、ワークツリー・インデックスから削除する。|
   |`git clean [パス]`|管理対象外のファイルを削除する。|
 
