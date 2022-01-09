@@ -231,31 +231,31 @@
 
 ### up
 
-- `up`コマンドで、Docker Composeを起動する。
+- コマンド
 
-  ```bash
-  docker-compose up
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker-compose up`|Docker Composeを起動する。|
 
 - `-d`オプションで、バックグラウンド実行となる。
 
 ### down
 
-- `down`コマンドで、Docker Composeを終了する。
+- コマンド
 
-  ```bash
-  docker-compose down
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker-compose down`|Docker Composeを終了する。|
 
 - `--volumes`オプションで、使用したボリュームも削除できる。
 
 ### logs
 
-- `logs`コマンドで、ログを確認できる。
+- コマンド
 
-  ```bash
-  docker-compose logs
-  ```
+  |コマンド|概要|
+  |---|---|
+  |`docker-compose logs`|ログを確認できる。|
 
 ## Kubernetes
 
