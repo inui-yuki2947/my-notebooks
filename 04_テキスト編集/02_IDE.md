@@ -9,15 +9,15 @@
   グループ|動作|Windows|Mac
   ---|---|---|---
   タブ|前のタブに移動||Command + Shift + [
-  ^|後ろのタブに移動||Command + Shift + ]
+  タブ|後ろのタブに移動||Command + Shift + ]
   編集|選択箇所をif、while、forなどで囲む|Ctrl + Alt + T|Command + Option+ T
-  ^|マルチカーソル|Alt + クリック|Option + Shift + クリック
+  編集|マルチカーソル|Alt + クリック|Option + Shift + クリック
   リファクタリング|変数の抽出("V"ariable)|Ctrl + Alt + V|Command + Option + V
-  ^|定数の抽出("C"onstant)|Ctrl + Alt + C|Command + Option + C
-  ^|フィールドの抽出("F"ield)|Ctrl + Alt + F|Command + Option + F
-  ^|パラメータの抽出("P"arameter)|Ctrl + Alt + P|Command + Option + P
-  ^|メソッドの切り出し ("M"ethod)|Ctrl + Alt + M|Command + Option + M
-  ^|インライン展開 (I"n"line)|Ctrl + Alt + N|Command + Option + N
+  リファクタリング|定数の抽出("C"onstant)|Ctrl + Alt + C|Command + Option + C
+  リファクタリング|フィールドの抽出("F"ield)|Ctrl + Alt + F|Command + Option + F
+  リファクタリング|パラメータの抽出("P"arameter)|Ctrl + Alt + P|Command + Option + P
+  リファクタリング|メソッドの切り出し ("M"ethod)|Ctrl + Alt + M|Command + Option + M
+  リファクタリング|インライン展開 (I"n"line)|Ctrl + Alt + N|Command + Option + N
 
 ### モジュール
 
