@@ -4,6 +4,24 @@
 
 ### CREATE TABLE
 
+- テーブル定義を記述する場合
+
+  ```sql
+  CREATE [TEMPORARY] TABLE [IF NOT EXISTS] テーブル名 (テーブル定義, ...)
+  ```
+
+- クエリから生成する場合
+
+  ```sql
+  CREATE [TEMPORARY] TABLE [IF NOT EXISTS] テーブル名 クエリ
+  ```
+
+- 既存テーブルを利用する場合
+
+  ```sql
+  CREATE [TEMPORARY] TABLE [IF NOT EXISTS] テーブル名 LIKE 既存テーブル名
+  ```
+
 - `RENAME, MODIFY, CHANGE`句の違い
 
   | 句       | 概要                                   |
@@ -11,12 +29,6 @@
   | `RENAME` | テーブル・インデックス・カラム名の変更 |
   | `MODIFY` | カラム定義の変更                       |
   | `CHANGE` | カラム名と定義の変更                   |
-
-- `CREATE TEMPORARY TABLE`文で、一時的なテーブルを作成できる。
-
-  ```sql
-  CREATE TEMPORARY TABLE テーブル名 SELECT ...;
-  ```
 
 ### AUTO_INCREMENT
 
@@ -46,6 +58,14 @@
 
   ```sql
   SET FOREIGN_KEY_CHECKS = 0;
+  ```
+
+### SHOW CREATE TABLE
+
+- `SHOW CREATE TABLE`文は、指定されたテーブルを作成する `CREATE TABLE` ステートメントを表示する。
+
+  ```sql
+  SHOW CREATE TABLE テーブル名
   ```
 
 ## インデックス
