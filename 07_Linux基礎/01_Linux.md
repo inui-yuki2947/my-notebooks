@@ -2,6 +2,10 @@
 
 ## 共通
 
+### ドキュメント
+
+- [Linux基本コマンドTips - ＠IT](https://atmarkit.itmedia.co.jp/ait/series/3065/)
+
 ### Linuxディストリビューション
 
 - 一覧
