@@ -2,10 +2,14 @@
 
 ## 共通
 
-### Dockerを使うメリット
+### 概要
 
-- 誰でも簡単に同じ環境を構築できる。
-- 一つの物理サーバーで、セキュアでリソースの分離された、複数アプリケーション運用をすることができる。 [Kubernetesとは何か？ | Kubernetes](https://kubernetes.io/ja/docs/concepts/overview/what-is-kubernetes/)
+- Dockerを使うメリット
+
+  - 誰でも簡単に同じ環境を構築できる。
+
+  - 一つの物理サーバーで、セキュアでリソースの分離された、複数アプリケーション運用をすることができる。
+    [Kubernetesとは何か？ | Kubernetes](https://kubernetes.io/ja/docs/concepts/overview/what-is-kubernetes/)
 
 ### インストール
 
@@ -17,22 +21,24 @@
 - [Docker 概要 — Docker-docs-ja 19.03 ドキュメント](https://docs.docker.jp/get-started/overview.html)
 - [Docker入門（第一回）～Dockerとは何か、何が良いのか～ | さくらのナレッジ](https://knowledge.sakura.ad.jp/13265/)
 
-### その他
-
-- 2017年1月18日にリリースされたDocker v1.13以降、コマンドが再編成されている。
-  [docker container / image コマンド新旧比較 - Qiita](https://qiita.com/zembutsu/items/6e1ad18f0d548ce6c266)
-
-## サブコマンド共通
-
-### ls, inspect, rm
+### docker
 
 - コマンド
 
+  | コマンド              | 概要                       |
+  | --------------------- | -------------------------- |
+  | `docker サブコマンド` | Dockerの種々の管理を行う。 |
+
+- サブコマンド
+
   |コマンド|概要|
   |---|---|
-  |`docker リソース ls`|当該データを一覧表示する。|
-  |`docker リソース inspect 識別子...`|当該データの詳細を表示する。|
-  |`docker リソース rm 識別子...`|当該データを削除する。|
+  |`リソース ls`|当該リソースの一覧を表示する。|
+  |`リソース inspect 識別子...`|当該リソースの詳細を表示する。|
+  |`リソース rm 識別子...`|当該リソースを削除する。|
+
+- 2017年1月18日にリリースされたDocker v1.13以降、コマンドが再編成されている。
+  [docker container / image コマンド新旧比較 - Qiita](https://qiita.com/zembutsu/items/6e1ad18f0d548ce6c266)
 
 ## container
 
