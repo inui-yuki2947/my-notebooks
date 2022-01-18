@@ -129,13 +129,37 @@
 - 記法
 
   ```sql
-  IF 判定条件1 THEN
-      処理内容1
-  ELSEIF 判定条件2 THEN
-      処理内容2
+  IF 条件1 THEN
+      処理1
+  ELSEIF 条件2 THEN
+      処理2
+  ...
   ELSE
-      処理内容3
+      処理n
   END IF;
+  ```
+
+### CASE
+
+- 記法
+
+  ```sql
+  CASE 判断値
+      WHEN 値1 THEN 処理1
+      WHEN 値2 THEN 処理2
+      ...
+      ELSE 処理n
+  END CASE
+  ```
+
+### LOOP
+
+- 記法
+
+  ```sql
+  [開始ラベル:] LOOP
+      処理
+  END LOOP [終了ラベル]
   ```
 
 ### WHILE
@@ -143,9 +167,9 @@
 - 記法
 
   ```sql
-  WHILE 継続条件 DO
-      繰り返したい処理
-  END WHILE;
+  [開始ラベル:] WHILE 継続条件 DO
+      処理
+  END WHILE [終了ラベル]
   ```
 
 ### REPEAT
@@ -153,9 +177,29 @@
 - 記法
 
   ```sql
-  REPEAT
-      繰り返したい処理
-  UNTIL 終了条件 END REPEAT;
+  [開始ラベル:] REPEAT
+      処理
+  UNTIL 終了条件 END REPEAT [終了ラベル]
+  ```
+
+### ITERATE, LEAVE, RETURN
+
+- `ITERATE`文は、指定したラベルのループを再び開始する。
+
+  ```sql
+  ITERATE ラベル
+  ```
+
+- `LEAVE`文は、特定のラベルを持つフロー制御構文を終了する。（最も外側の場合は、プログラムを終了する）
+
+  ```sql
+  LEAVE ラベル
+  ```
+
+- `RETURN`文は、ストアドファンクションの実行を終了し、戻り値を返す。
+
+  ```sql
+  RETURN 値
   ```
 
 ### カーソル
