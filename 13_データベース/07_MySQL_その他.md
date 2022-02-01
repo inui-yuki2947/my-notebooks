@@ -20,29 +20,16 @@
 
 ## メタ情報
 
-### SHOW DATABASES
+### 共通
 
-- `SHOW DATABASES`文は、データベース一覧を表示する。
+- 記法
 
-  ```sql
-  SHOW DATABASES
-  ```
-
-### SHOW TABLES
-
-- `SHOW TABLES`文は、テーブル一覧を表示する。
-
-  ```sql
-  SHOW TABLES [FROM|IN データベース名]
-  ```
-
-### SHOW COLUMNS
-
-- `SHOW COLUMNS`文は、カラム一覧を表示する。
-
-  ```sql
-  SHOW COLUMNS FROM|IN テーブル名 [FROM|IN データベース名]
-  ```
+  | 記法                                                       | 概要                           |
+  | ---------------------------------------------------------- | ------------------------------ |
+  | `SHOW DATABASES`                                           | データベースの一覧を表示する。 |
+  | `SHOW TABLES [FROM,IN データベース名]`                     | テーブルの一覧を表示する。     |
+  | `SHOW COLUMNS FROM,IN テーブル名 [FROM,IN データベース名]` | カラムの一覧を表示する。       |
+  | `SHOW TRIGGERS [FROM,IN データベース名]`                   | トリガーの一覧を表示する。     |
 
 ### information_schema
 

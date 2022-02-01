@@ -16,9 +16,19 @@
   END
   ```
 
-- 記法（`DELIMITER`を変更する場合）
+### DELIMITER
+
+- `DELIMITER`コマンドは、SQLの区切り文字を変更する。
 
   ```sql
+  DELIMITER 区切り文字
+  ```
+
+- `//`を区切り文字として使うことが多い。
+
+- 例
+
+  ```mysql
   DELIMITER //
   ...
   BEGIN
@@ -39,11 +49,11 @@
   ```sql
   IF 条件1 THEN
       処理1
-  ELSEIF 条件2 THEN
-      処理2
-  ...
-  ELSE
-      処理n
+  [ELSEIF 条件2 THEN
+      処理2]
+  [...]
+  [ELSE
+      処理n]
   END IF;
   ```
 
