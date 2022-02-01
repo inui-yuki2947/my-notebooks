@@ -223,23 +223,23 @@
 
 ### GET DIAGNOSTICS
 
-- `GET DIAGNOSTICS`文は、診断情報を検査する。
+- `GET DIAGNOSTICS`文は、診断情報を取得する。
 
 - 記法1
 
   ```mysql
-  GET [CURRENT] DIAGNOSTICS
-      target = ステートメント情報, 
-      target = ステートメント情報,
+  GET [CURRENT,STACKED] DIAGNOSTICS
+      変数 = ステートメント情報, 
+      変数 = ステートメント情報,
       ...
   ```
 
 - 記法2
 
   ```mysql
-  GET [CURRENT] DIAGNOSTICS CONDITION condition_number
-      target = 条件情報,
-      target = 条件情報,
+  GET [CURRENT,STACKED] DIAGNOSTICS CONDITION 条件番号
+      変数 = 条件情報,
+      変数 = 条件情報,
       ...
   ```
 

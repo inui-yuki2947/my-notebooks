@@ -44,17 +44,27 @@
   |`-N`|カラム名を出力しない。|
   |`-B`|値のみ出力する。|
 
-- ログ
+### コマンド
 
-  - CLIでインタラクティブに実行されたログは、`MYSQL_HISTFILE`（通常は`~/.mysql_history`）に出力される。
+- コマンド
 
-  - ログを残したくない場合は、以下のようにログインする。
+  | コマンド                    | 概要                                           |
+  | --------------------------- | ---------------------------------------------- |
+  | `\h`, `help`<br />`\?`, `?` | ヘルプを表示する。                             |
+  | `\g`, `go`                  | コマンドを送信する。                           |
+  | `\G`, `ego`                 | コマンドを送信し、縦型のレイアウトで表示する。 |
+  | `\W`, `warnings`            | コマンドの後に、警告を表示する。               |
+  | `\w`, `nowarnings`          | コマンドの後に、警告を表示しない。             |
 
-    ```bash
-    MYSQL_HISTFILE=/dev/null mysql ...
-    ```
+### ログ
 
-- ステートメントのターミネータとして、`;`でなく`\G`を用いると、縦型のレイアウトで表示される。
+- CLIでインタラクティブに実行されたログは、`MYSQL_HISTFILE`（通常は`~/.mysql_history`）に出力される。
+
+- ログを残したくない場合は、以下のようにログインする。
+
+  ```bash
+  MYSQL_HISTFILE=/dev/null mysql ...
+  ```
 
 ### mysqldump
 
@@ -67,9 +77,9 @@
 - バージョンの違いでエラーが出た場合は、`--skip-column-statistics`オプションを付ける。
   [mysqldumpコマンドで "Unknown table 'COLUMN_STATISTICS' in information_schema (1109)" と怒られる原因と対策 - モヒカンメモ](https://blog.pinkumohikan.com/entry/mysqldump-disable-column-statistics)
 
-## GUI
+## MySQL WorkBench
 
-### MySQL WorkBench
+### 共通
 
 - 主キーをWHERE条件とせずDELETEを行いたい場合は、以下のようにする。
 
