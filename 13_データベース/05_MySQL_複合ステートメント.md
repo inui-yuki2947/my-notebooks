@@ -202,6 +202,25 @@
     BEGIN END
   ```
 
+### 診断ステートメント
+
+- 通常のステートメントは診断領域をクリアするが、診断ステートメントは診断領域をクリアしない。
+- 診断ステートメント
+  - `SHOW ERRORS`
+  - `SHOW WARNINGS`
+  - `GET DIAGNOSTICS`
+
+### SHOW ERRORS, WARNINGS
+
+- 記法
+
+  | 記法                     | 概要                                                         |
+  | ------------------------ | ------------------------------------------------------------ |
+  | `SHOW ERRORS`            | ステートメント実行結果の、エラー情報を表示する。             |
+  | `SHOW COUNT(*) ERRORS`   | ステートメント実行結果の、エラー情報**の数**を表示する。     |
+  | `SHOW WARNINGS`          | ステートメント実行結果の、エラー・警告・注意情報を表示する。 |
+  | `SHOW COUNT(*) WARNINGS` | ステートメント実行結果の、エラー・警告・注意情報**の数**を表示する。 |
+
 ### GET DIAGNOSTICS
 
 - `GET DIAGNOSTICS`文は、診断情報を検査する。
@@ -210,8 +229,8 @@
 
   ```mysql
   GET [CURRENT] DIAGNOSTICS
-      target = statement_information_item_name, 
-      target = statement_information_item_name,
+      target = ステートメント情報, 
+      target = ステートメント情報,
       ...
   ```
 
@@ -219,8 +238,8 @@
 
   ```mysql
   GET [CURRENT] DIAGNOSTICS CONDITION condition_number
-      target = condition_information_item_name,
-      target = condition_information_item_name,
+      target = 条件情報,
+      target = 条件情報,
       ...
   ```
 
@@ -238,14 +257,14 @@
 
   ```mysql
   SIGNAL コンディション値
-      [SET 条件情報項目 = 値, 条件情報項目 = 値, ...]
+      [SET 条件情報 = 値, 条件情報 = 値, ...]
   ```
 
 - `RESIGNAL`文は、条件情報を（変更してから）渡す。
 
   ```mysql
   RESIGNAL [コンディション値]
-      [SET 条件情報項目 = 値, 条件情報項目 = 値, ...]
+      [SET 条件情報 = 値, 条件情報 = 値, ...]
   ```
 
 - `SET`句を含む場合は、エラーを変更して渡す。
