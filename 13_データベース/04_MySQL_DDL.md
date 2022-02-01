@@ -118,37 +118,22 @@
 
 ### CREATE PROCEDURE
 
-- 基本的な構文は以下の通り。
+- 記法
 
   ```sql
   CREATE PROCEDURE プロシージャ名(引数)
-  SQLルーチンステートメント
+  単一または複合ステートメント
   ```
 
 - 引数では、その入出力を許容するか否かに応じ、「IN, OUT, INOUT」のいずれかを指定する。
 
   ```sql
   CREATE PROCEDURE プロシージャ名([IN | OUT | INOUT] 引数名 型)
-  SQLルーチンステートメント
+  単一または複合ステートメント
   ```
 
-- SQLルーチンステートメントでは、単純なステートメント、あるいは複合ステートメントを指定する。
-
-  ```sql
-  CREATE PROCEDURE sample()
-  INSERT ...;
-  
-  -- あるいは
-  DELIMITER //
-  CREATE PROCEDURE sample()
-  BEGIN
-    INSERT ...;
-    INSERT ...;
-  END//
-  ```
-
-- 「ALTER PROCEDURE」ステートメントでは、**パラメータや本体を変更できない**ので、
-  そうしたい場合は「DROP PROCEDURE」と「CREATE PROCEDURE」を組み合わせる。
+- `ALTER PROCEDURE`ステートメントでは、**パラメータや本体を変更できない**ので、
+  そうしたい場合は`DROP PROCEDURE`と`CREATE PROCEDURE`を組み合わせる。
 
 ### CREATE FUNCTION
 
@@ -170,9 +155,42 @@
 
 ## トリガー
 
+### 概要
+
+- [MySQL :: MySQL 5.6 リファレンスマニュアル :: 20.3 トリガーの使用](https://dev.mysql.com/doc/refman/5.6/ja/triggers.html)
+
 ### CREATE TRIGGER
 
+- 記法
+
+  ```mysql
+  CREATE TRIGGER トリガー名
+      <BEFORE|AFTER> <INSERT|UPDATE|DELETE>
+      ON テーブル名
+      FOR EACH ROW
+      単一または複合ステートメント
+  ```
+
+- 変数
+
+  | 変数           | 概要                                                         | 使用できる操作   | I/O  |
+  | -------------- | ------------------------------------------------------------ | ---------------- | ---- |
+  | `OLD.カラム名` | 古いレコードのカラム。                                       | `UPDATE, DELETE` | O    |
+  | `NEW.カラム名` | 新しいレコードのカラム。<br />`AUTO INCREMENT`の値は`0`となっている。 | `INSERT, UPDATE` | I/O  |
+
+- トリガーイベント・時間が同じトリガーは、複数定義できない。
+
+- `BEFORE`トリガーが失敗した場合、その後の操作は実行されない。
+
 - [トリガーの開発方法＆デバッグ方法 - Qiita](https://qiita.com/suin/items/269fa582e40f439d012f)
+
+### DROP TRIGGER
+
+- 記法
+
+  ```mysql
+  DROP TRIGGER [IF EXISTS] [スキーマ名.]トリガー名
+  ```
 
 ## その他
 
