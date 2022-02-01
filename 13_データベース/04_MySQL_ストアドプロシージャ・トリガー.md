@@ -8,14 +8,14 @@
 
   ```sql
   CREATE PROCEDURE プロシージャ名(引数)
-  単一または複合ステートメント
+  ステートメント
   ```
 
 - 引数では、その入出力を許容するか否かに応じ、「IN, OUT, INOUT」のいずれかを指定する。
 
   ```sql
   CREATE PROCEDURE プロシージャ名([IN | OUT | INOUT] 引数名 型)
-  単一または複合ステートメント
+  ステートメント
   ```
 
 - `ALTER PROCEDURE`ステートメントでは、**パラメータや本体を変更できない**ので、
@@ -54,7 +54,7 @@
       <BEFORE|AFTER> <INSERT|UPDATE|DELETE>
       ON テーブル名
       FOR EACH ROW
-      単一または複合ステートメント
+      ステートメント
   ```
 
 - 変数
