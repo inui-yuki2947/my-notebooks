@@ -70,6 +70,14 @@
   USE データベース名
   ```
 
+### EXPLAIN, DESCRIBE
+
+- `EXPLAIN, DESCRIBE`文は、SQL文の実行プランを表示する。
+
+  ```mysql
+  <EXPLAIN,DESCRIBE> SQL文
+  ```
+
 ### 暗号化・復号
 
 - 暗号化には、`AES_ENCRYPT`関数を使う。

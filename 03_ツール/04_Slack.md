@@ -12,11 +12,17 @@
 - 連携リポジトリの追加
 
   ```text
-  /github subscribe owner/repo
+  /github subscribe 所有者/リポジトリ名 [項目]
   ```
 
 - 連携リポジトリの削除
 
   ```text
-  /github unsubscribe owner/repo
+  /github unsubscribe 所有者/リポジトリ名 [項目]
+  ```
+
+- 連携リポジトリの確認
+
+  ```text
+  /github subscribe list features
   ```
