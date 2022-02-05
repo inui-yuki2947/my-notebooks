@@ -31,6 +31,35 @@
 
   - ※1 `/Applications`ディレクトリ以下のアプリケーションは、アプリケーション名だけで指定可能。
 
+## ツール
+
+### Finder
+
+- 起動は、`Command + Option + Space`あるいは`Ctrl + F3 → Enter`
+- 隠しファイルの表示は、`Command + Shift + .`
+
+### HyperSwitch
+
+- 「HyperSwitch」は、ウィンドウの切り替えをサポートするツール。
+- [HyperSwitch](https://bahoom.com/hyperswitch)
+- デフォルトでは`Option + Tab`でウィンドウを切り替える。
+
+### Karabiner-Elements
+
+- 「Karabiner-Elements」は、キーバインドを変更するツール。
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+
+### KeyboardCleanTool
+
+- 「KeyboardCleanTool」は、キーボードのロックを行うツール。
+- [folivora.ai - Great Tools for your Mac!](https://folivora.ai/keyboardcleantool)
+
+### Clipy
+
+- 「Clipy」は、コピペ履歴を保持するツール。
+- [Clipy for Mac - 無料・ダウンロード](https://clipy.softonic.jp/mac)
+- 貼り付けは、`Command + Control + V`
+
 ## その他
 
 - 「システム環境設定 -> セキュリティとプライバシー -> 一般」から、不明な開発元の実行を許可できる。
