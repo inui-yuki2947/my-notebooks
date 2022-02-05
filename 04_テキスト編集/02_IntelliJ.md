@@ -1,6 +1,6 @@
-# IDE
+# IntelliJ
 
-## IntelliJ
+## 共通
 
 ### ショートカット
 
@@ -26,10 +26,20 @@
 ### 設定
 
 - 「Version Control」-> 「Git」の「enable staging area」をONにすると、Gitのステージング機能が利用できる。
+- `.iml`という拡張子で、設定ファイルが生成される。
+
+### ターミナル
+
+- Windowsでは、標準でターミナルの日本語が文字化けするので、以下で対処する。
+  [Windows版のIntelliJ IDEAのTerminalでGit bashを起動する - Qiita](https://qiita.com/EichiSanden/items/7c735c5d7ec33c51012c)
 
 ### その他
 
-- `.iml`という拡張子で、設定ファイルが生成される。
 - Updating indexex実行中はできる限り放置しておく。（コードを変更したりすると、無限にこの処理が繰り返される）
-- Windowsでは、標準でターミナルの日本語が文字化けするので、以下で対処する。
-  [Windows版のIntelliJ IDEAのTerminalでGit bashを起動する - Qiita](https://qiita.com/EichiSanden/items/7c735c5d7ec33c51012c)
+
+## CLI
+
+### 概要
+
+- 「Toolbox App」を使うと、`idea`コマンド（`open -na "IntelliJ IDEA.app"`のエイリアス）が使用できるようになる。
+- [Command-line interface | IntelliJ IDEA](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox)
