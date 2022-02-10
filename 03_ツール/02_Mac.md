@@ -1,12 +1,44 @@
 # Mac
 
-## ショートカット
+## 共通
+
+### キーのカスタマイズ
+
+- キーのおすすめカスタマイズ
+
+  | 変更前    | 変更後    |
+  | --------- | --------- |
+  | Caps Lock | Command   |
+  | Control   | Caps Lock |
+  | Option    | Control   |
+  | Command   | Option    |
+
+- [MacとWinの両方使いがしている誤入力しないキーボードの設定 | ガジェグル](https://gazyeguru.com/mac%E3%81%A8win%E3%81%AE%E4%B8%A1%E6%96%B9%E4%BD%BF%E3%81%84%E3%81%8C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A/)
+
+### ショートカット
 
 - ショートカット
 
-  | ショートカット            | 操作               |
-  | ------------------------- | ------------------ |
-  | Command + Control + Space | 絵文字を入力する。 |
+  | ショートカット            | 概要                                                         |
+  | ------------------------- | ------------------------------------------------------------ |
+  | Command + H               | アクティブなアプリを非表示にする。                           |
+  | Command + M               | アクティブなアプリを最小化する。                             |
+  | Command + W               | アクティブなアプリを閉じる。                                 |
+  | Command + Q               | アクティブなアプリを終了する。                               |
+  | Command + Tab             | アプリを切り替える。                                         |
+  | Option + Tab              | ディスプレイごとにアプリを切り替える。（「HyperSwitch」による拡張） |
+  | Command + Control + F     | アプリを全画面表示する。                                     |
+  | Command + Control + 9     | ロックする。                                                 |
+  | Command + Control + Space | 絵文字を入力する。                                           |
+  | Command + Control + V     | クリップボードを開く。（「Clipy」による拡張）                |
+
+- ショートカット（スクリーンショット系）
+
+  | ショートカット      | 概要                                 |
+  | ------------------- | ------------------------------------ |
+  | Command + Shift + 3 | 画面全体のスクリーンショットを撮る。 |
+  | Command + Shift + 4 | 画面一部のスクリーンショットを撮る。 |
+  | Command + Shift + 5 | 画面を収録する。                     |
 
 ## CLI
 
@@ -42,7 +74,6 @@
 
 - 「HyperSwitch」は、ウィンドウの切り替えをサポートするツール。
 - [HyperSwitch](https://bahoom.com/hyperswitch)
-- デフォルトでは`Option + Tab`でウィンドウを切り替える。
 
 ### Karabiner-Elements
 
@@ -58,7 +89,6 @@
 
 - 「Clipy」は、コピペ履歴を保持するツール。
 - [Clipy for Mac - 無料・ダウンロード](https://clipy.softonic.jp/mac)
-- 貼り付けは、`Command + Control + V`
 
 ## その他
 
