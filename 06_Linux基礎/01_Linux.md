@@ -16,7 +16,6 @@
   | Debian系        | Ubuntu         | 無償で開発スピードが速い。 |
 
 - 「Alpine Linux」は、軽量なLinuxディストリビューション。
-- 「WSL」（Windows Subsystem for Linux）とは、Linuxのバイナリ実行ファイルを、Windows 10およびWindows Server上でネイティブ実行するための互換レイヤー。
 
 ### Linux起動の流れ
 

@@ -8,10 +8,19 @@
   | ------------------- | ---------------------------------------- |
   | Windows + .         | 絵文字を入力する。                       |
   | Windows + E         | エクスプローラーを表示する。             |
+  | Windows + D         | デスクトップを表示する。                 |
   | Windows + I         | 設定画面を表示する。                     |
   | Windows + V         | クリップボードの履歴を表示する。         |
   | Windows + Shift + S | 指定した範囲のスクリーンショットを撮る。 |
   | Windows + R         | 「ファイル名を指定して実行」を実行する。 |
+
+- ファイル名
+
+  | ファイル名   | 概要               |
+  | ------------ | ------------------ |
+  | `cmd`        | コマンドプロンプト |
+  | `powershell` | パワーシェル       |
+  | `control`    | コントロールパネル |
 
 ## cmd
 
@@ -50,6 +59,15 @@
 
   - ユーザー環境変数（ユーザー固有の環境変数）
   - システム環境変数（全ユーザーで共通の環境変数）
+
+## WSL
+
+### 概要
+
+- 「WSL」（Windows Subsystem for Linux）とは、
+  Linuxのバイナリ実行ファイルを、Windows 10およびWindows Server上でネイティブ実行するための互換レイヤー。
+- [WSL のインストール | Microsoft Docs](https://docs.microsoft.com/ja-jp/windows/wsl/install)
+- [シェルスクリプトに挑戦しよう（2）Windows 10のbashを試す！：“応用力”をつけるためのLinux再入門（22）（1/2 ページ） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1809/14/news015.html)
 
 ## Windowsサービス
 
