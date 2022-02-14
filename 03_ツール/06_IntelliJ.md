@@ -6,33 +6,33 @@
 
 - ショートカット
 
-  Windows|Mac|動作
-  ---|---|---
-  Ctrl + Alt + ←|Command + [|戻る。
-  Ctrl + Alt + →|Command + ]|進む。
-  Alt + ←|Command + Shift + [|前のタブに移動する。
-  Alt + →|Command + Shift + ]|後ろのタブに移動する。
-  Alt + クリック|Option + Shift + クリック|マルチカーソルを作成する。
+  | ショートカット（Windows） |ショートカット（Mac）|概要|
+  |------------------|------------------|---|
+  | Ctrl + Alt + ←   |⌘ + [|戻る。|
+  |Ctrl + Alt + →   |⌘ + ]|進む。|
+  |Alt + ←          |⌘ + ⇧ + [|前のタブに移動する。|
+  |Alt + →          |⌘ + ⇧ + ]|後ろのタブに移動する。|
+  |Alt + クリック       |⌥ + ⇧ + クリック|マルチカーソルを作成する。|
 
 - ショートカット（ウィンドウ系）
 
-  | Windows   | Mac          | 動作                                 |
-  | --------- | ------------ | ------------------------------------ |
-  | Alt + 9   | Command + 9  | バージョン管理ウィンドウを表示する。 |
-  | Alt + 0   | Command + 0  | コミットウィンドウを表示する。       |
-  | Alt + F12 | Option + F12 | ターミナルウィンドウを表示する。     |
+  | ショートカット（Windows） | ショートカット（Mac） | 概要                                 |
+  | ------------------------- | --------------------- | ------------------------------------ |
+  | Alt + 9                   | ⌘ + 9                 | バージョン管理ウィンドウを表示する。 |
+  | Alt + 0                   | ⌘ + 0                 | コミットウィンドウを表示する。       |
+  | Alt + F12                 | ⌥ + F12               | ターミナルウィンドウを表示する。     |
 
 - ショートカット（リファクタリング系）
 
-  | Windows        | Mac                  | 概要                                 |
-  | -------------- | -------------------- | ------------------------------------ |
-  | Ctrl + Alt + T | Command + Option + T | 選択箇所をif、while、forなどで囲む。 |
-  | Ctrl + Alt + V | Command + Option + V | 変数を抽出する。("V"ariable)         |
-  | Ctrl + Alt + C | Command + Option + C | 定数を抽出する。("C"onstant)         |
-  | Ctrl + Alt + F | Command + Option + F | フィールドを抽出する。("F"ield)      |
-  | Ctrl + Alt + P | Command + Option + P | パラメータを抽出する。("P"arameter)  |
-  | Ctrl + Alt + M | Command + Option + M | メソッドを切り出す。("M"ethod)       |
-  | Ctrl + Alt + N | Command + Option + N | インライン展開を行う。(I"n"line)     |
+  | ショートカット（Windows） | ショートカット（Mac） | 概要                                 |
+  | ------------------------- | --------------------- | ------------------------------------ |
+  | Ctrl + Alt + T            | ⌘ + ⌥ + T             | 選択箇所をif、while、forなどで囲む。 |
+  | Ctrl + Alt + V            | ⌘ + ⌥ + V             | 変数を抽出する。("V"ariable)         |
+  | Ctrl + Alt + C            | ⌘ + ⌥ + C             | 定数を抽出する。("C"onstant)         |
+  | Ctrl + Alt + F            | ⌘ + ⌥ + F             | フィールドを抽出する。("F"ield)      |
+  | Ctrl + Alt + P            | ⌘ + ⌥ + P             | パラメータを抽出する。("P"arameter)  |
+  | Ctrl + Alt + M            | ⌘ + ⌥ + M             | メソッドを切り出す。("M"ethod)       |
+  | Ctrl + Alt + N            | ⌘ + ⌥ + N             | インライン展開を行う。(I"n"line)     |
 
 - [IntelliJ IDEA キーボードショートカット | IntelliJ IDEA](https://pleiades.io/help/idea/mastering-keyboard-shortcuts.html)
 
