@@ -4,20 +4,39 @@
 
 ### ショートカット
 
-- [忙しい人のためのIntelliJ IDEAショートカット集](https://qiita.com/yoppe/items/f7cbeb825c071691d3f2)
+- ショートカット
 
-  グループ|動作|Windows|Mac
-  ---|---|---|---
-  タブ|前のタブに移動||Command + Shift + [
-  タブ|後ろのタブに移動||Command + Shift + ]
-  編集|選択箇所をif、while、forなどで囲む|Ctrl + Alt + T|Command + Option+ T
-  編集|マルチカーソル|Alt + クリック|Option + Shift + クリック
-  リファクタリング|変数の抽出("V"ariable)|Ctrl + Alt + V|Command + Option + V
-  リファクタリング|定数の抽出("C"onstant)|Ctrl + Alt + C|Command + Option + C
-  リファクタリング|フィールドの抽出("F"ield)|Ctrl + Alt + F|Command + Option + F
-  リファクタリング|パラメータの抽出("P"arameter)|Ctrl + Alt + P|Command + Option + P
-  リファクタリング|メソッドの切り出し ("M"ethod)|Ctrl + Alt + M|Command + Option + M
-  リファクタリング|インライン展開 (I"n"line)|Ctrl + Alt + N|Command + Option + N
+  Windows|Mac|動作
+  ---|---|---
+  Ctrl + Alt + ←|Command + [|戻る。
+  Ctrl + Alt + →|Command + ]|進む。
+  Alt + ←|Command + Shift + [|前のタブに移動する。
+  Alt + →|Command + Shift + ]|後ろのタブに移動する。
+  Alt + クリック|Option + Shift + クリック|マルチカーソルを作成する。
+
+- ショートカット（ウィンドウ系）
+
+  | Windows   | Mac          | 動作                                 |
+  | --------- | ------------ | ------------------------------------ |
+  | Alt + 9   | Command + 9  | バージョン管理ウィンドウを表示する。 |
+  | Alt + 0   | Command + 0  | コミットウィンドウを表示する。       |
+  | Alt + F12 | Option + F12 | ターミナルウィンドウを表示する。     |
+
+- ショートカット（リファクタリング系）
+
+  | Windows        | Mac                  | 概要                                 |
+  | -------------- | -------------------- | ------------------------------------ |
+  | Ctrl + Alt + T | Command + Option + T | 選択箇所をif、while、forなどで囲む。 |
+  | Ctrl + Alt + V | Command + Option + V | 変数を抽出する。("V"ariable)         |
+  | Ctrl + Alt + C | Command + Option + C | 定数を抽出する。("C"onstant)         |
+  | Ctrl + Alt + F | Command + Option + F | フィールドを抽出する。("F"ield)      |
+  | Ctrl + Alt + P | Command + Option + P | パラメータを抽出する。("P"arameter)  |
+  | Ctrl + Alt + M | Command + Option + M | メソッドを切り出す。("M"ethod)       |
+  | Ctrl + Alt + N | Command + Option + N | インライン展開を行う。(I"n"line)     |
+
+- [IntelliJ IDEA キーボードショートカット | IntelliJ IDEA](https://pleiades.io/help/idea/mastering-keyboard-shortcuts.html)
+
+- [忙しい人のためのIntelliJ IDEAショートカット集](https://qiita.com/yoppe/items/f7cbeb825c071691d3f2)
 
 ### モジュール
 
