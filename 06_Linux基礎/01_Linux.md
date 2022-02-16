@@ -295,6 +295,8 @@
   | `/usr/share`          | アーキテクチャに依存しないファイルが配置される。             |
   | `/usr/share/man`      | マニュアルが配置される。                                     |
 
+- [「/bin」「/usr/bin」「/usr/local/bin」ディレクトリの使い分け - Linux技術者認定 LinuC | LPI-Japan](https://linuc.org/study/knowledge/544/)
+
 ## ライブラリ
 
 ### 静的ライブラリと共有ライブラリ
