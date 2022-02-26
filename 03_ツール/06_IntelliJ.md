@@ -1,10 +1,8 @@
 # IntelliJ
 
-## 共通
+## ショートカット
 
-### ショートカット
-
-- ショートカット
+### 基本系
 
 | ショートカット（Windows） |ショートカット（Mac）|概要|
 |------------------|------------------|---|
@@ -15,7 +13,7 @@
 |Alt + クリック       |⌥ + ⇧ + クリック|マルチカーソルを作成する。|
 | |⌘ + ⇧ + A|アクションを検索する。|
 
-- ショートカット（ウィンドウ系）
+### ウィンドウ系
 
 | ショートカット（Windows） | ショートカット（Mac） | 概要                                 |
 | ------------------------- | --------------------- | ------------------------------------ |
@@ -23,7 +21,7 @@
 | Alt + 0                   | ⌘ + 0                 | コミットウィンドウを表示する。       |
 | Alt + F12                 | ⌥ + F12               | ターミナルウィンドウを表示する。     |
 
-- ショートカット（リファクタリング系）
+### リファクタリング系
 
 | ショートカット（Windows） | ショートカット（Mac） | 概要                                 |
 | ------------------------- | --------------------- | ------------------------------------ |
@@ -35,9 +33,17 @@
 | Ctrl + Alt + M            | ⌘ + ⌥ + M             | メソッドを切り出す。("M"ethod)       |
 | Ctrl + Alt + N            | ⌘ + ⌥ + N             | インライン展開を行う。(I"n"line)     |
 
-- [IntelliJ IDEA キーボードショートカット | IntelliJ IDEA](https://pleiades.io/help/idea/mastering-keyboard-shortcuts.html)
+### ドキュメント
 
+- [IntelliJ IDEA キーボードショートカット | IntelliJ IDEA](https://pleiades.io/help/idea/mastering-keyboard-shortcuts.html)
 - [忙しい人のためのIntelliJ IDEAショートカット集](https://qiita.com/yoppe/items/f7cbeb825c071691d3f2)
+
+## その他
+
+### CLI
+
+- 「Toolbox App」を使うと、`idea`コマンド（`open -na "IntelliJ IDEA.app"`のエイリアス）が使用できるようになる。
+- [Command-line interface | IntelliJ IDEA](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox)
 
 ### モジュール
 
@@ -56,10 +62,3 @@
 ### その他
 
 - Updating indexex実行中はできる限り放置しておく。（コードを変更したりすると、無限にこの処理が繰り返される）
-
-## CLI
-
-### 概要
-
-- 「Toolbox App」を使うと、`idea`コマンド（`open -na "IntelliJ IDEA.app"`のエイリアス）が使用できるようになる。
-- [Command-line interface | IntelliJ IDEA](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox)
