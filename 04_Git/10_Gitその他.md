@@ -1,13 +1,5 @@
 # Gitその他
 
-## blame
-
-TODO あとで追記
-
-## reflog
-
-TODO あとで追記
-
 ## stash
 
 TODO あとで追記
