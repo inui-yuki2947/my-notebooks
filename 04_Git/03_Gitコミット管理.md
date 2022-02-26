@@ -58,6 +58,10 @@
 
 - [GitでMerge CommitをRevertする方法 - Qiita](https://qiita.com/awakia/items/5fad0c454ddc7b478ff1)
 
+## cherry-pick
+
+TODO あとで追記
+
 ## log
 
 ### コマンド

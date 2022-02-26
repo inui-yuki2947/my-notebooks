@@ -25,7 +25,7 @@
 | `user.name`  | ユーザー名     |
 | `user.email` | メールアドレス |
 
-## gitignore
+## .gitignore
 
 ### 概要
 
