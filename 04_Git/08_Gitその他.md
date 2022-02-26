@@ -1,9 +1,5 @@
 # Gitその他
 
-## init
-
-TODO あとで追記
-
 ## status
 
 TODO あとで追記
