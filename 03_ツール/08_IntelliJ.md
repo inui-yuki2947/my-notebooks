@@ -2,6 +2,14 @@
 
 ## ショートカット
 
+### トップキーボードショートカット
+
+| ショートカット（Windows） | ショートカット（Mac） | 概要                 |
+| ------------------------- | --------------------- | -------------------- |
+| Ctrl + Alt + S            | ⌘ + ,                 | 設定を開く。         |
+| Alt + Insert              | ⌘ + N                 | ファイルを生成する。 |
+| Ctrl + Ctrl               | ^ +                   | なんでも実行する。   |
+
 ### 複数のキャレットと選択範囲
 
 | ショートカット（Windows） | ショートカット（Mac） | 概要                       |
@@ -67,6 +75,8 @@
 
 ### ターミナル
 
+- [ターミナル | IntelliJ IDEA](https://pleiades.io/help/idea/terminal-emulator.html)
+- デフォルトのターミナルは、「設定」→「ツール」→「ターミナル」で、「Shell path」を`wsl.exe`などとして変更できる。
 - Windowsでは、標準でターミナルの日本語が文字化けするので、以下で対処する。
   [Windows版のIntelliJ IDEAのTerminalでGit bashを起動する - Qiita](https://qiita.com/EichiSanden/items/7c735c5d7ec33c51012c)
 
