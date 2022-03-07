@@ -93,19 +93,19 @@
 
 ## AWS CLI
 
-### 概要
+### ドキュメント
 
 - [AWS Command Line Interface Documentation](https://docs.aws.amazon.com/cli/index.html)
 
-- 書式
+### コマンド
 
-  ```bash
-  aws コマンド サブコマンド [パラメータ]
-  ```
+| コマンド                             | 概要                              |
+| ------------------------------------ | --------------------------------- |
+| `aws コマンド サブコマンド [パラメータ]` | AWS CLIの各種コマンドを実行する。 |
 
-### configure
+## configure
 
-- コマンド
+### コマンド
 
 |コマンド|概要|
 |---|---|
