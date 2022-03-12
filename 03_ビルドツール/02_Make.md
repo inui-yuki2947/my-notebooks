@@ -62,3 +62,12 @@
 | `$^`        | 現在のターゲットの全てのソースファイル。  |
 
 - [Makefile の特殊変数・自動変数の一覧 | 晴耕雨読](https://tex2e.github.io/blog/makefile/automatic-variables)
+
+### .PHONY
+
+```makefile
+.PHONY ターゲット ターゲット ...
+```
+
+- 実際にファイルを生成するわけではないターゲットは、もし同じ名前のファイルが作成されてしまうとコマンド実行されなくなるので、`.PHONY`ターゲットを追加しておくのがよい。
+- [MakefileのPHONYで便利コマンドを書く - なるぽのブログ](https://yu-nix.com/blog/2021/8/27/makefile-phony/#.PHONY%E3%81%AE%E5%BD%B9%E5%89%B2%E3%81%A8%E5%BF%85%E8%A6%81%E6%80%A7)
