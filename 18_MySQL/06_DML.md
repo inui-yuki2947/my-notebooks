@@ -19,6 +19,8 @@
   - 「UNION」は重複を除いて結合、「UNION ALL」は**重複を含めて**結合。
   - 「UNION」する場合は、型を一致させるよう注意する。（UNSIGNEDなど）
 
+- TODO あとで構文を整理
+
 ## INSERT
 
 - 「INSERT ... ON DUPLICATE KEY UPDATE」構文を用いることで、
