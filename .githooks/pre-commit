@@ -1,3 +1,5 @@
 #!/bin/bash
 
-markdownlint . && md-h1-check
+files=$(git diff --name-only --cached | grep '\.md$' | grep -v 'README\.md$')
+[ -z "$files" ] && exit
+echo "$files" | xargs markdownlint && md-h1-check "$files"
