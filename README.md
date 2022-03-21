@@ -35,5 +35,5 @@
 ## フォーマットの自動修正
 
 ```bash
-markdownlint -f . && md-h1-fix && fn-update
+markdownlint -f . && md-h1 -f && fn-update
 ```
