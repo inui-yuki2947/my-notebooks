@@ -1,0 +1,22 @@
+# JavaScriptブラウザ処理
+
+## 共通
+
+### console
+
+- コンソールでオブジェクトをログ出力する場合、あとからそのオブジェクトの状態を変更してしまうと、ログ上ではそのログ出力時点のオブジェクトの状態でなく、最新のオブジェクトの状態が表示されるので注意。
+- [console.log の落とし穴：console.log にはオブジェクトの参照が渡るので気を付けよう - Qiita](https://qiita.com/POPOPON/items/edc7a522d2ee9a50cc3a)
+- [JavaScriptでの賢いconsole.log( )の使い方 & その他便利なconsole.xxx( )使い方まとめ (dir・table・warn・groupとか) - Qiita](https://qiita.com/mtoyopet/items/7274761af5424cee342a)
+
+### その他
+
+- `location.href`で、ページのURLを取得できる。
+- `document.title`で、ページのタイトルを取得できる。
+
+## その他
+
+- 「setTimeout」は動作がいまいち。「requestAnimationFrame」がよさそう。
+  [[JavaScript] スクロールイベントを最適化してパフォーマンスを向上させる方法 - 零弐壱蜂](https://b.0218.jp/20180718164756.html)
+- [localStorageで複数のデータを保存する ｜ Tips Note by TAM](https://www.tam-tam.co.jp/tipsnote/javascript/post5978.html)
+- [なんとなく CORS がわかる...はもう終わりにする。 - Qiita](https://qiita.com/att55/items/2154a8aad8bf1409db2b)
+- [さいきょうの二重サブミット対策 - Qiita](https://qiita.com/syobochim/items/120109315f671918f28d)
