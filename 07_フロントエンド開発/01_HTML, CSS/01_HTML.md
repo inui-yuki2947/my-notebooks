@@ -62,9 +62,6 @@
 - 列幅を固定したい場合は、`table-layout: fixed;`を用いる。
   - [table-layout - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/table-layout)
   - [CSSでtable幅を設定するためのまとめ: 小粋空間](http://www.koikikukan.com/archives/2012/08/20-005555.php)
-- 「jquery-resizable-columns」は、テーブル幅をドラッグで変更できるようにするプラグイン。ただし挙動がいまいち。
-  - [GitHub](https://github.com/dobtco/jquery-resizable-columns)
-  - [tableの幅を変更できるプラグイン「jQuery Resizable Columns」を使ってみる | cly7796.net]((http://cly7796.net/wp/javascript/using-plugin-jquery-resizable-columns-which-can-change-the-width-of-table/))
 - テーブル内での文字省略
   - [table-layout: fixed; せずに text-overflow: ellipsis; する - コンパイラかく語りき](https://chuckwebtips.hatenablog.com/entry/2017/07/09/183527)
 
