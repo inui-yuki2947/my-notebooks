@@ -74,17 +74,6 @@
 - [console.log の落とし穴：console.log にはオブジェクトの参照が渡るので気を付けよう - Qiita](https://qiita.com/POPOPON/items/edc7a522d2ee9a50cc3a)
 - [JavaScriptでの賢いconsole.log( )の使い方 & その他便利なconsole.xxx( )使い方まとめ (dir・table・warn・groupとか) - Qiita](https://qiita.com/mtoyopet/items/7274761af5424cee342a)
 
-### ソースの表示
-
-- 「ページのソースを表示」では、SSR部分が静的なソースが表示される。
-- デベロッパーツールでは、CSR部分も適用された動的なソースが表示される。
-
-### スマホ
-
-- スマホでデベロッパーツールを使いたい場合は以下。
-  [Android の Chrome で開発者ツールを使う方法 - Qiita](https://qiita.com/hojishi/items/12b726f8b02ef3d713e4)
-  [実機iPhoneのSafariでWebインスペクタを使ってデバッグする方法 - Qiita](https://qiita.com/unsoluble_sugar/items/2a3d06631a6b8259dc44)
-
 ### その他
 
 - `location.href`で、ページのURLを取得できる。

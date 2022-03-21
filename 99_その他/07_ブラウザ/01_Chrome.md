@@ -37,3 +37,15 @@
 
 - TODO あとで調べる
 - [API Reference - Chrome Developers](https://developer.chrome.com/docs/extensions/reference/)
+
+## その他
+
+### ソースの表示
+
+- 「ページのソースを表示」では、SSR部分が静的なソースが表示される。
+- デベロッパーツールでは、CSR部分も適用された動的なソースが表示される。
+
+### スマホでのデベロッパーツール使用
+
+- [Android の Chrome で開発者ツールを使う方法 - Qiita](https://qiita.com/hojishi/items/12b726f8b02ef3d713e4)
+- [実機iPhoneのSafariでWebインスペクタを使ってデバッグする方法 - Qiita](https://qiita.com/unsoluble_sugar/items/2a3d06631a6b8259dc44)
