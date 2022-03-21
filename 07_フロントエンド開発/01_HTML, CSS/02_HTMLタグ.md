@@ -48,6 +48,11 @@
 | `name`    | メタデータの種類。 |
 | `content` | メタデータの内容。 |
 
+### OGP
+
+- 「Open Graph Protocol」の略。FacebookやTwitterなどのSNSでwebページやブログの記事がシェアされた時、またLINEなどのメッセージ機能でページのURLを送信した時に、そのページのタイトル、URL、概要、画像を表示させる仕組み。
+- [いまさら聞けない！OGPとは？ | ホームページ制作・作成なら大阪のweb制作.com](https://www.e-webseisaku.com/column/marketing/3947/)
+
 ## title
 
 ### タグ
