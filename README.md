@@ -6,6 +6,12 @@
 
 ## 事前準備
 
+- 「markdownlint-cli」をインストールする。
+
+  ```bash
+  brew install markdownlint-cli
+  ```
+
 - コミット前のGitフックを設定する。
 
   ```bash
@@ -25,3 +31,9 @@
 - コードブロックは、箇条書き等のインデントと合わせる。
 - 冒頭のコマンドプロンプト`$`は省略する。
 - 1回の実行ごとにコードブロックを分ける。
+
+## フォーマットの自動修正
+
+```bash
+markdownlint -f . && md-h1-fix && fn-update
+```
