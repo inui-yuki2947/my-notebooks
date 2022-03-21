@@ -46,7 +46,3 @@
   使用の際は、親要素に「display: flex」を指定するのみ。
   [CSSで横並びを表現できる5パターンとそれぞれの役割（使い所） | HPcode](https://haniwaman.com/side-by-side/)
 - [【コピペOKのサンプル付き】Flexboxはこの5パターン覚えておけば大丈夫！ | HPcode](https://haniwaman.com/flexbox/)
-
-## Bootstrap
-
-- [はじめに - Bootstrap 4.3 - 日本語リファレンス](https://getbootstrap.jp/docs/4.3/getting-started/introduction/)

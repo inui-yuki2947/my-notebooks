@@ -64,7 +64,3 @@
 ### その他
 
 - [タグテスト - HTMLタグを入力してブラウザ表示チェック/ホームページマスター](https://hmaster.net/tagtest.html)
-
-## Pug
-
-- [Getting Started – Pug](https://pugjs.org/api/getting-started.html)
