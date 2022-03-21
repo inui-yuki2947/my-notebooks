@@ -1,4 +1,4 @@
-# GitHub
+# その他/GitHub/GitHub
 
 ## リポジトリ
 

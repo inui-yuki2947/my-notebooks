@@ -1,4 +1,4 @@
-# GitHub CLI
+# その他/GitHub/GitHub CLI
 
 ## 共通
 

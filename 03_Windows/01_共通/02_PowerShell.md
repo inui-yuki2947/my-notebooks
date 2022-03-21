@@ -1,4 +1,4 @@
-# PowerShell
+# Windows/共通/PowerShell
 
 ## 共通
 

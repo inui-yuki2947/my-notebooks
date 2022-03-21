@@ -1,4 +1,4 @@
-# WSL
+# Windows/共通/WSL
 
 ## 共通
 

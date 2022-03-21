@@ -1,4 +1,4 @@
-# JavaScript
+# フロントエンド開発/JavaScript/JavaScript
 
 ## ドキュメント
 

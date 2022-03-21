@@ -1,4 +1,4 @@
-# JavaScript非同期処理
+# フロントエンド開発/JavaScript/JavaScript非同期処理
 
 ## 共通
 

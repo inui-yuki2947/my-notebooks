@@ -1,4 +1,4 @@
-# jQuery
+# フロントエンド開発/JavaScript/jQuery
 
 ## jQuery UI
 

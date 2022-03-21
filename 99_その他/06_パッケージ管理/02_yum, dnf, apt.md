@@ -1,4 +1,4 @@
-# yum, dnf, apt
+# その他/パッケージ管理/yum, dnf, apt
 
 ## 共通
 

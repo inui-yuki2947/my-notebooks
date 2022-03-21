@@ -1,4 +1,4 @@
-# Homebrew
+# その他/パッケージ管理/Homebrew
 
 ## 共通
 

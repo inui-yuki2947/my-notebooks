@@ -1,4 +1,4 @@
-# Kotlin
+# プログラミング言語/Java, Kotlin/Kotlin
 
 ## 共通
 

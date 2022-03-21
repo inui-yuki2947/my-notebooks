@@ -1,4 +1,4 @@
-# npm, yarn
+# その他/パッケージ管理/npm, yarn
 
 ## npm
 

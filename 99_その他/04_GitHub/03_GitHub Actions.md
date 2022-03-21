@@ -1,4 +1,4 @@
-# GitHub Actions
+# その他/GitHub/GitHub Actions
 
 ## 共通
 

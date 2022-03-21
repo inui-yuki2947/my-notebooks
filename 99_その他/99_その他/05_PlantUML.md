@@ -1,4 +1,4 @@
-# PlantUML
+# その他/その他/PlantUML
 
 ## 共通
 

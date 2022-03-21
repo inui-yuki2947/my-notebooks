@@ -1,4 +1,4 @@
-# Ruby
+# プログラミング言語/Ruby/Ruby
 
 ## CLI
 

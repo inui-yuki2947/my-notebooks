@@ -1,4 +1,4 @@
-# IntelliJ
+# その他/その他/IntelliJ
 
 ## ショートカット
 

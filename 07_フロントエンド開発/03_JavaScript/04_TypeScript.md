@@ -1,4 +1,4 @@
-# TypeScript
+# フロントエンド開発/JavaScript/TypeScript
 
 ## 共通
 

@@ -1,4 +1,4 @@
-# Finder
+# Mac/共通/Finder
 
 ## 共通
 
