@@ -1,4 +1,4 @@
-# Frontend/JavaScript/jQuery
+# JavaScript/共通/jQuery
 
 ## jQuery UI
 

@@ -1,4 +1,4 @@
-# Frontend/JavaScript/npm, yarn
+# JavaScript/共通/npm, yarn
 
 ## npm
 

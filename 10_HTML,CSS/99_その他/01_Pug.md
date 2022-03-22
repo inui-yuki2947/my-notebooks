@@ -1,4 +1,4 @@
-# Frontend/その他/Pug
+# HTML,CSS/その他/Pug
 
 ## 共通
 

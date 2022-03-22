@@ -1,4 +1,4 @@
-# Frontend/Vue/Nuxt
+# JavaScript/Vue/Nuxt
 
 ## 概要
 
