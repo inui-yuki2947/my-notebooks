@@ -1,4 +1,4 @@
-# Others/Git/Gitフック
+# Git/共通/Gitフック
 
 ## 共通
 
