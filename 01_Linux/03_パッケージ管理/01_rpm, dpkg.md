@@ -1,4 +1,4 @@
-# Others/パッケージ管理/rpm, dpkg
+# Linux/パッケージ管理/rpm, dpkg
 
 ## 共通
 

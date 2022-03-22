@@ -1,4 +1,4 @@
-# Others/パッケージ管理/Homebrew
+# Mac/共通/Homebrew
 
 ## 共通
 

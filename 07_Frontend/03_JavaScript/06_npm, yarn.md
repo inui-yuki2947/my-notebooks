@@ -1,4 +1,4 @@
-# Others/パッケージ管理/npm, yarn
+# Frontend/JavaScript/npm, yarn
 
 ## npm
 
