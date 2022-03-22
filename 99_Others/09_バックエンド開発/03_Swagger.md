@@ -1,4 +1,4 @@
-# Backend/その他/Swagger
+# Others/バックエンド開発/Swagger
 
 ## 共通
 

@@ -1,4 +1,4 @@
-# Backend/その他/Postman
+# Others/バックエンド開発/Postman
 
 ## 共通
 
