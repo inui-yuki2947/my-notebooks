@@ -1,5 +1,5 @@
 #!/bin/bash
 
-files=$(git diff --name-only --cached | grep '\.md' | grep -v 'README\.md')
+files=$(git diff --name-only --cached --diff-filter d | grep '\.md' | grep -v 'README\.md')
 [ -z "$files" ] && exit
 echo "${files//\"/}" | xargs markdownlint && md-h1 "$files"
