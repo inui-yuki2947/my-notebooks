@@ -1,0 +1,37 @@
+# Frontend/JavaScript/JavaScript
+
+## ドキュメント
+
+- [JavaScript リファレンス - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference)
+- [JSFiddle - Code Playground](https://jsfiddle.net/)
+
+## 文法
+
+### 繰り返し処理
+
+- 「for in」は、
+  - 処理の順序が保証されない。
+  - 仮引数には、**インデックス番号**が格納される。
+- 「for of」は、
+  - 仮引数には、**値**が格納される。
+- [【備忘録】配列におけるfor in と for of の違い - Qiita](https://qiita.com/nak435/items/0620284e74138ddb3dd4)
+- **オブジェクト**のループには、「Object.keys」を使う。
+  [JavaScriptで配列やオブジェクトをループする良い方法を真剣に検討してみた - Qiita](https://qiita.com/endam/items/808a084859e3a101ab8f)
+
+### this
+
+- コールバックとして定義済み関数を指定する（「.」を付けずに関数を呼び出す）場合などは、thisに注意する。
+- thisの束縛には、bind, call, applyが使える。
+  - bindは、関数自体にthisを束縛するイメージ
+  - call, applyは、実行時にthisを束縛するイメージ
+    （なお、applyは第2引数が配列になるという違いがある）
+
+### nullとundefined
+
+- `undefined`は、自動的な値（エラーに近い値）のイメージ。
+- 手動で値がないことを示す場合は、`null`にすべき。
+- [JavaScript: nullとundefinedの違い](https://javascript.step-learn.com/contents/J037-null-undefined.html)
+
+### スプレッド構文
+
+- ドット3つで、オブジェクトや配列の中身を展開できる。
