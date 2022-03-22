@@ -1,4 +1,4 @@
-# Others/その他/PlantUML
+# Others/テキスト形式/PlantUML
 
 ## 共通
 

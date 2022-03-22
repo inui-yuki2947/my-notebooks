@@ -1,4 +1,4 @@
-# Others/その他/Markdown
+# Others/テキスト形式/Markdown
 
 ## 文法
 
