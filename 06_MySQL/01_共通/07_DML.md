@@ -1,4 +1,4 @@
-# Backend/MySQL/DML
+# MySQL/共通/DML
 
 ## SELECT
 

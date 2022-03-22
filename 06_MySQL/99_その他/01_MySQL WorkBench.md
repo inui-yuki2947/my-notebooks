@@ -1,4 +1,4 @@
-# Backend/MySQL/MySQL WorkBench
+# MySQL/その他/MySQL WorkBench
 
 ## その他
 
