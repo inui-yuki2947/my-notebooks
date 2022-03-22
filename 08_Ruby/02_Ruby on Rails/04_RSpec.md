@@ -1,4 +1,4 @@
-# Programming/Ruby on Rails/RSpec
+# Ruby/Ruby on Rails/RSpec
 
 ## RSpec
 

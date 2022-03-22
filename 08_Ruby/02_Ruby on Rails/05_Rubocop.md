@@ -1,4 +1,4 @@
-# Programming/Ruby on Rails/Rubocop
+# Ruby/Ruby on Rails/Rubocop
 
 ## 共通
 
