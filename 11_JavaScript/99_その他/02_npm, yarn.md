@@ -1,4 +1,4 @@
-# JavaScript/共通/npm, yarn
+# JavaScript/その他/npm, yarn
 
 ## npm
 
