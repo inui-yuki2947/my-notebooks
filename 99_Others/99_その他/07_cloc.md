@@ -1,0 +1,17 @@
+# Others/その他/cloc
+
+## 共通
+
+### 概要
+
+- 「cloc」は、ファイルの行数を測定するツール。
+
+### ドキュメント
+
+- [AlDanial/cloc: cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.](https://github.com/AlDanial/cloc)
+
+### コマンド
+
+| コマンド    | 概要                           |
+| ----------- | ------------------------------ |
+| `cloc パス` | 指定したパスの行数を測定する。 |
