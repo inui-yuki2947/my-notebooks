@@ -60,11 +60,3 @@
 
 - `service`より`systemctl`コマンドを使うことが望ましい。
   [Linuxのコマンド実行で使うserviceとsystemctlの違いとは何か？ | CodeLog](https://www.toumasu-program.net/qfr8l41pigu2v05ztwbc)
-
-### launchctl
-
-- Macでは、`launchctl`コマンドでサービスを管理できる。
-
-  ```bash
-  launchctl サブコマンド
-  ```
