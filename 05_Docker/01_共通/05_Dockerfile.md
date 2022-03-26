@@ -1,4 +1,4 @@
-# その他/Docker/Dockerfile
+# Docker/共通/Dockerfile
 
 ## 基本
 

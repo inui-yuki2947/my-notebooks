@@ -1,4 +1,4 @@
-# その他/Docker/Docker Compose
+# Docker/共通/Docker Compose
 
 ## 共通
 
