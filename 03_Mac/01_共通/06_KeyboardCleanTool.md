@@ -1,4 +1,4 @@
-# Mac/その他/KeyboardCleanTool
+# Mac/共通/KeyboardCleanTool
 
 ## 共通
 

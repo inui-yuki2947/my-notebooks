@@ -1,4 +1,4 @@
-# Mac/その他/Clipy
+# Mac/共通/Clipy
 
 ## 共通
 

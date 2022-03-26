@@ -1,4 +1,4 @@
-# Mac/その他/HyperSwitch
+# Mac/共通/HyperSwitch
 
 ## 共通
 
