@@ -6,12 +6,21 @@
 
 - 「gore」は、Go言語のREPLツールである。
 
-  ```bash
-  gore
-  ```
-
-- `:import パッケージ`で、パッケージをインポートする。
-
-- `:quit`で、セッションを終了する。
+### ドキュメント
 
 - [x-motemen/gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/x-motemen/gore)
+
+## gore
+
+### コマンド
+
+| コマンド | 概要             |
+| -------- | ---------------- |
+| `gore`   | goreを起動する。 |
+
+### コマンド内コマンド
+
+| コマンド             | 概要                         |
+| -------------------- | ---------------------------- |
+| `:import パッケージ` | パッケージをインポートする。 |
+| `:quit`              | セッションを終了する。       |
