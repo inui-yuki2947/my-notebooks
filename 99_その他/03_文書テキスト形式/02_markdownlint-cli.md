@@ -1,4 +1,4 @@
-# その他/テキスト形式/markdownlint-cli
+# その他/文書テキスト形式/markdownlint-cli
 
 ## 共通
 
