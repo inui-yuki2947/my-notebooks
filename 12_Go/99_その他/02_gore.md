@@ -6,7 +6,7 @@
 
 - 「gore」は、Go言語のREPLツールである。
 
-### ドキュメント
+### 参考資料
 
 - [x-motemen/gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/x-motemen/gore)
 

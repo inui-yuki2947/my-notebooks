@@ -2,6 +2,6 @@
 
 ## 共通
 
-### ドキュメント
+### 参考資料
 
 - [はじめに - Bootstrap 4.3 - 日本語リファレンス](https://getbootstrap.jp/docs/4.3/getting-started/introduction/)

@@ -2,7 +2,7 @@
 
 ## 共通
 
-### ドキュメント
+### 参考資料
 
 - [peco/peco: Simplistic interactive filtering tool](https://github.com/peco/peco)
 

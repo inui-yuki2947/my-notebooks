@@ -52,7 +52,7 @@
 | Alt + 0                   | ⌘ + 0                 | コミットウィンドウを表示する。       |
 | Alt + F12                 | ⌥ + F12               | ターミナルウィンドウを表示する。     |
 
-### ドキュメント
+### 参考資料
 
 - [IntelliJ IDEA キーボードショートカット | IntelliJ IDEA](https://pleiades.io/help/idea/mastering-keyboard-shortcuts.html)
 - [忙しい人のためのIntelliJ IDEAショートカット集](https://qiita.com/yoppe/items/f7cbeb825c071691d3f2)

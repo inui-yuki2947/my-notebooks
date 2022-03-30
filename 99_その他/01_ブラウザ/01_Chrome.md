@@ -21,7 +21,7 @@
 | Alt + Home                      | ⌘ + ⇧ + H                | ホームページを現在のタブで開く                 |
 | Ctrl + Shift + リンクをクリック | ⌘ + ⇧ + リンクをクリック | リンクを開いてリンク先に移動する               |
 
-### ドキュメント
+### 参考資料
 
 - [Chrome のキーボード ショートカット - パソコン - Google Chrome ヘルプ](https://support.google.com/chrome/answer/157179?hl=ja&co=GENIE.Platform%3DDesktop)
 

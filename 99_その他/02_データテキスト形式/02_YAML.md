@@ -2,7 +2,7 @@
 
 ## 共通
 
-### ドキュメント
+### 参考資料
 
 - [プログラマーのための YAML 入門 (初級編)](https://magazine.rubyist.net/articles/0009/0009-YAML.html)
 

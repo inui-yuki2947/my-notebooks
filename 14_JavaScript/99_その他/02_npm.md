@@ -6,7 +6,7 @@
 
 - npm (Node Package Manager)は、公式のJavaScriptパッケージマネージャー。
 
-### ドキュメント
+### 参考資料
 
 - [npm入門 - とほほのWWW入門](https://www.tohoho-web.com/ex/npm.html)
 

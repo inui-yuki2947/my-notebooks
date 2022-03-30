@@ -12,7 +12,7 @@
 
 - 「jquery-resizable-columns」は、テーブル幅をドラッグで変更できるようにするプラグイン。ただし挙動がいまいち。
 
-### ドキュメント
+### 参考資料
 
 - [GitHub](https://github.com/dobtco/jquery-resizable-columns)
 - [tableの幅を変更できるプラグイン「jQuery Resizable Columns」を使ってみる | cly7796.net](http://cly7796.net/wp/javascript/using-plugin-jquery-resizable-columns-which-can-change-the-width-of-table/)

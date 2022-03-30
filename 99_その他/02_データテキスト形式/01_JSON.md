@@ -2,7 +2,7 @@
 
 ## 共通
 
-### ドキュメント
+### 参考資料
 
 - [JSON入門 - とほほのWWW入門](https://www.tohoho-web.com/ex/json.html)
 

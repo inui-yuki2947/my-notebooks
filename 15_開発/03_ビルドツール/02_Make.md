@@ -2,7 +2,7 @@
 
 ## 共通
 
-### ドキュメント
+### 参考資料
 
 - [makeコマンドの基本動作を理解する - Qiita](https://qiita.com/hotoku/items/6e50c9f8864e98468ac7)
 

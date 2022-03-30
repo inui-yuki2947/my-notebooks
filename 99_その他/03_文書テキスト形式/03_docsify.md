@@ -2,7 +2,7 @@
 
 ## 共通
 
-### ドキュメント
+### 参考資料
 
 - [docsify](https://docsify.js.org/#/)
 

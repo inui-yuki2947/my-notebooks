@@ -8,7 +8,7 @@
 - IntelliJでは、[PlantUML integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)というプラグインを入れる。
 - ファイル拡張子としては、`.pu`や`.puml`などを使う。
 
-### ドキュメント
+### 参考資料
 
 - [シンプルなテキストファイルで UML が書ける、オープンソースのツール](https://plantuml.com/ja/)
 - [PlantUML使い方メモ - Qiita](https://qiita.com/opengl-8080/items/98c510b8ca060bdd2ea3)
