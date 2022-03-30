@@ -31,6 +31,12 @@
 docsify serve docs
 ```
 
+### サイドバーの生成
+
+```bash
+scripts/generate-sidebar.sh
+```
+
 ### フォーマットの自動修正
 
 ```bash
