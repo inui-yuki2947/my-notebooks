@@ -34,7 +34,7 @@ docsify serve docs
 ### サイドバーの生成
 
 ```bash
-scripts/generate-sidebar.sh
+(cd docs && md-tree > _sidebar.md)
 ```
 
 ### フォーマットの自動修正
