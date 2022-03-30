@@ -1,10 +1,15 @@
-# README
+# my-notebooks
 
 ## 概要
 
 - 当リポジトリには、個人的な技術的ノートを格納する。
 
 ## 事前準備
+
+- 「docsify」をインストールする。
+  ```bash
+  npm install -g docsify-cli
+  ```
 
 - 「markdownlint-cli」をインストールする。
 
@@ -32,7 +37,15 @@
 - 冒頭のコマンドプロンプト`$`は省略する。
 - 1回の実行ごとにコードブロックを分ける。
 
-## フォーマットの自動修正
+## 各種操作
+
+### ローカルサーバーの起動
+
+```bash
+docsify serve docs
+```
+
+### フォーマットの自動修正
 
 ```bash
 markdownlint -f . && md-h1 -f && fn-update
