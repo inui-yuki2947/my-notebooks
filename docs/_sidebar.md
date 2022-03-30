@@ -1,5 +1,4 @@
 - [README.md](<./README.md>)
-- [_sidebar.md](<./_sidebar.md>)
 - 01_Linux
   - 01_共通
     - [01_共通.md](<./01_Linux/01_共通/01_共通.md>)
