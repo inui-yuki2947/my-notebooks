@@ -4,6 +4,11 @@
 
 - 当リポジトリには、個人的な技術的ノートを格納する。
 
+## 公開先
+
+- `/doc`ディレクトリ配下のファイルは、GitHub Pagesを用いて公開している。
+- https://inui-yuki2947.github.io/my-notebooks/#/
+
 ## 事前準備
 
 - 「docsify」をインストールする。
