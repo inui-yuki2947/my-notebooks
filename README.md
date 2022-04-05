@@ -39,7 +39,7 @@ docsify serve docs
 ### サイドバーの生成
 
 ```bash
-(cd docs && md-tree | grep -v '_sidebar\.md' > _sidebar.md)
+(cd docs && md-tree | grep -v '_sidebar\.md' | grep -v 'index\.html' > _sidebar.md)
 ```
 
 ### フォーマットの自動修正
