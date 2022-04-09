@@ -45,7 +45,8 @@ docsify serve docs
 ### フォーマットの自動修正
 
 ```bash
-markdownlint -f . && md-h1 -f && fn-update
+# TODO _sidebar.mdも除外するようにする。
+markdownlint -f docs; md-h1 -f docs; fn-update docs
 ```
 
 ## 規約
