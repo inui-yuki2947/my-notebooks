@@ -1,0 +1,8 @@
+{
+  "ignorePaths": [
+    "\\..*",
+    "README\\.md",
+    "_sidebar.md",
+    "index.html"
+  ]
+}
