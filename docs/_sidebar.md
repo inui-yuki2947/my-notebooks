@@ -259,15 +259,16 @@
     - [02_非同期処理.md](<./14_JavaScript/02_文法/02_非同期処理.md>)
     - [03_ブラウザ処理.md](<./14_JavaScript/02_文法/03_ブラウザ処理.md>)
     - [99_その他.md](<./14_JavaScript/02_文法/99_その他.md>)
-  - 03_TypeScript
-    - [01_共通.md](<./14_JavaScript/03_TypeScript/01_共通.md>)
-  - 04_Vuejs
-    - [01_共通.md](<./14_JavaScript/04_Vuejs/01_共通.md>)
-  - 05_Nuxtjs
-    - [01_共通.md](<./14_JavaScript/05_Nuxtjs/01_共通.md>)
-  - 06_パッケージ管理
-    - [01_npm.md](<./14_JavaScript/06_パッケージ管理/01_npm.md>)
-    - [02_yarn.md](<./14_JavaScript/06_パッケージ管理/02_yarn.md>)
+  - 03_npm
+    - [01_共通.md](<./14_JavaScript/03_npm/01_共通.md>)
+  - 04_yarn
+    - [01_共通.md](<./14_JavaScript/04_yarn/01_共通.md>)
+  - 05_TypeScript
+    - [01_共通.md](<./14_JavaScript/05_TypeScript/01_共通.md>)
+  - 06_Vuejs
+    - [01_共通.md](<./14_JavaScript/06_Vuejs/01_共通.md>)
+  - 07_Nuxtjs
+    - [01_共通.md](<./14_JavaScript/07_Nuxtjs/01_共通.md>)
   - 99_その他
     - [01_JSDoc.md](<./14_JavaScript/99_その他/01_JSDoc.md>)
     - [02_ESLint.md](<./14_JavaScript/99_その他/02_ESLint.md>)
