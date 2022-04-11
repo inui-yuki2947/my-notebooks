@@ -36,17 +36,10 @@
 docsify serve docs
 ```
 
-### サイドバーの生成
-
-```bash
-(cd docs && md-tree | grep -v '_sidebar\.md' | grep -v 'index\.html' > _sidebar.md)
-```
-
 ### フォーマットの自動修正
 
 ```bash
-# TODO _sidebar.mdも除外するようにする。
-markdownlint -f docs; md-h1 -f docs; fn-update docs
+scripts/reformat.sh docs/任意のディレクトリ
 ```
 
 ## 規約
