@@ -261,6 +261,7 @@
     - [99_その他.md](<./14_JavaScript/02_文法/99_その他.md>)
   - 03_npm
     - [01_共通.md](<./14_JavaScript/03_npm/01_共通.md>)
+    - [02_パッケージ管理.md](<./14_JavaScript/03_npm/02_パッケージ管理.md>)
   - 04_yarn
     - [01_共通.md](<./14_JavaScript/04_yarn/01_共通.md>)
   - 05_TypeScript
