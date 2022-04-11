@@ -1,4 +1,4 @@
-# JavaScript/その他/yarn
+# JavaScript/パッケージ管理/yarn
 
 ## 共通
 

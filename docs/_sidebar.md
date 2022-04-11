@@ -264,13 +264,14 @@
     - [01_共通.md](<./14_JavaScript/04_Vuejs/01_共通.md>)
   - 05_Nuxtjs
     - [01_共通.md](<./14_JavaScript/05_Nuxtjs/01_共通.md>)
+  - 06_パッケージ管理
+    - [01_npm.md](<./14_JavaScript/06_パッケージ管理/01_npm.md>)
+    - [02_yarn.md](<./14_JavaScript/06_パッケージ管理/02_yarn.md>)
   - 99_その他
-    - [01_npm.md](<./14_JavaScript/99_その他/01_npm.md>)
-    - [02_yarn.md](<./14_JavaScript/99_その他/02_yarn.md>)
-    - [03_JSDoc.md](<./14_JavaScript/99_その他/03_JSDoc.md>)
-    - [04_ESLint.md](<./14_JavaScript/99_その他/04_ESLint.md>)
-    - [05_lodash.md](<./14_JavaScript/99_その他/05_lodash.md>)
-    - [06_jQuery.md](<./14_JavaScript/99_その他/06_jQuery.md>)
+    - [01_JSDoc.md](<./14_JavaScript/99_その他/01_JSDoc.md>)
+    - [02_ESLint.md](<./14_JavaScript/99_その他/02_ESLint.md>)
+    - [03_lodash.md](<./14_JavaScript/99_その他/03_lodash.md>)
+    - [04_jQuery.md](<./14_JavaScript/99_その他/04_jQuery.md>)
 - 15_開発
   - 01_共通
     - [01_設計.md](<./15_開発/01_共通/01_設計.md>)

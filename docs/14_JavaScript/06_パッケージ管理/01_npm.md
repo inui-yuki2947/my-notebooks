@@ -1,4 +1,4 @@
-# JavaScript/その他/npm
+# JavaScript/パッケージ管理/npm
 
 ## 共通
 
