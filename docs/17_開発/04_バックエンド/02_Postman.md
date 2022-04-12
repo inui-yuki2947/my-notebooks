@@ -30,6 +30,10 @@
 
 - URLやリクエストでは、`{{変数名}}`の形式で変数の値を参照できる。
 
+### その他
+
+- URL内で`:変数名`とすると、パスパラメータを使用できる。
+
 ### 参考資料
 
 - [Using variables | Postman Learning Center](https://learning.postman.com/docs/sending-requests/variables/)
