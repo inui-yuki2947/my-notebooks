@@ -19,6 +19,10 @@
 - 「markdownlint-cli」をインストールする。
 
   ```bash
+  npm install -g markdownlint-cli
+  ```
+
+  ```bash
   brew install markdownlint-cli
   ```
 
