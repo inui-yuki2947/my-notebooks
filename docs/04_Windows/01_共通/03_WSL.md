@@ -11,6 +11,7 @@
 
 - [WSL のインストール | Microsoft Docs](https://docs.microsoft.com/ja-jp/windows/wsl/install)
 - [シェルスクリプトに挑戦しよう（2）Windows 10のbashを試す！：“応用力”をつけるためのLinux再入門（22）（1/2 ページ） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1809/14/news015.html)
+- [シス管系女子BEGINS 特別編 まんがでわかるWSL - 【シス管系女子】特設サイト](https://system-admin-girl.com/comic/begins/sp-wsl/#p7)
 
 ### 初期設定
 
