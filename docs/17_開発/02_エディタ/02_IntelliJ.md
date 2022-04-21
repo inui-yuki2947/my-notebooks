@@ -64,12 +64,24 @@
 - [IntelliJ IDEA キーボードショートカット | IntelliJ IDEA](https://pleiades.io/help/idea/mastering-keyboard-shortcuts.html)
 - [忙しい人のためのIntelliJ IDEAショートカット集](https://qiita.com/yoppe/items/f7cbeb825c071691d3f2)
 
-## その他
+## CLI
 
-### CLI
+### 概要
 
 - 「Toolbox App」を使うと、`idea`コマンド（`open -na "IntelliJ IDEA.app"`のエイリアス）が使用できるようになる。
+
+### コマンド
+
+| コマンド             | 概要                                          |
+| -------------------- | --------------------------------------------- |
+| `idea`               | IntelliJ IDEAを開く。                         |
+| `idea ファイル名...` | IntelliJ IDEAで、指定したファイルを全て開く。 |
+
+### 参考資料
+
 - [Command-line interface | IntelliJ IDEA](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox)
+
+## その他
 
 ### モジュール
 
