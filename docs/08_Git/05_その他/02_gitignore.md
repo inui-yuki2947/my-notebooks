@@ -1,4 +1,4 @@
-# Git/設定/gitignore
+# Git/その他/gitignore
 
 ## 共通
 
