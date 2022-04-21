@@ -1,4 +1,4 @@
-# JavaScript/その他/jQuery
+# JavaScript/ブラウザ処理/jQuery
 
 ## jQuery UI
 

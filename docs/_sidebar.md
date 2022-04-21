@@ -262,18 +262,19 @@
   - 02_文法
     - [01_制御構造.md](<./14_JavaScript/02_文法/01_制御構造.md>)
     - [02_非同期処理.md](<./14_JavaScript/02_文法/02_非同期処理.md>)
-    - [03_ブラウザ処理.md](<./14_JavaScript/02_文法/03_ブラウザ処理.md>)
     - [99_その他.md](<./14_JavaScript/02_文法/99_その他.md>)
   - 03_npm
     - [01_共通.md](<./14_JavaScript/03_npm/01_共通.md>)
     - [02_パッケージ管理.md](<./14_JavaScript/03_npm/02_パッケージ管理.md>)
   - 04_yarn
     - [01_共通.md](<./14_JavaScript/04_yarn/01_共通.md>)
+  - 05_ブラウザ処理
+    - [01_共通.md](<./14_JavaScript/05_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./14_JavaScript/05_ブラウザ処理/02_jQuery.md>)
   - 99_その他
     - [01_JSDoc.md](<./14_JavaScript/99_その他/01_JSDoc.md>)
     - [02_ESLint.md](<./14_JavaScript/99_その他/02_ESLint.md>)
     - [03_lodash.md](<./14_JavaScript/99_その他/03_lodash.md>)
-    - [04_jQuery.md](<./14_JavaScript/99_その他/04_jQuery.md>)
 - 15_TypeScript
   - 01_共通
     - [01_共通.md](<./15_TypeScript/01_共通/01_共通.md>)
