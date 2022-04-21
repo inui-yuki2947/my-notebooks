@@ -1,8 +1,12 @@
 # MySQL/その他/MySQL WorkBench
 
-## その他
+## 共通
 
-### その他
+### 参考資料
+
+- [MySQL :: MySQL Workbench](https://www.mysql.com/jp/products/workbench/)
+
+## その他
 
 - 主キーをWHERE条件とせずDELETEを行いたい場合は、以下のようにする。
 
