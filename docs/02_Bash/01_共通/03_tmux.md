@@ -1,4 +1,4 @@
-# Bash/その他/tmux
+# Bash/共通/tmux
 
 ## 共通
 
