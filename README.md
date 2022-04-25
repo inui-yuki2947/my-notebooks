@@ -9,28 +9,11 @@
 - `/doc`ディレクトリ配下のファイルは、GitHub Pagesを用いて公開している。
 - https://inui-yuki2947.github.io/my-notebooks/#/
 
-## 事前準備
+## 初期設定
 
-- 「docsify」をインストールする。
-  ```bash
-  npm install -g docsify-cli
-  ```
-
-- 「markdownlint-cli」をインストールする。
-
-  ```bash
-  npm install -g markdownlint-cli
-  ```
-
-  ```bash
-  brew install markdownlint-cli
-  ```
-
-- コミット前のGitフックを設定する。
-
-  ```bash
-  git config core.hooksPath .githooks
-  ```
+```bash
+./init.sh
+```
 
 ## 各種操作
 
