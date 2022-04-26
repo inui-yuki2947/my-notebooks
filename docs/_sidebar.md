@@ -256,8 +256,9 @@
 - 13_HTML,CSS
   - 01_HTML
     - [01_共通.md](<./13_HTML,CSS/01_HTML/01_共通.md>)
-    - [02_文書情報・構造.md](<./13_HTML,CSS/01_HTML/02_文書情報・構造.md>)
-    - [03_リンク.md](<./13_HTML,CSS/01_HTML/03_リンク.md>)
+    - [02_文書外枠.md](<./13_HTML,CSS/01_HTML/02_文書外枠.md>)
+    - [03_文書情報.md](<./13_HTML,CSS/01_HTML/03_文書情報.md>)
+    - [04_リンク.md](<./13_HTML,CSS/01_HTML/04_リンク.md>)
     - [99_その他.md](<./13_HTML,CSS/01_HTML/99_その他.md>)
   - 02_CSS
     - [01_共通.md](<./13_HTML,CSS/02_CSS/01_共通.md>)
