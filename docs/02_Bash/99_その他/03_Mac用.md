@@ -1,4 +1,4 @@
-# Mac/Bash/共通
+# Bash/その他/Mac用
 
 ## launchctl
 

@@ -106,20 +106,19 @@
   - 99_その他
     - [01_引数処理.md](<./02_Bash/99_その他/01_引数処理.md>)
     - [02_標準入出力処理.md](<./02_Bash/99_その他/02_標準入出力処理.md>)
-    - [03_cloc.md](<./02_Bash/99_その他/03_cloc.md>)
+    - [03_Mac用.md](<./02_Bash/99_その他/03_Mac用.md>)
+    - [04_cloc.md](<./02_Bash/99_その他/04_cloc.md>)
     - [99_その他.md](<./02_Bash/99_その他/99_その他.md>)
 - 03_Mac
   - 01_共通
     - [01_共通.md](<./03_Mac/01_共通/01_共通.md>)
     - [02_ショートカット.md](<./03_Mac/01_共通/02_ショートカット.md>)
-    - [03_Finder.md](<./03_Mac/01_共通/03_Finder.md>)
-    - [04_HyperSwitch.md](<./03_Mac/01_共通/04_HyperSwitch.md>)
-    - [05_Karabiner-Elements.md](<./03_Mac/01_共通/05_Karabiner-Elements.md>)
-    - [06_KeyboardCleanTool.md](<./03_Mac/01_共通/06_KeyboardCleanTool.md>)
-    - [07_Clipy.md](<./03_Mac/01_共通/07_Clipy.md>)
-  - 02_Bash
-    - [01_共通.md](<./03_Mac/02_Bash/01_共通.md>)
-    - [02_Homebrew.md](<./03_Mac/02_Bash/02_Homebrew.md>)
+    - [03_Homebrew.md](<./03_Mac/01_共通/03_Homebrew.md>)
+    - [04_Finder.md](<./03_Mac/01_共通/04_Finder.md>)
+    - [05_HyperSwitch.md](<./03_Mac/01_共通/05_HyperSwitch.md>)
+    - [06_Karabiner-Elements.md](<./03_Mac/01_共通/06_Karabiner-Elements.md>)
+    - [07_KeyboardCleanTool.md](<./03_Mac/01_共通/07_KeyboardCleanTool.md>)
+    - [08_Clipy.md](<./03_Mac/01_共通/08_Clipy.md>)
 - 04_Windows
   - 01_共通
     - [01_共通.md](<./04_Windows/01_共通/01_共通.md>)
