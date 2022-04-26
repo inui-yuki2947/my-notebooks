@@ -8,7 +8,7 @@ set -e
 # scripts/reformat.sh
 # scripts/reformat.sh docs/01_Linux
 
-docs_dir=$(dirname "$0")/../docs
+docs_dir=$(dirname "$0")/docs
 target_dir="${1:-$docs_dir}"
 sidebar_file="${docs_dir}/_sidebar.md"
 

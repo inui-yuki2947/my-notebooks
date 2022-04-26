@@ -26,7 +26,7 @@ docsify serve docs
 ### フォーマットの自動修正
 
 ```bash
-scripts/reformat.sh docs/任意のディレクトリ
+./reformat.sh docs/任意のディレクトリ
 ```
 
 ## 規約
