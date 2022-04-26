@@ -83,14 +83,14 @@
 
 ## その他
 
-### モジュール
-
-- TODO あとで調べる
-
 ### 設定
 
-- 「Version Control」-> 「Git」の「enable staging area」をONにすると、Gitのステージング機能が利用できる。
 - `.iml`という拡張子で、設定ファイルが生成される。
+- [IDE 設定を共有する | IntelliJ IDEA](https://pleiades.io/help/idea/sharing-your-ide-settings.html)
+
+### Git
+
+- 「Version Control」-> 「Git」の「enable staging area」をONにすると、Gitのステージング機能が利用できる。
 
 ### ターミナル
 
@@ -98,6 +98,10 @@
 - デフォルトのターミナルは、「設定」→「ツール」→「ターミナル」で、「Shell path」を`wsl.exe`などとして変更できる。
 - Windowsでは、標準でターミナルの日本語が文字化けするので、以下で対処する。
   [Windows版のIntelliJ IDEAのTerminalでGit bashを起動する - Qiita](https://qiita.com/EichiSanden/items/7c735c5d7ec33c51012c)
+
+### モジュール
+
+- TODO あとで調べる
 
 ### その他
 
