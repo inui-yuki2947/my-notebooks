@@ -274,7 +274,8 @@
     - [03_Bootstrap.md](<./13_HTML,CSS/99_その他/03_Bootstrap.md>)
 - 14_JavaScript
   - 01_共通
-    - [01_共通.md](<./14_JavaScript/01_共通/01_共通.md>)
+    - [01_node.md](<./14_JavaScript/01_共通/01_node.md>)
+    - [02_nvm.md](<./14_JavaScript/01_共通/02_nvm.md>)
   - 02_文法
     - [01_制御構造.md](<./14_JavaScript/02_文法/01_制御構造.md>)
     - [02_非同期処理.md](<./14_JavaScript/02_文法/02_非同期処理.md>)

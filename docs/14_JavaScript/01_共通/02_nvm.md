@@ -1,29 +1,6 @@
-# JavaScript/共通/共通
+# JavaScript/共通/nvm
 
 ## 共通
-
-### インストール
-
-- [MacにNode.jsをインストール - Qiita](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09)
-
-### 参考資料
-
-- [JavaScript リファレンス - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference)
-- [Node.js](https://nodejs.org/ja/)
-- [JSFiddle - Code Playground](https://jsfiddle.net/)
-
-## node
-
-### コマンド
-
-| コマンド                   | 概要                                 |
-| -------------------------- | ------------------------------------ |
-| `node -v`                  | nodeのバージョンを表示する。         |
-| `node`                     | nodeの対話的環境を起動する。         |
-| `node JS形式ファイル`      | 指定したJS形式ファイルを実行する。   |
-| `node -e JS形式スクリプト` | 指定したJS形式スクリプトを実行する。 |
-
-## nvm
 
 ### 概要
 
@@ -35,33 +12,41 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-### コマンド（基本）
+### 参考資料
+
+- [nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm)
+
+## nvm
+
+### コマンド
 
 | コマンド        | 概要                        |
 | --------------- | --------------------------- |
 | `nvm --version` | nvmのバージョンを表示する。 |
 | `nvm --help`    | nvmのヘルプを表示する。     |
 
-### コマンド（インストール系）
+## nvm install
+
+### コマンド
 
 | コマンド                 | 概要                                         |
 | ------------------------ | -------------------------------------------- |
 | `nvm install node`       | 最新バージョンのnodeをインストールする。     |
 | `nvm install バージョン` | 指定したバージョンのnodeをインストールする。 |
 
-### コマンド（表示系）
+## nvm ls, ls-remote
+
+### コマンド
 
 | コマンド        | 概要                                     |
 | --------------- | ---------------------------------------- |
 | `nvm ls`        | インストールされたnodeの一覧を表示する。 |
 | `nvm ls-remote` | インストール可能なnodeの一覧を表示する。 |
 
-### コマンド（その他）
+## nvm use
+
+### コマンド
 
 | コマンド             | 概要                                 |
 | -------------------- | ------------------------------------ |
 | `nvm use バージョン` | 指定したバージョンのnodeを使用する。 |
-
-### 参考資料
-
-- [nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm)
