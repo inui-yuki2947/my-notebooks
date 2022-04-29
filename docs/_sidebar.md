@@ -273,19 +273,21 @@
     - [03_Bootstrap.md](<./13_HTML,CSS/99_その他/03_Bootstrap.md>)
 - 14_JavaScript
   - 01_共通
-    - [01_node.md](<./14_JavaScript/01_共通/01_node.md>)
-    - [02_nvm.md](<./14_JavaScript/01_共通/02_nvm.md>)
+    - [01_共通.md](<./14_JavaScript/01_共通/01_共通.md>)
   - 02_文法
     - [01_制御構造.md](<./14_JavaScript/02_文法/01_制御構造.md>)
     - [02_非同期処理.md](<./14_JavaScript/02_文法/02_非同期処理.md>)
     - [99_その他.md](<./14_JavaScript/02_文法/99_その他.md>)
-  - 03_npm
-    - [01_共通.md](<./14_JavaScript/03_npm/01_共通.md>)
-    - [02_パッケージ管理.md](<./14_JavaScript/03_npm/02_パッケージ管理.md>)
-    - [03_タスク管理.md](<./14_JavaScript/03_npm/03_タスク管理.md>)
-  - 04_ブラウザ処理
-    - [01_共通.md](<./14_JavaScript/04_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./14_JavaScript/04_ブラウザ処理/02_jQuery.md>)
+  - 03_バージョン管理
+    - [01_共通.md](<./14_JavaScript/03_バージョン管理/01_共通.md>)
+    - [02_nvm.md](<./14_JavaScript/03_バージョン管理/02_nvm.md>)
+  - 04_npm
+    - [01_共通.md](<./14_JavaScript/04_npm/01_共通.md>)
+    - [02_パッケージ管理.md](<./14_JavaScript/04_npm/02_パッケージ管理.md>)
+    - [03_タスク管理.md](<./14_JavaScript/04_npm/03_タスク管理.md>)
+  - 05_ブラウザ処理
+    - [01_共通.md](<./14_JavaScript/05_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./14_JavaScript/05_ブラウザ処理/02_jQuery.md>)
   - 99_その他
     - [01_JSDoc.md](<./14_JavaScript/99_その他/01_JSDoc.md>)
     - [02_ESLint.md](<./14_JavaScript/99_その他/02_ESLint.md>)
