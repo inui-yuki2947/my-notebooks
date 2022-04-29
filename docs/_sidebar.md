@@ -283,11 +283,9 @@
     - [01_共通.md](<./14_JavaScript/03_npm/01_共通.md>)
     - [02_パッケージ管理.md](<./14_JavaScript/03_npm/02_パッケージ管理.md>)
     - [03_タスク管理.md](<./14_JavaScript/03_npm/03_タスク管理.md>)
-  - 04_yarn
-    - [01_共通.md](<./14_JavaScript/04_yarn/01_共通.md>)
-  - 05_ブラウザ処理
-    - [01_共通.md](<./14_JavaScript/05_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./14_JavaScript/05_ブラウザ処理/02_jQuery.md>)
+  - 04_ブラウザ処理
+    - [01_共通.md](<./14_JavaScript/04_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./14_JavaScript/04_ブラウザ処理/02_jQuery.md>)
   - 99_その他
     - [01_JSDoc.md](<./14_JavaScript/99_その他/01_JSDoc.md>)
     - [02_ESLint.md](<./14_JavaScript/99_その他/02_ESLint.md>)
