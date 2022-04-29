@@ -113,10 +113,7 @@
     - [02_ショートカット.md](<./03_Mac/01_共通/02_ショートカット.md>)
     - [03_Homebrew.md](<./03_Mac/01_共通/03_Homebrew.md>)
     - [04_Finder.md](<./03_Mac/01_共通/04_Finder.md>)
-    - [05_HyperSwitch.md](<./03_Mac/01_共通/05_HyperSwitch.md>)
-    - [06_Karabiner-Elements.md](<./03_Mac/01_共通/06_Karabiner-Elements.md>)
-    - [07_KeyboardCleanTool.md](<./03_Mac/01_共通/07_KeyboardCleanTool.md>)
-    - [08_Clipy.md](<./03_Mac/01_共通/08_Clipy.md>)
+    - [99_その他.md](<./03_Mac/01_共通/99_その他.md>)
 - 04_Windows
   - 01_共通
     - [01_共通.md](<./04_Windows/01_共通/01_共通.md>)
