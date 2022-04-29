@@ -1,4 +1,4 @@
-# Linux/包括パッケージ管理/yum, dnf
+# Linux/パッケージ管理/yum, dnf
 
 ## 共通
 

@@ -1,4 +1,4 @@
-# Linux/包括パッケージ管理/zypper
+# Linux/パッケージ管理/zypper
 
 ## zypper
 
