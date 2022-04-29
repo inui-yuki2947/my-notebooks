@@ -1,4 +1,4 @@
-# Mac/共通/Homebrew
+# その他/Mac/Homebrew
 
 ## 共通
 

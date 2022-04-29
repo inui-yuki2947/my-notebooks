@@ -1,4 +1,4 @@
-# Windows/共通/WSL
+# その他/Windows/WSL
 
 ## 共通
 
