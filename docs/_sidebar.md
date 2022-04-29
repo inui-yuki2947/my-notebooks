@@ -281,6 +281,7 @@
   - 03_npm
     - [01_共通.md](<./14_JavaScript/03_npm/01_共通.md>)
     - [02_パッケージ管理.md](<./14_JavaScript/03_npm/02_パッケージ管理.md>)
+    - [03_タスク管理.md](<./14_JavaScript/03_npm/03_タスク管理.md>)
   - 04_yarn
     - [01_共通.md](<./14_JavaScript/04_yarn/01_共通.md>)
   - 05_ブラウザ処理
