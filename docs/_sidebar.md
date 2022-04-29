@@ -316,8 +316,7 @@
     - [01_Markdown.md](<./16_開発/07_文書テキスト形式/01_Markdown.md>)
     - [02_markdownlint-cli.md](<./16_開発/07_文書テキスト形式/02_markdownlint-cli.md>)
     - [03_docsify.md](<./16_開発/07_文書テキスト形式/03_docsify.md>)
-    - [04_Textile.md](<./16_開発/07_文書テキスト形式/04_Textile.md>)
-    - [05_PlantUML.md](<./16_開発/07_文書テキスト形式/05_PlantUML.md>)
+    - [04_PlantUML.md](<./16_開発/07_文書テキスト形式/04_PlantUML.md>)
 - 99_その他
   - 01_Windows
     - [01_共通.md](<./99_その他/01_Windows/01_共通.md>)
