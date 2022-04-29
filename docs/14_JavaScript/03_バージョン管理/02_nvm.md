@@ -2,10 +2,6 @@
 
 ## 共通
 
-### 概要
-
-- 「nvm」は、Node.jsのバージョン管理ツール。
-
 ### インストール
 
 ```bash
@@ -16,14 +12,21 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 - [nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm)
 
-## nvm
+## nvm --version
 
 ### コマンド
 
 | コマンド        | 概要                        |
 | --------------- | --------------------------- |
 | `nvm --version` | nvmのバージョンを表示する。 |
-| `nvm --help`    | nvmのヘルプを表示する。     |
+
+## nvm --help
+
+### コマンド
+
+| コマンド     | 概要                    |
+| ------------ | ----------------------- |
+| `nvm --help` | nvmのヘルプを表示する。 |
 
 ## nvm install
 
