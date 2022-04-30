@@ -82,7 +82,8 @@
 
 ### Git
 
-- 「Version Control」-> 「Git」の「enable staging area」をONにすると、Gitのステージング機能が利用できる。
+- 「Version Control」->「Git」->「enable staging area」をONにすると、Gitのステージング機能が利用できる。
+- WSLを使用する場合は、「Version Control」->「Git」->「Path to Git executable」を、`\\wsl$\Ubuntu\usr\bin\git`などに変更する。
 
 ### ターミナル
 
