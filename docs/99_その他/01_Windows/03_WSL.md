@@ -79,6 +79,7 @@ wsl --install
 - WSL環境からWindows環境で普段使用しているファイルは、`/mnt/ドライブ名`（例：`/mnt/c`）でアクセスできる。
 
 - ホームディレクトリをマウントされたディレクトリに変更しておくとよい。
+
   ```bash
   sudo vim /etc/passwd
   ```
