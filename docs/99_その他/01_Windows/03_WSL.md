@@ -95,6 +95,7 @@ wsl --install
 - Windows環境からWSLのファイルには、`\\wsl$\ディストリビューション`（例：`\\wsl$\Ubuntu`）でアクセスできる。
 
 - ホームディレクトリを`/mnt`配下のディレクトリに変更すると、起動がかなり遅くなってしまうので注意。
+  [Windows + WSL2 + docker + laravel を 10 倍速くする方法](https://www.aska-ltd.jp/jp/blog/197)
 
 ### メタデータ
 
