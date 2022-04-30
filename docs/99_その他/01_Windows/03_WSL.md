@@ -13,12 +13,14 @@
 - [シェルスクリプトに挑戦しよう（2）Windows 10のbashを試す！：“応用力”をつけるためのLinux再入門（22）（1/2 ページ） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1809/14/news015.html)
 - [シス管系女子BEGINS 特別編 まんがでわかるWSL - 【シス管系女子】特設サイト](https://system-admin-girl.com/comic/begins/sp-wsl/#p7)
 
-### 初期設定
+## インストール
 
-- 「Windowsの機能の有効化または無効化」で、下記にチェックを入れる。（旧：Windows Subsystem for Linux）
+### 共通
+
+1. 「Windowsの機能の有効化または無効化」で、下記にチェックを入れる。（旧：Windows Subsystem for Linux）
   - Linux用Windowsサブシステム
   - 仮想マシンプラットフォーム
-- Microsoft Storeで、Linuxディストリビューション（例：Ubuntu）をインストールする。
+2. Microsoft Storeで、Linuxディストリビューション（例：Ubuntu）をインストールする。
 
 ## ファイルのマウント
 
