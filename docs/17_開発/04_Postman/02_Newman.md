@@ -1,4 +1,4 @@
-# 開発/バックエンド/Newman
+# 開発/Postman/Newman
 
 ## 共通
 
