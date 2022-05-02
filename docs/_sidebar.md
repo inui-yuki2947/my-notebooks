@@ -279,27 +279,24 @@
 - 13_JavaScript
   - 01_共通
     - [01_共通.md](<./13_JavaScript/01_共通/01_共通.md>)
-    - [02_コマンド.md](<./13_JavaScript/01_共通/02_コマンド.md>)
+    - [02_nvm.md](<./13_JavaScript/01_共通/02_nvm.md>)
+    - [03_コマンド.md](<./13_JavaScript/01_共通/03_コマンド.md>)
   - 02_文法
     - [01_制御構造.md](<./13_JavaScript/02_文法/01_制御構造.md>)
     - [02_非同期処理.md](<./13_JavaScript/02_文法/02_非同期処理.md>)
     - [99_その他.md](<./13_JavaScript/02_文法/99_その他.md>)
-  - 03_バージョン管理
-    - [01_共通.md](<./13_JavaScript/03_バージョン管理/01_共通.md>)
-    - [02_nvm.md](<./13_JavaScript/03_バージョン管理/02_nvm.md>)
-  - 04_npm,yarn
-    - [01_npm.md](<./13_JavaScript/04_npm,yarn/01_npm.md>)
-    - [02_yarn.md](<./13_JavaScript/04_npm,yarn/02_yarn.md>)
-    - [03_パッケージ管理.md](<./13_JavaScript/04_npm,yarn/03_パッケージ管理.md>)
-    - [04_タスク管理.md](<./13_JavaScript/04_npm,yarn/04_タスク管理.md>)
-  - 05_ブラウザ処理
-    - [01_共通.md](<./13_JavaScript/05_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./13_JavaScript/05_ブラウザ処理/02_jQuery.md>)
+  - 03_npm,yarn
+    - [01_npm.md](<./13_JavaScript/03_npm,yarn/01_npm.md>)
+    - [02_yarn.md](<./13_JavaScript/03_npm,yarn/02_yarn.md>)
+    - [03_パッケージ管理.md](<./13_JavaScript/03_npm,yarn/03_パッケージ管理.md>)
+    - [04_タスク管理.md](<./13_JavaScript/03_npm,yarn/04_タスク管理.md>)
+  - 04_ブラウザ処理
+    - [01_共通.md](<./13_JavaScript/04_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./13_JavaScript/04_ブラウザ処理/02_jQuery.md>)
   - 99_その他
     - [01_JSDoc.md](<./13_JavaScript/99_その他/01_JSDoc.md>)
     - [02_ESLint.md](<./13_JavaScript/99_その他/02_ESLint.md>)
     - [03_lodash.md](<./13_JavaScript/99_その他/03_lodash.md>)
-    - [99_その他.md](<./13_JavaScript/99_その他/99_その他.md>)
 - 14_TypeScript
   - 01_共通
     - [01_共通.md](<./14_TypeScript/01_共通/01_共通.md>)
