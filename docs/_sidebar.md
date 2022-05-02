@@ -122,6 +122,7 @@
     - [01_共通.md](<./03_Windows/02_PowerShell/01_共通.md>)
   - 03_WSL
     - [01_共通.md](<./03_Windows/03_WSL/01_共通.md>)
+    - [02_コマンド.md](<./03_Windows/03_WSL/02_コマンド.md>)
 - 04_Docker
   - 01_共通
     - [01_共通.md](<./04_Docker/01_共通/01_共通.md>)
