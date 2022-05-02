@@ -1,6 +1,6 @@
-# 開発/情報工学/バックエンド
+# 開発/情報工学/HTTP
 
-## HTTP
+## 共通
 
 ### 概要
 
@@ -21,19 +21,6 @@
 | PATCH    | リソースを**一部更新**する。                                 | 場合による？ |
 | DELETE   | リソースを削除する。                                         | あり         |
 
-## 日時
+### HTTP Request Smuggling
 
-### 概要
-
-- 日時の情報は、ISO 8601拡張形式が推奨？
-
-### ISO 8601
-
-| 書式                        | 概要              |
-| --------------------------- | ----------------- |
-| `yyyyMMddTHHmmssZ`          | 基本形式（UTC）。 |
-| `yyyyMMddTHHmmss+0900`      | 基本形式（JST）。 |
-| `yyyy-MM-ddTHH:mm:ssZ`      | 拡張形式（UTC）。 |
-| `yyyy-MM-ddTHH:mm:ss+09:00` | 拡張形式（JST）。 |
-
-- [ISO 8601 - Wikipedia](https://ja.wikipedia.org/wiki/ISO_8601)
+- [HTTP Request Smuggling を理解する - Qiita](https://qiita.com/shoooooo/items/45899d4b4ccfd095f8c8)
