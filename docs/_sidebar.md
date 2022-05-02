@@ -228,22 +228,23 @@
     - [01_文法基礎.md](<./10_Ruby/02_文法/01_文法基礎.md>)
     - [02_変数・定数.md](<./10_Ruby/02_文法/02_変数・定数.md>)
     - [03_配列・ハッシュ.md](<./10_Ruby/02_文法/03_配列・ハッシュ.md>)
-    - [99_その他.md](<./10_Ruby/02_文法/99_その他.md>)
   - 03_制御構造
     - [01_条件分岐.md](<./10_Ruby/03_制御構造/01_条件分岐.md>)
     - [02_繰り返し.md](<./10_Ruby/03_制御構造/02_繰り返し.md>)
     - [03_クラス・メソッド.md](<./10_Ruby/03_制御構造/03_クラス・メソッド.md>)
     - [04_モジュール.md](<./10_Ruby/03_制御構造/04_モジュール.md>)
-  - 04_rbenv
-    - [01_共通.md](<./10_Ruby/04_rbenv/01_共通.md>)
-    - [02_バージョン管理.md](<./10_Ruby/04_rbenv/02_バージョン管理.md>)
-  - 05_Ruby on Rails
-    - [01_共通.md](<./10_Ruby/05_Ruby on Rails/01_共通.md>)
-    - [02_コントローラー.md](<./10_Ruby/05_Ruby on Rails/02_コントローラー.md>)
-    - [03_ビュー.md](<./10_Ruby/05_Ruby on Rails/03_ビュー.md>)
-    - [04_RSpec.md](<./10_Ruby/05_Ruby on Rails/04_RSpec.md>)
-    - [05_Rubocop.md](<./10_Ruby/05_Ruby on Rails/05_Rubocop.md>)
-    - [99_その他.md](<./10_Ruby/05_Ruby on Rails/99_その他.md>)
+  - 04_その他
+    - [99_その他.md](<./10_Ruby/04_その他/99_その他.md>)
+  - 05_rbenv
+    - [01_共通.md](<./10_Ruby/05_rbenv/01_共通.md>)
+    - [02_バージョン管理.md](<./10_Ruby/05_rbenv/02_バージョン管理.md>)
+  - 06_Ruby on Rails
+    - [01_共通.md](<./10_Ruby/06_Ruby on Rails/01_共通.md>)
+    - [02_コントローラー.md](<./10_Ruby/06_Ruby on Rails/02_コントローラー.md>)
+    - [03_ビュー.md](<./10_Ruby/06_Ruby on Rails/03_ビュー.md>)
+    - [04_RSpec.md](<./10_Ruby/06_Ruby on Rails/04_RSpec.md>)
+    - [05_Rubocop.md](<./10_Ruby/06_Ruby on Rails/05_Rubocop.md>)
+    - [99_その他.md](<./10_Ruby/06_Ruby on Rails/99_その他.md>)
 - 11_Go
   - 01_共通
     - [01_共通.md](<./11_Go/01_共通/01_共通.md>)
