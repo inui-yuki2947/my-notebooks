@@ -1,14 +1,4 @@
-# Go/その他/gore
-
-## 共通
-
-### 概要
-
-- 「gore」は、Go言語のREPLツールである。
-
-### 参考資料
-
-- [x-motemen/gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/x-motemen/gore)
+# Go/共通/REPL
 
 ## gore
 
@@ -24,3 +14,7 @@
 | -------------------- | ---------------------------- |
 | `:import パッケージ` | パッケージをインポートする。 |
 | `:quit`              | セッションを終了する。       |
+
+### 参考資料
+
+- [x-motemen/gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/x-motemen/gore)
