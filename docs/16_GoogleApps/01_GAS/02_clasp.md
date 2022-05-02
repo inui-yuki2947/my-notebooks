@@ -1,4 +1,4 @@
-# その他/GAS/clasp
+# GoogleApps/GAS/clasp
 
 ## 共通
 
