@@ -1,4 +1,4 @@
-# GoogleApps/GAS/スプレッドシート管理
+# GoogleApps/スプレッドシート/GAS
 
 ## SpreadsheetApp
 
