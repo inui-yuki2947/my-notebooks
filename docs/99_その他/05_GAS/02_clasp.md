@@ -21,6 +21,7 @@ clasp login
 
 ### 参考資料
 
+- [google/clasp: 🔗 Command Line Apps Script Projects](https://github.com/google/clasp)
 - [claspを使ってGoogle Apps Scriptの開発環境を構築してみた | DevelopersIO](https://dev.classmethod.jp/articles/vscode-clasp-setting/)
 - [GAS のGoogle製CLIツール clasp - Qiita](https://qiita.com/HeRo/items/4e65dcc82783b2766c03)
 
@@ -59,6 +60,14 @@ clasp login
 
 - 作成されたファイルは、マイドライブ直下に配置される。
 - ファイル名は、ディレクトリ名の先頭を大文字にした名前となる。
+
+## clasp clone
+
+### コマンド
+
+| コマンド                                                    | 概要                                                         |
+| ----------------------------------------------------------- | ------------------------------------------------------------ |
+| `clasp clone スクリプトID`<br />`clasp clone スクリプトURL` | カレントディレクトリで、指定したプロジェクトをクローンする。 |
 
 ## clasp push, pull
 
