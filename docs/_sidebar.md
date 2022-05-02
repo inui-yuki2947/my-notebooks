@@ -201,7 +201,7 @@
 - 08_Kotlin
   - 01_共通
     - [01_共通.md](<./08_Kotlin/01_共通/01_共通.md>)
-    - [02_REPL.md](<./08_Kotlin/01_共通/02_REPL.md>)
+    - [02_コマンド.md](<./08_Kotlin/01_共通/02_コマンド.md>)
   - 02_文法
     - [01_共通.md](<./08_Kotlin/02_文法/01_共通.md>)
   - 03_SpringBoot
@@ -221,7 +221,6 @@
   - 01_共通
     - [01_共通.md](<./10_Ruby/01_共通/01_共通.md>)
     - [02_コマンド.md](<./10_Ruby/01_共通/02_コマンド.md>)
-    - [03_REPL.md](<./10_Ruby/01_共通/03_REPL.md>)
   - 02_文法
     - [01_変数・定数.md](<./10_Ruby/02_文法/01_変数・定数.md>)
     - [02_制御構造.md](<./10_Ruby/02_文法/02_制御構造.md>)
@@ -230,6 +229,7 @@
     - [99_その他.md](<./10_Ruby/02_文法/99_その他.md>)
   - 03_rbenv
     - [01_共通.md](<./10_Ruby/03_rbenv/01_共通.md>)
+    - [02_コマンド.md](<./10_Ruby/03_rbenv/02_コマンド.md>)
   - 04_Ruby on Rails
     - [01_共通.md](<./10_Ruby/04_Ruby on Rails/01_共通.md>)
     - [02_コントローラー.md](<./10_Ruby/04_Ruby on Rails/02_コントローラー.md>)
@@ -292,6 +292,7 @@
     - [02_jQuery.md](<./13_JavaScript/03_ブラウザ処理/02_jQuery.md>)
   - 04_nvm
     - [01_共通.md](<./13_JavaScript/04_nvm/01_共通.md>)
+    - [02_コマンド.md](<./13_JavaScript/04_nvm/02_コマンド.md>)
   - 05_npm,yarn
     - [01_npm.md](<./13_JavaScript/05_npm,yarn/01_npm.md>)
     - [02_yarn.md](<./13_JavaScript/05_npm,yarn/02_yarn.md>)
