@@ -1,4 +1,4 @@
-# HTML,CSS/その他/Pug
+# CSS/その他/Pug
 
 ## 共通
 

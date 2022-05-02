@@ -1,4 +1,4 @@
-# HTML,CSS/その他/Bootstrap
+# CSS/その他/Bootstrap
 
 ## 共通
 
