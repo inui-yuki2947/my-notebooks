@@ -1,4 +1,4 @@
-# 開発/文書テキスト形式/docsify
+# テキスト/Markdown/docsify
 
 ## 共通
 
