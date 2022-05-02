@@ -232,7 +232,7 @@
     - [03_モジュール.md](<./10_Ruby/03_制御構造/03_モジュール.md>)
   - 04_rbenv
     - [01_共通.md](<./10_Ruby/04_rbenv/01_共通.md>)
-    - [02_コマンド.md](<./10_Ruby/04_rbenv/02_コマンド.md>)
+    - [02_バージョン管理.md](<./10_Ruby/04_rbenv/02_バージョン管理.md>)
   - 05_Ruby on Rails
     - [01_共通.md](<./10_Ruby/05_Ruby on Rails/01_共通.md>)
     - [02_コントローラー.md](<./10_Ruby/05_Ruby on Rails/02_コントローラー.md>)
@@ -310,7 +310,7 @@
     - [02_jQuery.md](<./14_JavaScript/04_ブラウザ処理/02_jQuery.md>)
   - 05_nvm
     - [01_共通.md](<./14_JavaScript/05_nvm/01_共通.md>)
-    - [02_コマンド.md](<./14_JavaScript/05_nvm/02_コマンド.md>)
+    - [02_バージョン管理.md](<./14_JavaScript/05_nvm/02_バージョン管理.md>)
   - 06_npm,yarn
     - [01_npm.md](<./14_JavaScript/06_npm,yarn/01_npm.md>)
     - [02_yarn.md](<./14_JavaScript/06_npm,yarn/02_yarn.md>)
