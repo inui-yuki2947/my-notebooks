@@ -1,4 +1,4 @@
-# JavaScript/npm/共通
+# JavaScript/npm,yarn/npm
 
 ## 共通
 
@@ -54,15 +54,3 @@
 | ----------------------- | ---------------------------------------- |
 | `npm help`              | npmのヘルプを表示する。                  |
 | `npm help サブコマンド` | 指定したサブコマンドのヘルプを表示する。 |
-
-## yarn
-
-### 概要
-
-- yarnは、サードパーティのJavaScriptパッケージマネージャー。
-- npmに比べ速度が速い。
-- `package-lock.json`の代わりに、`yarn.lock`を使用する。
-
-### 参考資料
-
-- [Home | Yarn - Package Manager](https://yarnpkg.com)
