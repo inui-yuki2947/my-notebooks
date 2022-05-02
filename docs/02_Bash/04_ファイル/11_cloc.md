@@ -1,4 +1,4 @@
-# Bash/その他/cloc
+# Bash/ファイル/cloc
 
 ## 共通
 
