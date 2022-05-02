@@ -1,4 +1,4 @@
-# その他/Mac/Mac用コマンド
+# Mac/その他/Mac用コマンド
 
 ## launchctl
 
