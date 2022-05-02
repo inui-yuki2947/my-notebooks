@@ -223,20 +223,21 @@
     - [02_コマンド.md](<./10_Ruby/01_共通/02_コマンド.md>)
   - 02_文法
     - [01_変数・定数.md](<./10_Ruby/02_文法/01_変数・定数.md>)
-    - [02_制御構造.md](<./10_Ruby/02_文法/02_制御構造.md>)
-    - [03_クラス・メソッド.md](<./10_Ruby/02_文法/03_クラス・メソッド.md>)
-    - [04_モジュール.md](<./10_Ruby/02_文法/04_モジュール.md>)
     - [99_その他.md](<./10_Ruby/02_文法/99_その他.md>)
-  - 03_rbenv
-    - [01_共通.md](<./10_Ruby/03_rbenv/01_共通.md>)
-    - [02_コマンド.md](<./10_Ruby/03_rbenv/02_コマンド.md>)
-  - 04_Ruby on Rails
-    - [01_共通.md](<./10_Ruby/04_Ruby on Rails/01_共通.md>)
-    - [02_コントローラー.md](<./10_Ruby/04_Ruby on Rails/02_コントローラー.md>)
-    - [03_ビュー.md](<./10_Ruby/04_Ruby on Rails/03_ビュー.md>)
-    - [04_RSpec.md](<./10_Ruby/04_Ruby on Rails/04_RSpec.md>)
-    - [05_Rubocop.md](<./10_Ruby/04_Ruby on Rails/05_Rubocop.md>)
-    - [99_その他.md](<./10_Ruby/04_Ruby on Rails/99_その他.md>)
+  - 03_制御構造
+    - [01_制御構造.md](<./10_Ruby/03_制御構造/01_制御構造.md>)
+    - [02_クラス・メソッド.md](<./10_Ruby/03_制御構造/02_クラス・メソッド.md>)
+    - [03_モジュール.md](<./10_Ruby/03_制御構造/03_モジュール.md>)
+  - 04_rbenv
+    - [01_共通.md](<./10_Ruby/04_rbenv/01_共通.md>)
+    - [02_コマンド.md](<./10_Ruby/04_rbenv/02_コマンド.md>)
+  - 05_Ruby on Rails
+    - [01_共通.md](<./10_Ruby/05_Ruby on Rails/01_共通.md>)
+    - [02_コントローラー.md](<./10_Ruby/05_Ruby on Rails/02_コントローラー.md>)
+    - [03_ビュー.md](<./10_Ruby/05_Ruby on Rails/03_ビュー.md>)
+    - [04_RSpec.md](<./10_Ruby/05_Ruby on Rails/04_RSpec.md>)
+    - [05_Rubocop.md](<./10_Ruby/05_Ruby on Rails/05_Rubocop.md>)
+    - [99_その他.md](<./10_Ruby/05_Ruby on Rails/99_その他.md>)
 - 11_Go
   - 01_共通
     - [01_共通.md](<./11_Go/01_共通/01_共通.md>)
@@ -250,9 +251,10 @@
     - [03_型.md](<./11_Go/02_文法/03_型.md>)
     - [04_配列・スライス・マップ.md](<./11_Go/02_文法/04_配列・スライス・マップ.md>)
     - [05_構造体・インターフェース.md](<./11_Go/02_文法/05_構造体・インターフェース.md>)
-    - [06_関数・メソッド.md](<./11_Go/02_文法/06_関数・メソッド.md>)
-    - [07_制御構造.md](<./11_Go/02_文法/07_制御構造.md>)
-    - [08_チャネル.md](<./11_Go/02_文法/08_チャネル.md>)
+  - 03_制御構造
+    - [01_制御構造.md](<./11_Go/03_制御構造/01_制御構造.md>)
+    - [02_関数・メソッド.md](<./11_Go/03_制御構造/02_関数・メソッド.md>)
+    - [03_チャネル.md](<./11_Go/03_制御構造/03_チャネル.md>)
   - 99_その他
     - [01_ログ.md](<./11_Go/99_その他/01_ログ.md>)
     - [02_テスト.md](<./11_Go/99_その他/02_テスト.md>)
@@ -296,22 +298,23 @@
     - [02_変数・定数.md](<./14_JavaScript/02_文法/02_変数・定数.md>)
     - [03_データ型.md](<./14_JavaScript/02_文法/03_データ型.md>)
     - [04_配列・オブジェクト.md](<./14_JavaScript/02_文法/04_配列・オブジェクト.md>)
-    - [05_条件分岐.md](<./14_JavaScript/02_文法/05_条件分岐.md>)
-    - [06_繰り返し.md](<./14_JavaScript/02_文法/06_繰り返し.md>)
-    - [07_例外処理.md](<./14_JavaScript/02_文法/07_例外処理.md>)
-    - [08_非同期処理.md](<./14_JavaScript/02_文法/08_非同期処理.md>)
-    - [99_その他.md](<./14_JavaScript/02_文法/99_その他.md>)
-  - 03_ブラウザ処理
-    - [01_共通.md](<./14_JavaScript/03_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./14_JavaScript/03_ブラウザ処理/02_jQuery.md>)
-  - 04_nvm
-    - [01_共通.md](<./14_JavaScript/04_nvm/01_共通.md>)
-    - [02_コマンド.md](<./14_JavaScript/04_nvm/02_コマンド.md>)
-  - 05_npm,yarn
-    - [01_npm.md](<./14_JavaScript/05_npm,yarn/01_npm.md>)
-    - [02_yarn.md](<./14_JavaScript/05_npm,yarn/02_yarn.md>)
-    - [03_パッケージ管理.md](<./14_JavaScript/05_npm,yarn/03_パッケージ管理.md>)
-    - [04_タスク管理.md](<./14_JavaScript/05_npm,yarn/04_タスク管理.md>)
+  - 03_制御構造
+    - [01_条件分岐.md](<./14_JavaScript/03_制御構造/01_条件分岐.md>)
+    - [02_繰り返し.md](<./14_JavaScript/03_制御構造/02_繰り返し.md>)
+    - [03_例外処理.md](<./14_JavaScript/03_制御構造/03_例外処理.md>)
+    - [04_非同期処理.md](<./14_JavaScript/03_制御構造/04_非同期処理.md>)
+    - [99_その他.md](<./14_JavaScript/03_制御構造/99_その他.md>)
+  - 04_ブラウザ処理
+    - [01_共通.md](<./14_JavaScript/04_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./14_JavaScript/04_ブラウザ処理/02_jQuery.md>)
+  - 05_nvm
+    - [01_共通.md](<./14_JavaScript/05_nvm/01_共通.md>)
+    - [02_コマンド.md](<./14_JavaScript/05_nvm/02_コマンド.md>)
+  - 06_npm,yarn
+    - [01_npm.md](<./14_JavaScript/06_npm,yarn/01_npm.md>)
+    - [02_yarn.md](<./14_JavaScript/06_npm,yarn/02_yarn.md>)
+    - [03_パッケージ管理.md](<./14_JavaScript/06_npm,yarn/03_パッケージ管理.md>)
+    - [04_タスク管理.md](<./14_JavaScript/06_npm,yarn/04_タスク管理.md>)
   - 99_その他
     - [01_JSDoc.md](<./14_JavaScript/99_その他/01_JSDoc.md>)
     - [02_ESLint.md](<./14_JavaScript/99_その他/02_ESLint.md>)
