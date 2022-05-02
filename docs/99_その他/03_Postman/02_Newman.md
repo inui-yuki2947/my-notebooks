@@ -1,4 +1,4 @@
-# API/Newman/共通
+# その他/Postman/Newman
 
 ## 共通
 
