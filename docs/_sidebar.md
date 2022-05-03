@@ -318,12 +318,12 @@
     - [04_非同期処理.md](<./14_JavaScript/04_制御構造/04_非同期処理.md>)
     - [05_関数.md](<./14_JavaScript/04_制御構造/05_関数.md>)
     - [06_プロトタイプ.md](<./14_JavaScript/04_制御構造/06_プロトタイプ.md>)
-    - [99_その他.md](<./14_JavaScript/04_制御構造/99_その他.md>)
   - 05_ブラウザ処理
     - [01_共通.md](<./14_JavaScript/05_ブラウザ処理/01_共通.md>)
     - [02_jQuery.md](<./14_JavaScript/05_ブラウザ処理/02_jQuery.md>)
   - 99_その他
-    - [01_lodash.md](<./14_JavaScript/99_その他/01_lodash.md>)
+    - [01_this.md](<./14_JavaScript/99_その他/01_this.md>)
+    - [02_lodash.md](<./14_JavaScript/99_その他/02_lodash.md>)
 - 15_TypeScript
   - 01_共通
     - [01_共通.md](<./15_TypeScript/01_共通/01_共通.md>)
