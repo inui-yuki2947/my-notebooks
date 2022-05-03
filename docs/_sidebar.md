@@ -316,11 +316,12 @@
     - [02_繰り返し.md](<./14_JavaScript/04_制御構造/02_繰り返し.md>)
     - [03_例外処理.md](<./14_JavaScript/04_制御構造/03_例外処理.md>)
     - [04_非同期処理.md](<./14_JavaScript/04_制御構造/04_非同期処理.md>)
-    - [05_関数.md](<./14_JavaScript/04_制御構造/05_関数.md>)
-    - [06_プロトタイプ.md](<./14_JavaScript/04_制御構造/06_プロトタイプ.md>)
-  - 05_ブラウザ処理
-    - [01_共通.md](<./14_JavaScript/05_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./14_JavaScript/05_ブラウザ処理/02_jQuery.md>)
+  - 05_モジュール化
+    - [01_関数.md](<./14_JavaScript/05_モジュール化/01_関数.md>)
+    - [02_プロトタイプ.md](<./14_JavaScript/05_モジュール化/02_プロトタイプ.md>)
+  - 06_ブラウザ処理
+    - [01_共通.md](<./14_JavaScript/06_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./14_JavaScript/06_ブラウザ処理/02_jQuery.md>)
   - 99_その他
     - [01_this.md](<./14_JavaScript/99_その他/01_this.md>)
     - [02_lodash.md](<./14_JavaScript/99_その他/02_lodash.md>)
