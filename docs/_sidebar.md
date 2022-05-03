@@ -237,7 +237,6 @@
     - [99_その他.md](<./10_Ruby/04_その他/99_その他.md>)
   - 05_rbenv
     - [01_共通.md](<./10_Ruby/05_rbenv/01_共通.md>)
-    - [02_バージョン管理.md](<./10_Ruby/05_rbenv/02_バージョン管理.md>)
   - 06_Ruby on Rails
     - [01_共通.md](<./10_Ruby/06_Ruby on Rails/01_共通.md>)
     - [02_コントローラー.md](<./10_Ruby/06_Ruby on Rails/02_コントローラー.md>)
