@@ -1,4 +1,4 @@
-# JavaScript/nvm/共通
+# JavaScript/共通/nvm
 
 ## 共通
 

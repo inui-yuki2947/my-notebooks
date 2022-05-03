@@ -298,33 +298,32 @@
 - 14_JavaScript
   - 01_共通
     - [01_共通.md](<./14_JavaScript/01_共通/01_共通.md>)
-  - 02_文法
-    - [01_文法基礎.md](<./14_JavaScript/02_文法/01_文法基礎.md>)
-    - [02_変数・定数.md](<./14_JavaScript/02_文法/02_変数・定数.md>)
-    - [03_データ型.md](<./14_JavaScript/02_文法/03_データ型.md>)
-    - [04_配列・オブジェクト.md](<./14_JavaScript/02_文法/04_配列・オブジェクト.md>)
-  - 03_制御構造
-    - [01_条件分岐.md](<./14_JavaScript/03_制御構造/01_条件分岐.md>)
-    - [02_繰り返し.md](<./14_JavaScript/03_制御構造/02_繰り返し.md>)
-    - [03_例外処理.md](<./14_JavaScript/03_制御構造/03_例外処理.md>)
-    - [04_非同期処理.md](<./14_JavaScript/03_制御構造/04_非同期処理.md>)
-    - [05_関数.md](<./14_JavaScript/03_制御構造/05_関数.md>)
-    - [06_プロトタイプ.md](<./14_JavaScript/03_制御構造/06_プロトタイプ.md>)
-    - [99_その他.md](<./14_JavaScript/03_制御構造/99_その他.md>)
-  - 04_ブラウザ処理
-    - [01_共通.md](<./14_JavaScript/04_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./14_JavaScript/04_ブラウザ処理/02_jQuery.md>)
-  - 05_nvm
-    - [01_共通.md](<./14_JavaScript/05_nvm/01_共通.md>)
-  - 06_npm,yarn
-    - [01_npm.md](<./14_JavaScript/06_npm,yarn/01_npm.md>)
-    - [02_yarn.md](<./14_JavaScript/06_npm,yarn/02_yarn.md>)
-    - [03_パッケージ管理.md](<./14_JavaScript/06_npm,yarn/03_パッケージ管理.md>)
-    - [04_タスク管理.md](<./14_JavaScript/06_npm,yarn/04_タスク管理.md>)
+    - [02_nvm.md](<./14_JavaScript/01_共通/02_nvm.md>)
+    - [03_JSDoc.md](<./14_JavaScript/01_共通/03_JSDoc.md>)
+    - [04_ESLint.md](<./14_JavaScript/01_共通/04_ESLint.md>)
+  - 02_npm,yarn
+    - [01_npm.md](<./14_JavaScript/02_npm,yarn/01_npm.md>)
+    - [02_yarn.md](<./14_JavaScript/02_npm,yarn/02_yarn.md>)
+    - [03_パッケージ管理.md](<./14_JavaScript/02_npm,yarn/03_パッケージ管理.md>)
+    - [04_タスク管理.md](<./14_JavaScript/02_npm,yarn/04_タスク管理.md>)
+  - 03_文法
+    - [01_文法基礎.md](<./14_JavaScript/03_文法/01_文法基礎.md>)
+    - [02_変数・定数.md](<./14_JavaScript/03_文法/02_変数・定数.md>)
+    - [03_データ型.md](<./14_JavaScript/03_文法/03_データ型.md>)
+    - [04_配列・オブジェクト.md](<./14_JavaScript/03_文法/04_配列・オブジェクト.md>)
+  - 04_制御構造
+    - [01_条件分岐.md](<./14_JavaScript/04_制御構造/01_条件分岐.md>)
+    - [02_繰り返し.md](<./14_JavaScript/04_制御構造/02_繰り返し.md>)
+    - [03_例外処理.md](<./14_JavaScript/04_制御構造/03_例外処理.md>)
+    - [04_非同期処理.md](<./14_JavaScript/04_制御構造/04_非同期処理.md>)
+    - [05_関数.md](<./14_JavaScript/04_制御構造/05_関数.md>)
+    - [06_プロトタイプ.md](<./14_JavaScript/04_制御構造/06_プロトタイプ.md>)
+    - [99_その他.md](<./14_JavaScript/04_制御構造/99_その他.md>)
+  - 05_ブラウザ処理
+    - [01_共通.md](<./14_JavaScript/05_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./14_JavaScript/05_ブラウザ処理/02_jQuery.md>)
   - 99_その他
-    - [01_JSDoc.md](<./14_JavaScript/99_その他/01_JSDoc.md>)
-    - [02_ESLint.md](<./14_JavaScript/99_その他/02_ESLint.md>)
-    - [03_lodash.md](<./14_JavaScript/99_その他/03_lodash.md>)
+    - [01_lodash.md](<./14_JavaScript/99_その他/01_lodash.md>)
 - 15_TypeScript
   - 01_共通
     - [01_共通.md](<./15_TypeScript/01_共通/01_共通.md>)
