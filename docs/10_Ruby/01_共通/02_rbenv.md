@@ -1,4 +1,4 @@
-# Ruby/rbenv/共通
+# Ruby/共通/rbenv
 
 ## 共通
 
