@@ -316,7 +316,6 @@
     - [02_jQuery.md](<./14_JavaScript/04_ブラウザ処理/02_jQuery.md>)
   - 05_nvm
     - [01_共通.md](<./14_JavaScript/05_nvm/01_共通.md>)
-    - [02_バージョン管理.md](<./14_JavaScript/05_nvm/02_バージョン管理.md>)
   - 06_npm,yarn
     - [01_npm.md](<./14_JavaScript/06_npm,yarn/01_npm.md>)
     - [02_yarn.md](<./14_JavaScript/06_npm,yarn/02_yarn.md>)
