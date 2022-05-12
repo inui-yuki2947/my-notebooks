@@ -1,4 +1,4 @@
-# Linux/ネットワーク/FTP, SCP
+# Linux/SSH/FTP, SCP
 
 ## 共通
 
