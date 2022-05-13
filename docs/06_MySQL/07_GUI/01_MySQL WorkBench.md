@@ -1,4 +1,4 @@
-# MySQL/その他/MySQL WorkBench
+# MySQL/GUI/MySQL WorkBench
 
 ## 共通
 
