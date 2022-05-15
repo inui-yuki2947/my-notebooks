@@ -325,8 +325,9 @@
   - 01_共通
     - [01_共通.md](<./14_JavaScript/01_共通/01_共通.md>)
     - [02_nvm.md](<./14_JavaScript/01_共通/02_nvm.md>)
-    - [03_JSDoc.md](<./14_JavaScript/01_共通/03_JSDoc.md>)
-    - [04_ESLint.md](<./14_JavaScript/01_共通/04_ESLint.md>)
+    - [03_Babel.md](<./14_JavaScript/01_共通/03_Babel.md>)
+    - [04_JSDoc.md](<./14_JavaScript/01_共通/04_JSDoc.md>)
+    - [05_ESLint.md](<./14_JavaScript/01_共通/05_ESLint.md>)
   - 02_npm,yarn
     - [01_npm.md](<./14_JavaScript/02_npm,yarn/01_npm.md>)
     - [02_yarn.md](<./14_JavaScript/02_npm,yarn/02_yarn.md>)
