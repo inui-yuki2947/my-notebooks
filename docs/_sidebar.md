@@ -331,9 +331,8 @@
   - 02_npm,yarn
     - [01_npm.md](<./14_JavaScript/02_npm,yarn/01_npm.md>)
     - [02_yarn.md](<./14_JavaScript/02_npm,yarn/02_yarn.md>)
-    - [03_パッケージ管理.md](<./14_JavaScript/02_npm,yarn/03_パッケージ管理.md>)
-    - [04_タスク管理.md](<./14_JavaScript/02_npm,yarn/04_タスク管理.md>)
-    - [99_その他.md](<./14_JavaScript/02_npm,yarn/99_その他.md>)
+    - [03_コマンド.md](<./14_JavaScript/02_npm,yarn/03_コマンド.md>)
+    - [04_package.json.md](<./14_JavaScript/02_npm,yarn/04_package.json.md>)
   - 03_文法
     - [01_文法基礎.md](<./14_JavaScript/03_文法/01_文法基礎.md>)
     - [02_変数・定数.md](<./14_JavaScript/03_文法/02_変数・定数.md>)

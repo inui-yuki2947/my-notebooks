@@ -20,4 +20,3 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env
 ```
 
 - 「@babel/preset-env」を導入することで、ES5形式に変換することができる。
-
