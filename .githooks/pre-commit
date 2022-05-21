@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 files=$(git diff --name-only --cached --diff-filter d | grep '\.md' | grep -v 'README\.md' | grep -v '/_sidebar.md')
 [ -z "$files" ] && exit

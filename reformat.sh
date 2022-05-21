@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
 # 書式・ファイル名などを綺麗にし、サイドバーを再生成する。

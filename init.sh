@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # 「docsify」「markdownlint-cli」をインストールする。
 npm install -g docsify-cli
