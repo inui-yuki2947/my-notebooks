@@ -51,6 +51,12 @@ brew install rbenv ruby-build
 | `rbenv version`  | 使用されているrubyのバージョンを表示する。           |
 | `rbenv versions` | インストールされたrubyのバージョンの一覧を表示する。 |
 
+- バージョンが古い場合は、rbenv, ruby-buildをアップデートする。
+
+  ```bash
+  brew upgrade rbenv ruby-build
+  ```
+
 ## rbenv local, global, shell
 
 ### コマンド
