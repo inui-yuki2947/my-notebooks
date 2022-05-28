@@ -1,4 +1,4 @@
-# JavaScript/共通/Babel
+# JavaScript/その他/Babel
 
 ## 共通
 

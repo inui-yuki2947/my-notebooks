@@ -344,36 +344,37 @@
 - 15_JavaScript
   - 01_共通
     - [01_共通.md](<./15_JavaScript/01_共通/01_共通.md>)
-    - [02_nvm.md](<./15_JavaScript/01_共通/02_nvm.md>)
-    - [03_Babel.md](<./15_JavaScript/01_共通/03_Babel.md>)
-    - [04_JSDoc.md](<./15_JavaScript/01_共通/04_JSDoc.md>)
-    - [05_ESLint.md](<./15_JavaScript/01_共通/05_ESLint.md>)
-  - 02_npm,yarn
-    - [01_npm.md](<./15_JavaScript/02_npm,yarn/01_npm.md>)
-    - [02_yarn.md](<./15_JavaScript/02_npm,yarn/02_yarn.md>)
-    - [03_コマンド.md](<./15_JavaScript/02_npm,yarn/03_コマンド.md>)
-    - [04_package.json.md](<./15_JavaScript/02_npm,yarn/04_package.json.md>)
-  - 03_文法
-    - [01_文法基礎.md](<./15_JavaScript/03_文法/01_文法基礎.md>)
-    - [02_変数・定数.md](<./15_JavaScript/03_文法/02_変数・定数.md>)
-    - [03_データ型.md](<./15_JavaScript/03_文法/03_データ型.md>)
-    - [04_配列・オブジェクト.md](<./15_JavaScript/03_文法/04_配列・オブジェクト.md>)
-  - 04_制御構造
-    - [01_条件分岐.md](<./15_JavaScript/04_制御構造/01_条件分岐.md>)
-    - [02_繰り返し.md](<./15_JavaScript/04_制御構造/02_繰り返し.md>)
-    - [03_例外処理.md](<./15_JavaScript/04_制御構造/03_例外処理.md>)
-    - [04_非同期処理.md](<./15_JavaScript/04_制御構造/04_非同期処理.md>)
-  - 05_モジュール化
-    - [01_関数.md](<./15_JavaScript/05_モジュール化/01_関数.md>)
-    - [02_プロトタイプ.md](<./15_JavaScript/05_モジュール化/02_プロトタイプ.md>)
-    - [03_クラス.md](<./15_JavaScript/05_モジュール化/03_クラス.md>)
-    - [04_モジュール.md](<./15_JavaScript/05_モジュール化/04_モジュール.md>)
-  - 06_ブラウザ処理
-    - [01_共通.md](<./15_JavaScript/06_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./15_JavaScript/06_ブラウザ処理/02_jQuery.md>)
+  - 02_バージョン管理
+    - [01_nvm.md](<./15_JavaScript/02_バージョン管理/01_nvm.md>)
+  - 03_パッケージ管理
+    - [01_npm.md](<./15_JavaScript/03_パッケージ管理/01_npm.md>)
+    - [02_yarn.md](<./15_JavaScript/03_パッケージ管理/02_yarn.md>)
+    - [03_コマンド.md](<./15_JavaScript/03_パッケージ管理/03_コマンド.md>)
+    - [04_package.json.md](<./15_JavaScript/03_パッケージ管理/04_package.json.md>)
+  - 04_文法
+    - [01_文法基礎.md](<./15_JavaScript/04_文法/01_文法基礎.md>)
+    - [02_変数・定数.md](<./15_JavaScript/04_文法/02_変数・定数.md>)
+    - [03_データ型.md](<./15_JavaScript/04_文法/03_データ型.md>)
+    - [04_配列・オブジェクト.md](<./15_JavaScript/04_文法/04_配列・オブジェクト.md>)
+    - [99_その他.md](<./15_JavaScript/04_文法/99_その他.md>)
+  - 05_制御構造
+    - [01_条件分岐.md](<./15_JavaScript/05_制御構造/01_条件分岐.md>)
+    - [02_繰り返し.md](<./15_JavaScript/05_制御構造/02_繰り返し.md>)
+    - [03_例外処理.md](<./15_JavaScript/05_制御構造/03_例外処理.md>)
+    - [04_非同期処理.md](<./15_JavaScript/05_制御構造/04_非同期処理.md>)
+  - 06_モジュール化
+    - [01_関数.md](<./15_JavaScript/06_モジュール化/01_関数.md>)
+    - [02_プロトタイプ.md](<./15_JavaScript/06_モジュール化/02_プロトタイプ.md>)
+    - [03_クラス.md](<./15_JavaScript/06_モジュール化/03_クラス.md>)
+    - [04_モジュール.md](<./15_JavaScript/06_モジュール化/04_モジュール.md>)
+  - 07_ブラウザ処理
+    - [01_共通.md](<./15_JavaScript/07_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./15_JavaScript/07_ブラウザ処理/02_jQuery.md>)
   - 99_その他
-    - [01_this.md](<./15_JavaScript/99_その他/01_this.md>)
-    - [02_lodash.md](<./15_JavaScript/99_その他/02_lodash.md>)
+    - [01_lodash.md](<./15_JavaScript/99_その他/01_lodash.md>)
+    - [02_Babel.md](<./15_JavaScript/99_その他/02_Babel.md>)
+    - [03_JSDoc.md](<./15_JavaScript/99_その他/03_JSDoc.md>)
+    - [04_ESLint.md](<./15_JavaScript/99_その他/04_ESLint.md>)
 - 16_TypeScript
   - 01_共通
     - [01_共通.md](<./16_TypeScript/01_共通/01_共通.md>)

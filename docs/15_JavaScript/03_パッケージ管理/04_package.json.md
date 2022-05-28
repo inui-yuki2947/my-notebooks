@@ -1,4 +1,4 @@
-# JavaScript/npm,yarn/package.json
+# JavaScript/パッケージ管理/package.json
 
 ## scripts
 

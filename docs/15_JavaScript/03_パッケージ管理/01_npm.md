@@ -1,4 +1,4 @@
-# JavaScript/npm,yarn/npm
+# JavaScript/パッケージ管理/npm
 
 ## 共通
 

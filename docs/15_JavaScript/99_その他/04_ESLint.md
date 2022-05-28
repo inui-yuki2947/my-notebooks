@@ -1,4 +1,4 @@
-# JavaScript/共通/ESLint
+# JavaScript/その他/ESLint
 
 ## 共通
 

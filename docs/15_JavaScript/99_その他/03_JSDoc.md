@@ -1,4 +1,4 @@
-# JavaScript/共通/JSDoc
+# JavaScript/その他/JSDoc
 
 ## 共通
 
