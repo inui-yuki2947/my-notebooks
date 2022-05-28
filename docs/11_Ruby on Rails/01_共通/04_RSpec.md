@@ -1,4 +1,4 @@
-# Ruby/Ruby on Rails/RSpec
+# Ruby on Rails/共通/RSpec
 
 ## RSpec
 

@@ -1,4 +1,4 @@
-# Ruby/Ruby on Rails/Rubocop
+# Ruby on Rails/共通/Rubocop
 
 ## 共通
 
