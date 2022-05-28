@@ -1,4 +1,4 @@
-# Ruby/共通/RubyGems
+# Ruby/パッケージ管理/RubyGems
 
 ## 共通
 
