@@ -1,4 +1,4 @@
-# MySQL/その他/メタ情報
+# MySQL/その他/information_schema
 
 ## information_schema
 
@@ -9,7 +9,11 @@
 | `tables`  | テーブル一覧の情報が格納されている。 |
 | `columns` | カラム一覧の情報が格納されている。   |
 
-## information_schema.tables
+### 参考資料
+
+- [MySQL :: MySQL 5.6 リファレンスマニュアル :: 21 INFORMATION_SCHEMA テーブル](https://dev.mysql.com/doc/refman/5.6/ja/information-schema.html)
+
+## tables
 
 ### カラム
 
