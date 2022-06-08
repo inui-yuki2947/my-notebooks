@@ -5,6 +5,7 @@
 ### 参考資料
 
 - [Guides - RubyGems Guides](https://guides.rubygems.org/)
+- [Command Reference - RubyGems Guides](https://guides.rubygems.org/command-reference/#gem-update)
 - [ライブラリ](https://www.ruby-lang.org/ja/libraries/)
 
 ## gem -v
@@ -32,6 +33,15 @@
 | `gem install ジェム名 ...`   | 指定したジェムを全てインストールする。     |
 | `gem uninstall ジェム名 ...` | 指定したジェムを全てアンインストールする。 |
 
+## gem update
+
+### コマンド
+
+| コマンド                  | 概要                                       |
+| ------------------------- | ------------------------------------------ |
+| `gem update`              | インストールされた全てのジェムを更新する。 |
+| `gem update ジェム名 ...` | 指定したジェムを更新する。                 |
+
 ## gem list
 
 ### コマンド
@@ -39,3 +49,11 @@
 | コマンド    | 概要                                       |
 | ----------- | ------------------------------------------ |
 | `gem list` | インストールされたジェムの一覧を表示する。 |
+
+## gem search
+
+### コマンド
+
+| コマンド              | 概要               |
+| --------------------- | ------------------ |
+| `gem search 正規表現` | ジェムを検索する。 |
