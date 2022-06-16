@@ -45,6 +45,10 @@
 - TODO あとで調べる
 - [API Reference - Chrome Developers](https://developer.chrome.com/docs/extensions/reference/)
 
+## 設定
+
+- [chrome://version/](chrome://version/)の「プロフィール パス」で、Chromeが使用するプロファイルのパスを確認できる。
+
 ## その他
 
 ### ソースの表示
