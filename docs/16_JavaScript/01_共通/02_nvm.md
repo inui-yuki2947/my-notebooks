@@ -1,4 +1,4 @@
-# JavaScript/バージョン管理/nvm
+# JavaScript/共通/nvm
 
 ## 共通
 

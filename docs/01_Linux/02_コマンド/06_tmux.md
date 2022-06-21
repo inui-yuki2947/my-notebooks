@@ -1,4 +1,4 @@
-# Linux/共通/tmux
+# Linux/コマンド/tmux
 
 ## 共通
 
