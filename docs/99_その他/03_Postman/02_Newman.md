@@ -2,23 +2,33 @@
 
 ## 共通
 
-### インストール
+### 参考資料
+
+- [postmanlabs/newman: Newman is a command-line collection runner for Postman](https://github.com/postmanlabs/newman)
+
+## インストール
+
+### 共通
 
 ```bash
 npm install -g newman
 ```
 
-### 参考資料
-
-- [postmanlabs/newman: Newman is a command-line collection runner for Postman](https://github.com/postmanlabs/newman)
-
-## newman
+## newman -v
 
 ### コマンド
 
-| コマンド              | 概要                         |
-| --------------------- | ---------------------------- |
-| `newman サブコマンド` | newmanの各種操作を実行する。 |
+| コマンド               | 概要                           |
+| ---------------------- | ------------------------------ |
+| `newman -v, --version` | newmanのバージョンを表示する。 |
+
+## newman -h
+
+### コマンド
+
+| コマンド                       | 概要                                 |
+| ------------------------------ | ------------------------------------ |
+| `newman [コマンド] -h, --help` | newmanのコマンドのヘルプを表示する。 |
 
 ## newman run
 
