@@ -14,3 +14,26 @@ if [ -n "$files" ]; then
   echo "$files" | xargs md-h1 -f
   echo "$files" | xargs git add
 fi
+
+# ステージされているファイルのうち、追加・削除・リネームが行われたものが存在するディレクトリについて、連番を綺麗にする。
+# TODO 最下部のディレクトリのみに対して処理を行うようにしたい。
+directories=$(
+  git diff --name-only --cached --diff-filter m |
+    grep '\.md' |
+    grep -v 'README\.md' |
+    grep -v '/_sidebar.md' |
+    sed 's/\"//' |
+    cut -d / -f 1-2 |
+    sort |
+    uniq
+)
+if [ -n "$directories" ]; then
+  # TODO fn-updateに複数の引数を渡せるようにする
+  while read -r directory; do
+    fn-update "$directory"
+  done <<<"$directories"
+
+  "$(dirname "$0")/../update-sidebar.sh"
+  echo "$directories" | xargs git add
+  git add "$(dirname "$0")/../docs/_sidebar.md"
+fi
