@@ -13,5 +13,5 @@ files=$(
 
 # 各種対象ファイルについてチェックを行う。
 echo "$files" | xargs markdownlint -f
-md-h1 -f "$files"
-git add "$files"
+echo "$files" | xargs md-h1 -f
+echo "$files" | xargs git add
