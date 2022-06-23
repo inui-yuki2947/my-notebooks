@@ -32,10 +32,7 @@ directories=$(
 )
 if [ -n "$directories" ]; then
   # 連番を綺麗にする。
-  # TODO fn-updateに複数の引数を渡せるようにする
-  while read -r directory; do
-    fn-update "$directory"
-  done <<<"$directories"
+  echo "$directories" | xargs fn-update
   echo "$directories" | xargs git add
 
   # サイドバーを再生成する。
