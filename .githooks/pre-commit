@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+cd "$(dirname "$0")/.."
+
 # ステージされているファイルのうち、削除されていないものについて、フォーマットをチェックする。
 files=$(
   git diff --name-only --cached --diff-filter d |
@@ -13,8 +15,6 @@ if [ -n "$files" ]; then
   # フォーマットを綺麗にする。
   echo "$files" | xargs markdownlint -f
   echo "$files" | xargs md-h1 -f
-
-  # ステージする。
   echo "$files" | xargs git add
 fi
 
@@ -36,15 +36,13 @@ if [ -n "$directories" ]; then
   while read -r directory; do
     fn-update "$directory"
   done <<<"$directories"
+  echo "$directories" | xargs git add
 
   # サイドバーを再生成する。
   # docsディレクトリからの相対パスで生成したいため、cdする。
   (
-    cd "$(dirname "$0")/docs"
+    cd docs
     md-tree | grep -v '_sidebar\.md' | grep -v 'index\.html' >_sidebar.md
+    git add _sidebar.md
   )
-
-  # ステージする。
-  echo "$directories" | xargs git add
-  git add "$(dirname "$0")/../docs/_sidebar.md"
 fi
