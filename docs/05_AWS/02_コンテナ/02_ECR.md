@@ -1,4 +1,4 @@
-# AWS/共通/ECR
+# AWS/コンテナ/ECR
 
 ## aws ecr
 
