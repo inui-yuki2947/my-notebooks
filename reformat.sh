@@ -10,14 +10,11 @@ set -e
 
 docs_dir=$(dirname "$0")/docs
 target_dir="${1:-$docs_dir}"
-sidebar_file="${docs_dir}/_sidebar.md"
 
 # 書式を綺麗にする。（lintに引っかからないように、先にh1を修正する）
-[ -e "$sidebar_file" ] && rm "$sidebar_file"
 fn-update "$target_dir"
 md-h1 -f "$target_dir"
 markdownlint -f "$target_dir"
 
-# サイドバーを再生成する。（docsディレクトリからの相対パスで生成したいため、cdする）
-cd "$docs_dir"
-md-tree | grep -v '_sidebar\.md' | grep -v 'index\.html' > _sidebar.md
+# サイドバーを再生成する。
+"$(dirname "$0")/update-sidebar.sh"
