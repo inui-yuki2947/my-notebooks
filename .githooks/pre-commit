@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 # ステージされている、README等以外の全てのMarkdownファイルを対象とする。
 files=$(
@@ -11,4 +12,6 @@ files=$(
 [ -z "$files" ] && exit
 
 # 各種対象ファイルについてチェックを行う。
-echo "$files" | xargs markdownlint && md-h1 "$files"
+echo "$files" | xargs markdownlint -f
+md-h1 -f "$files"
+git add "$files"
