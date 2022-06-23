@@ -13,9 +13,9 @@ files=$(
 )
 if [ -n "$files" ]; then
   # フォーマットを綺麗にする。
-  echo "$files" | xargs markdownlint -f
-  echo "$files" | xargs md-h1 -f
-  echo "$files" | xargs git add
+  echo "$files" | tr '\n' '\0' | xargs -0 markdownlint -f
+  echo "$files" | tr '\n' '\0' | xargs -0 md-h1 -f
+  echo "$files" | tr '\n' '\0' | xargs -0 git add
 fi
 
 # ステージされているファイルのうち、追加・削除・リネームが行われたものが存在するディレクトリについて、連番を綺麗にする。
@@ -32,8 +32,8 @@ directories=$(
 )
 if [ -n "$directories" ]; then
   # 連番を綺麗にする。
-  echo "$directories" | xargs fn-update
-  echo "$directories" | xargs git add
+  echo "$directories" | tr '\n' '\0' | xargs -0 fn-update
+  echo "$directories" | tr '\n' '\0' | xargs -0 git add
 
   # サイドバーを再生成する。
   # docsディレクトリからの相対パスで生成したいため、cdする。
