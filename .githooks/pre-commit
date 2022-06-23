@@ -5,9 +5,10 @@ files=$(
   git diff --name-only --cached --diff-filter d |
   grep '\.md' |
   grep -v 'README\.md' |
-  grep -v '/_sidebar.md'
+  grep -v '/_sidebar.md'|
+  sed 's/\"//'
 )
 [ -z "$files" ] && exit
 
 # 各種対象ファイルについてチェックを行う。
-echo "${files//\"/}" | xargs markdownlint && md-h1 "$files"
+echo "$files" | xargs markdownlint && md-h1 "$files"
