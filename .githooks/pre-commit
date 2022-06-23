@@ -10,8 +10,11 @@ files=$(
     sed 's/\"//'
 )
 if [ -n "$files" ]; then
+  # フォーマットを綺麗にする。
   echo "$files" | xargs markdownlint -f
   echo "$files" | xargs md-h1 -f
+
+  # ステージする。
   echo "$files" | xargs git add
 fi
 
@@ -28,12 +31,20 @@ directories=$(
     uniq
 )
 if [ -n "$directories" ]; then
+  # 連番を綺麗にする。
   # TODO fn-updateに複数の引数を渡せるようにする
   while read -r directory; do
     fn-update "$directory"
   done <<<"$directories"
 
-  "$(dirname "$0")/../update-sidebar.sh"
+  # サイドバーを再生成する。
+  # docsディレクトリからの相対パスで生成したいため、cdする。
+  (
+    cd "$(dirname "$0")/docs"
+    md-tree | grep -v '_sidebar\.md' | grep -v 'index\.html' >_sidebar.md
+  )
+
+  # ステージする。
   echo "$directories" | xargs git add
   git add "$(dirname "$0")/../docs/_sidebar.md"
 fi
