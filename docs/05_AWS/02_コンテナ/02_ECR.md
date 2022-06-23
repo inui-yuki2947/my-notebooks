@@ -1,6 +1,6 @@
 # AWS/コンテナ/ECR
 
-## aws ecr
+## aws ecr list-images
 
 ### コマンド
 
