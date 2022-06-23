@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
-files=$(git diff --name-only --cached --diff-filter d | grep '\.md' | grep -v 'README\.md' | grep -v '/_sidebar.md')
+# ステージされている、README等以外の全てのMarkdownファイルを対象とする。
+files=$(
+  git diff --name-only --cached --diff-filter d |
+  grep '\.md' |
+  grep -v 'README\.md' |
+  grep -v '/_sidebar.md'
+)
 [ -z "$files" ] && exit
+
+# 各種対象ファイルについてチェックを行う。
 echo "${files//\"/}" | xargs markdownlint && md-h1 "$files"
