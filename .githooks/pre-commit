@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-# ステージされている、README等以外の全てのMarkdownファイルを対象とする。
+# ステージされているファイルのうち、削除されていないものについて、フォーマットをチェックする。
 files=$(
   git diff --name-only --cached --diff-filter d |
     grep '\.md' |
@@ -9,9 +9,8 @@ files=$(
     grep -v '/_sidebar.md' |
     sed 's/\"//'
 )
-[ -z "$files" ] && exit
-
-# 各種対象ファイルについてチェックを行う。
-echo "$files" | xargs markdownlint -f
-echo "$files" | xargs md-h1 -f
-echo "$files" | xargs git add
+if [ -n "$files" ]; then
+  echo "$files" | xargs markdownlint -f
+  echo "$files" | xargs md-h1 -f
+  echo "$files" | xargs git add
+fi
