@@ -9,7 +9,7 @@ files=$(
     grep '\.md' |
     grep -v 'README\.md' |
     grep -v '/_sidebar.md' |
-    sed 's/\"//'
+    cat
 )
 if [ -n "$files" ]; then
   # フォーマットを綺麗にする。
@@ -25,7 +25,6 @@ directories=$(
     grep '\.md' |
     grep -v 'README\.md' |
     grep -v '/_sidebar.md' |
-    sed 's/\"//' |
     cut -d / -f 1-2 |
     sort |
     uniq
