@@ -4,10 +4,10 @@ set -e
 # ステージされている、README等以外の全てのMarkdownファイルを対象とする。
 files=$(
   git diff --name-only --cached --diff-filter d |
-  grep '\.md' |
-  grep -v 'README\.md' |
-  grep -v '/_sidebar.md'|
-  sed 's/\"//'
+    grep '\.md' |
+    grep -v 'README\.md' |
+    grep -v '/_sidebar.md' |
+    sed 's/\"//'
 )
 [ -z "$files" ] && exit
 
