@@ -38,7 +38,7 @@ if [ -n "$directories" ]; then
   # docsディレクトリからの相対パスで生成したいため、cdする。
   (
     cd docs
-    md-tree | grep -v '_sidebar\.md' | grep -v 'README\.md' >_sidebar.md
+    md-tree | grep -v '_sidebar\.md' | grep -v 'README\.md' > _sidebar.md
     git add _sidebar.md
   )
 fi
