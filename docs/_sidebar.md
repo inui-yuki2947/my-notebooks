@@ -275,7 +275,7 @@
     - [01_共通.md](<./07_Git/09_GitHub CLI/01_共通.md>)
   - 10_GitHub Actions
     - [01_共通.md](<./07_Git/10_GitHub Actions/01_共通.md>)
-    - [02_ワークフロー.md](<./07_Git/10_GitHub Actions/02_ワークフロー.md>)
+    - [02_トリガー.md](<./07_Git/10_GitHub Actions/02_トリガー.md>)
     - [03_ジョブ・ステップ.md](<./07_Git/10_GitHub Actions/03_ジョブ・ステップ.md>)
     - [04_よく使うアクション.md](<./07_Git/10_GitHub Actions/04_よく使うアクション.md>)
 - 08_Kotlin
