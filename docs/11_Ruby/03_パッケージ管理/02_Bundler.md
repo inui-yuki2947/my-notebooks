@@ -92,6 +92,7 @@ gem install bundler
 
 ```ruby
 source 'https://rubygems.org'
+ruby "~> 2.3.0"
 gem 'nokogiri'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
