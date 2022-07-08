@@ -498,18 +498,20 @@
     - [02_ショートカット.md](<./20_Editor/03_IntelliJ/02_ショートカット.md>)
     - [03_CLI.md](<./20_Editor/03_IntelliJ/03_CLI.md>)
 - 21_テキスト
-  - 01_JSON,YAML
-    - [01_JSON.md](<./21_テキスト/01_JSON,YAML/01_JSON.md>)
-    - [02_YAML.md](<./21_テキスト/01_JSON,YAML/02_YAML.md>)
-    - [03_jq.md](<./21_テキスト/01_JSON,YAML/03_jq.md>)
-    - [04_yq.md](<./21_テキスト/01_JSON,YAML/04_yq.md>)
-    - [05_jq表現.md](<./21_テキスト/01_JSON,YAML/05_jq表現.md>)
-  - 02_Markdown
-    - [01_共通.md](<./21_テキスト/02_Markdown/01_共通.md>)
-    - [02_markdownlint-cli.md](<./21_テキスト/02_Markdown/02_markdownlint-cli.md>)
-    - [03_docsify.md](<./21_テキスト/02_Markdown/03_docsify.md>)
-  - 03_PlantUML
-    - [01_共通.md](<./21_テキスト/03_PlantUML/01_共通.md>)
+  - 01_XML
+    - [01_XPath.md](<./21_テキスト/01_XML/01_XPath.md>)
+  - 02_JSON,YAML
+    - [01_JSON.md](<./21_テキスト/02_JSON,YAML/01_JSON.md>)
+    - [02_YAML.md](<./21_テキスト/02_JSON,YAML/02_YAML.md>)
+    - [03_jq.md](<./21_テキスト/02_JSON,YAML/03_jq.md>)
+    - [04_yq.md](<./21_テキスト/02_JSON,YAML/04_yq.md>)
+    - [05_jq表現.md](<./21_テキスト/02_JSON,YAML/05_jq表現.md>)
+  - 03_Markdown
+    - [01_共通.md](<./21_テキスト/03_Markdown/01_共通.md>)
+    - [02_markdownlint-cli.md](<./21_テキスト/03_Markdown/02_markdownlint-cli.md>)
+    - [03_docsify.md](<./21_テキスト/03_Markdown/03_docsify.md>)
+  - 04_PlantUML
+    - [01_共通.md](<./21_テキスト/04_PlantUML/01_共通.md>)
 - 99_その他
   - 01_情報工学
     - [01_応用情報技術者試験.md](<./99_その他/01_情報工学/01_応用情報技術者試験.md>)
