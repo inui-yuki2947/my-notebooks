@@ -487,6 +487,8 @@
     - [01_共通.md](<./19_GoogleApps/03_スプレッドシート/01_共通.md>)
     - [02_ショートカット.md](<./19_GoogleApps/03_スプレッドシート/02_ショートカット.md>)
     - [03_GAS.md](<./19_GoogleApps/03_スプレッドシート/03_GAS.md>)
+  - 04_skicka
+    - [01_共通.md](<./19_GoogleApps/04_skicka/01_共通.md>)
 - 20_Editor
   - 01_vim
     - [01_共通.md](<./20_Editor/01_vim/01_共通.md>)
