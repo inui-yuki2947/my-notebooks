@@ -13,6 +13,7 @@
 
 ```bash
 brew install rbenv ruby-build
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
 ## rbenv -v
@@ -63,5 +64,8 @@ brew install rbenv ruby-build
 
 | コマンド                                                     | 概要                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `rbenv local`<br />`rbenv global`<br />`rbenv shell`         | ローカル・グローバル・シェルで使用されているrubyのバージョンを表示する。 |
-| `rbenv local バージョン`<br />`rbenv global バージョン`<br />`rbenv shell バージョン` | ローカル・グローバル・シェルで使用されているrubyのバージョンを変更する。 |
+| `rbenv local`<br />`rbenv global`<br />`rbenv shell`         | ローカル・グローバル・シェルで使用するrubyのバージョンを表示する。 |
+| `rbenv local バージョン`<br />`rbenv global バージョン`<br />`rbenv shell バージョン` | ローカル・グローバル・シェルで使用するrubyのバージョンを設定する。 |
+| `rbenv local --unset`<br />`rbenv shell --unset`             | ローカル・シェルで使用するrubyのバージョンをアンセットする。 |
+
+- ローカルで使用するバージョンは、当該ディレクトリの`.ruby-version`ファイルに記述される。
