@@ -480,17 +480,17 @@
 - 19_GoogleApps
   - 01_GCP
     - [01_共通.md](<./19_GoogleApps/01_GCP/01_共通.md>)
-  - 02_GAS
-    - [01_共通.md](<./19_GoogleApps/02_GAS/01_共通.md>)
-  - 03_clasp
-    - [01_共通.md](<./19_GoogleApps/03_clasp/01_共通.md>)
-    - [02_コマンド.md](<./19_GoogleApps/03_clasp/02_コマンド.md>)
-    - [03_プロジェクト管理.md](<./19_GoogleApps/03_clasp/03_プロジェクト管理.md>)
-    - [04_設定.md](<./19_GoogleApps/03_clasp/04_設定.md>)
-  - 04_スプレッドシート
-    - [01_共通.md](<./19_GoogleApps/04_スプレッドシート/01_共通.md>)
-    - [02_ショートカット.md](<./19_GoogleApps/04_スプレッドシート/02_ショートカット.md>)
-    - [03_GAS.md](<./19_GoogleApps/04_スプレッドシート/03_GAS.md>)
+  - 02_スプレッドシート
+    - [01_共通.md](<./19_GoogleApps/02_スプレッドシート/01_共通.md>)
+    - [02_ショートカット.md](<./19_GoogleApps/02_スプレッドシート/02_ショートカット.md>)
+  - 03_GAS
+    - [01_共通.md](<./19_GoogleApps/03_GAS/01_共通.md>)
+    - [02_スプレッドシート.md](<./19_GoogleApps/03_GAS/02_スプレッドシート.md>)
+  - 04_clasp
+    - [01_共通.md](<./19_GoogleApps/04_clasp/01_共通.md>)
+    - [02_コマンド.md](<./19_GoogleApps/04_clasp/02_コマンド.md>)
+    - [03_プロジェクト管理.md](<./19_GoogleApps/04_clasp/03_プロジェクト管理.md>)
+    - [04_設定.md](<./19_GoogleApps/04_clasp/04_設定.md>)
   - 05_skicka
     - [01_共通.md](<./19_GoogleApps/05_skicka/01_共通.md>)
 - 20_Editor
