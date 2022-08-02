@@ -22,17 +22,23 @@
 
 ### メソッド（Range取得系）
 
-| メソッド                                         | 戻り値  | 概要                              |
-| ------------------------------------------------ | ------- | --------------------------------- |
-| `getDataRange()`                                 | `Range` | シートの全てのRangeを取得する。   |
-| `getRange(row, column, [numRows, [numColumns]])` | `Range` | シートの指定したRangeを取得する。 |
+| メソッド                                         | 戻り値  | 概要                                                         |
+| ------------------------------------------------ | ------- | ------------------------------------------------------------ |
+| `getDataRange()`                                 | `Range` | シートの全てのRangeを取得する。                              |
+| `getRange(row, column, [numRows, [numColumns]])` | `Range` | シートの指定した行・列（・行数・列数）のRangeを取得する。<br />（インデックスは1始まり） |
+| `getRange(R1C1形式文字列)`                       | `Range` | シートの指定したRangeを取得する。                            |
 
 ### メソッド（その他）
 
 | メソッド          | 戻り値    | 概要                                                 |
 | ----------------- | --------- | ---------------------------------------------------- |
+| `getFrozenRows()` | `Integer` | シートで固定されている行数を取得する。               |
 | `getLastRow()`    | `Integer` | シートで**内容が入っている**最後の行番号を取得する。 |
 | `getLastColumn()` | `Integer` | シートで**内容が入っている**最後の列番号を取得する。 |
+
+### 参考資料
+
+- [Class Sheet  |  Apps Script  |  Google Developers](https://developers.google.com/apps-script/reference/spreadsheet/sheet)
 
 ## Range
 
