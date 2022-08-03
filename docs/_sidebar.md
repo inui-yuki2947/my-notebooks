@@ -551,7 +551,9 @@
     - [03_ブラウザ.md](<./99_その他/06_Selenium/03_ブラウザ.md>)
     - [04_Web要素.md](<./99_その他/06_Selenium/04_Web要素.md>)
     - [99_その他.md](<./99_その他/06_Selenium/99_その他.md>)
+  - 07_Slack
+    - [01_共通.md](<./99_その他/07_Slack/01_共通.md>)
+    - [02_slackcat.md](<./99_その他/07_Slack/02_slackcat.md>)
   - 99_その他
-    - [01_Slack.md](<./99_その他/99_その他/01_Slack.md>)
-    - [02_VirtualBox.md](<./99_その他/99_その他/02_VirtualBox.md>)
+    - [01_VirtualBox.md](<./99_その他/99_その他/01_VirtualBox.md>)
     - [99_その他.md](<./99_その他/99_その他/99_その他.md>)
