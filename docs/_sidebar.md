@@ -495,6 +495,7 @@
     - [04_設定.md](<./19_GoogleApps/04_clasp/04_設定.md>)
   - 05_skicka
     - [01_共通.md](<./19_GoogleApps/05_skicka/01_共通.md>)
+    - [02_コマンド.md](<./19_GoogleApps/05_skicka/02_コマンド.md>)
 - 20_Editor
   - 01_vim
     - [01_共通.md](<./20_Editor/01_vim/01_共通.md>)
