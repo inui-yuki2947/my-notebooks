@@ -1,4 +1,4 @@
-# Go/その他/swag
+# Go/API開発/swag
 
 ## 共通
 

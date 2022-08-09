@@ -1,4 +1,4 @@
-# Go/その他/GORM
+# Go/API開発/GORM
 
 ## 共通
 

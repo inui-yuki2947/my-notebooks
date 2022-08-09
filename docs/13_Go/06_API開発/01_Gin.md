@@ -1,4 +1,4 @@
-# Go/その他/Gin
+# Go/API開発/Gin
 
 ## 共通
 

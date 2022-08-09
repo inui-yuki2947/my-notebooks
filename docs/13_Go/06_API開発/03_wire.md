@@ -1,4 +1,4 @@
-# Go/その他/wire
+# Go/API開発/wire
 
 ## 共通
 
