@@ -130,7 +130,8 @@
     - [01_共通.md](<./02_Mac/03_CUI/01_共通.md>)
   - 04_Homebrew
     - [01_共通.md](<./02_Mac/04_Homebrew/01_共通.md>)
-    - [02_パッケージ管理.md](<./02_Mac/04_Homebrew/02_パッケージ管理.md>)
+    - [02_ヘルプ.md](<./02_Mac/04_Homebrew/02_ヘルプ.md>)
+    - [03_パッケージ管理.md](<./02_Mac/04_Homebrew/03_パッケージ管理.md>)
     - [99_その他.md](<./02_Mac/04_Homebrew/99_その他.md>)
 - 03_Windows
   - 01_共通
