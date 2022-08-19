@@ -497,7 +497,8 @@
     - [99_その他.md](<./20_GoogleApps/04_clasp/99_その他.md>)
   - 05_skicka
     - [01_共通.md](<./20_GoogleApps/05_skicka/01_共通.md>)
-    - [02_コマンド.md](<./20_GoogleApps/05_skicka/02_コマンド.md>)
+    - [02_ヘルプ.md](<./20_GoogleApps/05_skicka/02_ヘルプ.md>)
+    - [99_その他.md](<./20_GoogleApps/05_skicka/99_その他.md>)
 - 21_Editor
   - 01_vim
     - [01_共通.md](<./21_Editor/01_vim/01_共通.md>)
