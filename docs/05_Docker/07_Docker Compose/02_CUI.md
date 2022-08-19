@@ -1,4 +1,4 @@
-# Docker/Docker Compose/コマンド
+# Docker/Docker Compose/CUI
 
 ## docker-compose up
 
