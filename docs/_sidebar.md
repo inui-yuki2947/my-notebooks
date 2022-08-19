@@ -294,16 +294,14 @@
     - [05_その他プロパティ.md](<./08_GitHub/03_GitHub Actions/05_その他プロパティ.md>)
     - [06_よく使うアクション.md](<./08_GitHub/03_GitHub Actions/06_よく使うアクション.md>)
 - 09_Kotlin
-  - 01_共通
-    - [01_共通.md](<./09_Kotlin/01_共通/01_共通.md>)
-  - 02_CUI
-    - [01_共通.md](<./09_Kotlin/02_CUI/01_共通.md>)
-  - 03_文法
-    - [01_共通.md](<./09_Kotlin/03_文法/01_共通.md>)
-  - 04_SpringBoot
-    - [01_共通.md](<./09_Kotlin/04_SpringBoot/01_共通.md>)
-    - [02_Doma.md](<./09_Kotlin/04_SpringBoot/02_Doma.md>)
-    - [03_Super CSV Annotation.md](<./09_Kotlin/04_SpringBoot/03_Super CSV Annotation.md>)
+  - 01_CUI
+    - [01_実行.md](<./09_Kotlin/01_CUI/01_実行.md>)
+  - 02_文法
+    - [01_共通.md](<./09_Kotlin/02_文法/01_共通.md>)
+  - 03_SpringBoot
+    - [01_共通.md](<./09_Kotlin/03_SpringBoot/01_共通.md>)
+    - [02_Doma.md](<./09_Kotlin/03_SpringBoot/02_Doma.md>)
+    - [03_Super CSV Annotation.md](<./09_Kotlin/03_SpringBoot/03_Super CSV Annotation.md>)
 - 10_AWK
   - 01_CUI
     - [01_ヘルプ.md](<./10_AWK/01_CUI/01_ヘルプ.md>)
