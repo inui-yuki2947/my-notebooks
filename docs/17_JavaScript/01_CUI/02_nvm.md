@@ -1,4 +1,4 @@
-# JavaScript/共通/nvm
+# JavaScript/CUI/nvm
 
 ## 共通
 
