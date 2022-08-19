@@ -2,15 +2,17 @@
 
 ## 共通
 
-### インストール
+### 参考資料
+
+- [nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm)
+
+## インストール
+
+### 共通
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
-
-### 参考資料
-
-- [nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions](https://github.com/nvm-sh/nvm)
 
 ## nvm --version
 
