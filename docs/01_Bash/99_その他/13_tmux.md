@@ -1,4 +1,4 @@
-# Bash/CUI/tmux
+# Bash/その他/tmux
 
 ## 共通
 
