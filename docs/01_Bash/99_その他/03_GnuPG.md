@@ -1,4 +1,4 @@
-# Bash/ネットワーク/GnuPG
+# Bash/その他/GnuPG
 
 ## gpg
 
