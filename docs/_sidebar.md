@@ -491,9 +491,10 @@
     - [03_スクリプト実行・情報.md](<./20_GoogleApps/03_GAS/03_スクリプト実行・情報.md>)
   - 04_clasp
     - [01_共通.md](<./20_GoogleApps/04_clasp/01_共通.md>)
-    - [02_コマンド.md](<./20_GoogleApps/04_clasp/02_コマンド.md>)
+    - [02_ヘルプ.md](<./20_GoogleApps/04_clasp/02_ヘルプ.md>)
     - [03_プロジェクト管理.md](<./20_GoogleApps/04_clasp/03_プロジェクト管理.md>)
     - [04_設定.md](<./20_GoogleApps/04_clasp/04_設定.md>)
+    - [99_その他.md](<./20_GoogleApps/04_clasp/99_その他.md>)
   - 05_skicka
     - [01_共通.md](<./20_GoogleApps/05_skicka/01_共通.md>)
     - [02_コマンド.md](<./20_GoogleApps/05_skicka/02_コマンド.md>)
