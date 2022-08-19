@@ -1,4 +1,4 @@
-# Mac/その他/Finder
+# Mac/GUI/Finder
 
 ## 共通
 
