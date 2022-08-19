@@ -1,4 +1,4 @@
-# Bash/その他/X Window System
+# Linux/その他/X Window System
 
 ## 共通
 
