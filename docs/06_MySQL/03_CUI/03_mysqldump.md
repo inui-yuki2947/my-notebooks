@@ -1,4 +1,4 @@
-# MySQL/コマンド/mysqldump
+# MySQL/CUI/mysqldump
 
 ## mysqldump
 

@@ -199,10 +199,10 @@
     - [01_共通.md](<./06_MySQL/01_共通/01_共通.md>)
   - 02_GUI
     - [01_MySQL WorkBench.md](<./06_MySQL/02_GUI/01_MySQL WorkBench.md>)
-  - 03_コマンド
-    - [01_共通.md](<./06_MySQL/03_コマンド/01_共通.md>)
-    - [02_実行.md](<./06_MySQL/03_コマンド/02_実行.md>)
-    - [03_mysqldump.md](<./06_MySQL/03_コマンド/03_mysqldump.md>)
+  - 03_CUI
+    - [01_共通.md](<./06_MySQL/03_CUI/01_共通.md>)
+    - [02_実行.md](<./06_MySQL/03_CUI/02_実行.md>)
+    - [03_mysqldump.md](<./06_MySQL/03_CUI/03_mysqldump.md>)
   - 04_文法
     - [01_共通.md](<./06_MySQL/04_文法/01_共通.md>)
     - [02_変数.md](<./06_MySQL/04_文法/02_変数.md>)
