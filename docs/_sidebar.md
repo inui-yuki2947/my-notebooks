@@ -462,19 +462,18 @@
     - [03_JSDoc.md](<./17_JavaScript/99_その他/03_JSDoc.md>)
     - [04_ESLint.md](<./17_JavaScript/99_その他/04_ESLint.md>)
 - 18_TypeScript
-  - 01_共通
-    - [01_共通.md](<./18_TypeScript/01_共通/01_共通.md>)
-  - 02_CUI
-    - [01_共通.md](<./18_TypeScript/02_CUI/01_共通.md>)
-    - [02_実行.md](<./18_TypeScript/02_CUI/02_実行.md>)
-  - 03_文法
-    - [01_共通.md](<./18_TypeScript/03_文法/01_共通.md>)
-    - [02_プリミティブ型.md](<./18_TypeScript/03_文法/02_プリミティブ型.md>)
-    - [03_オブジェクト型.md](<./18_TypeScript/03_文法/03_オブジェクト型.md>)
-    - [04_配列・タプル型.md](<./18_TypeScript/03_文法/04_配列・タプル型.md>)
-    - [05_列挙型.md](<./18_TypeScript/03_文法/05_列挙型.md>)
-    - [06_複合型.md](<./18_TypeScript/03_文法/06_複合型.md>)
-    - [99_その他.md](<./18_TypeScript/03_文法/99_その他.md>)
+  - 01_CUI
+    - [01_共通.md](<./18_TypeScript/01_CUI/01_共通.md>)
+    - [02_ヘルプ.md](<./18_TypeScript/01_CUI/02_ヘルプ.md>)
+    - [03_実行.md](<./18_TypeScript/01_CUI/03_実行.md>)
+  - 02_文法
+    - [01_共通.md](<./18_TypeScript/02_文法/01_共通.md>)
+    - [02_プリミティブ型.md](<./18_TypeScript/02_文法/02_プリミティブ型.md>)
+    - [03_オブジェクト型.md](<./18_TypeScript/02_文法/03_オブジェクト型.md>)
+    - [04_配列・タプル型.md](<./18_TypeScript/02_文法/04_配列・タプル型.md>)
+    - [05_列挙型.md](<./18_TypeScript/02_文法/05_列挙型.md>)
+    - [06_複合型.md](<./18_TypeScript/02_文法/06_複合型.md>)
+    - [99_その他.md](<./18_TypeScript/02_文法/99_その他.md>)
 - 19_Vuejs
   - 01_共通
     - [01_共通.md](<./19_Vuejs/01_共通/01_共通.md>)
