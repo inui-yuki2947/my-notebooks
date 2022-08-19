@@ -289,9 +289,10 @@
     - [01_共通.md](<./09_GitHub/03_GitHub Actions/01_共通.md>)
     - [02_文法.md](<./09_GitHub/03_GitHub Actions/02_文法.md>)
     - [03_トリガー.md](<./09_GitHub/03_GitHub Actions/03_トリガー.md>)
-    - [04_ジョブ・ステップ.md](<./09_GitHub/03_GitHub Actions/04_ジョブ・ステップ.md>)
-    - [05_その他プロパティ.md](<./09_GitHub/03_GitHub Actions/05_その他プロパティ.md>)
-    - [06_よく使うアクション.md](<./09_GitHub/03_GitHub Actions/06_よく使うアクション.md>)
+    - [04_ジョブ.md](<./09_GitHub/03_GitHub Actions/04_ジョブ.md>)
+    - [05_ステップ.md](<./09_GitHub/03_GitHub Actions/05_ステップ.md>)
+    - [06_その他プロパティ.md](<./09_GitHub/03_GitHub Actions/06_その他プロパティ.md>)
+    - [07_よく使うアクション.md](<./09_GitHub/03_GitHub Actions/07_よく使うアクション.md>)
 - 10_Kotlin
   - 01_CUI
     - [01_実行.md](<./10_Kotlin/01_CUI/01_実行.md>)
