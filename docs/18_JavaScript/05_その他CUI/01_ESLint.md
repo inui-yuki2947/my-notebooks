@@ -1,4 +1,4 @@
-# JavaScript/その他/ESLint
+# JavaScript/その他CUI/ESLint
 
 ## 共通
 

@@ -450,24 +450,25 @@
     - [03_型.md](<./18_JavaScript/04_文法/03_型.md>)
     - [04_配列・オブジェクト.md](<./18_JavaScript/04_文法/04_配列・オブジェクト.md>)
     - [99_その他.md](<./18_JavaScript/04_文法/99_その他.md>)
-  - 05_制御構造
-    - [01_条件分岐.md](<./18_JavaScript/05_制御構造/01_条件分岐.md>)
-    - [02_繰り返し.md](<./18_JavaScript/05_制御構造/02_繰り返し.md>)
-    - [03_例外処理.md](<./18_JavaScript/05_制御構造/03_例外処理.md>)
-    - [04_非同期処理.md](<./18_JavaScript/05_制御構造/04_非同期処理.md>)
-  - 06_モジュール化
-    - [01_関数.md](<./18_JavaScript/06_モジュール化/01_関数.md>)
-    - [02_プロトタイプ.md](<./18_JavaScript/06_モジュール化/02_プロトタイプ.md>)
-    - [03_クラス.md](<./18_JavaScript/06_モジュール化/03_クラス.md>)
-    - [04_モジュール.md](<./18_JavaScript/06_モジュール化/04_モジュール.md>)
-  - 07_ブラウザ処理
-    - [01_共通.md](<./18_JavaScript/07_ブラウザ処理/01_共通.md>)
-    - [02_jQuery.md](<./18_JavaScript/07_ブラウザ処理/02_jQuery.md>)
+  - 05_その他CUI
+    - [01_ESLint.md](<./18_JavaScript/05_その他CUI/01_ESLint.md>)
+    - [02_JSDoc.md](<./18_JavaScript/05_その他CUI/02_JSDoc.md>)
+    - [03_Babel.md](<./18_JavaScript/05_その他CUI/03_Babel.md>)
+  - 06_制御構造
+    - [01_条件分岐.md](<./18_JavaScript/06_制御構造/01_条件分岐.md>)
+    - [02_繰り返し.md](<./18_JavaScript/06_制御構造/02_繰り返し.md>)
+    - [03_例外処理.md](<./18_JavaScript/06_制御構造/03_例外処理.md>)
+    - [04_非同期処理.md](<./18_JavaScript/06_制御構造/04_非同期処理.md>)
+  - 07_モジュール化
+    - [01_関数.md](<./18_JavaScript/07_モジュール化/01_関数.md>)
+    - [02_プロトタイプ.md](<./18_JavaScript/07_モジュール化/02_プロトタイプ.md>)
+    - [03_クラス.md](<./18_JavaScript/07_モジュール化/03_クラス.md>)
+    - [04_モジュール.md](<./18_JavaScript/07_モジュール化/04_モジュール.md>)
+  - 08_ブラウザ処理
+    - [01_共通.md](<./18_JavaScript/08_ブラウザ処理/01_共通.md>)
+    - [02_jQuery.md](<./18_JavaScript/08_ブラウザ処理/02_jQuery.md>)
   - 99_その他
     - [01_lodash.md](<./18_JavaScript/99_その他/01_lodash.md>)
-    - [02_Babel.md](<./18_JavaScript/99_その他/02_Babel.md>)
-    - [03_JSDoc.md](<./18_JavaScript/99_その他/03_JSDoc.md>)
-    - [04_ESLint.md](<./18_JavaScript/99_その他/04_ESLint.md>)
 - 19_TypeScript
   - 01_CUI
     - [01_共通.md](<./19_TypeScript/01_CUI/01_共通.md>)
