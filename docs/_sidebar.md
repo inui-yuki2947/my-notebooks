@@ -456,16 +456,16 @@
     - [02_yarn.md](<./19_JavaScript/03_パッケージ管理/02_yarn.md>)
     - [03_コマンド.md](<./19_JavaScript/03_パッケージ管理/03_コマンド.md>)
     - [04_package.json.md](<./19_JavaScript/03_パッケージ管理/04_package.json.md>)
-  - 04_文法
-    - [01_文法基礎.md](<./19_JavaScript/04_文法/01_文法基礎.md>)
-    - [02_変数・定数.md](<./19_JavaScript/04_文法/02_変数・定数.md>)
-    - [03_型.md](<./19_JavaScript/04_文法/03_型.md>)
-    - [04_配列・オブジェクト.md](<./19_JavaScript/04_文法/04_配列・オブジェクト.md>)
-    - [99_その他.md](<./19_JavaScript/04_文法/99_その他.md>)
-  - 05_その他CUI
-    - [01_ESLint.md](<./19_JavaScript/05_その他CUI/01_ESLint.md>)
-    - [02_JSDoc.md](<./19_JavaScript/05_その他CUI/02_JSDoc.md>)
-    - [03_Babel.md](<./19_JavaScript/05_その他CUI/03_Babel.md>)
+  - 04_その他CUI
+    - [01_ESLint.md](<./19_JavaScript/04_その他CUI/01_ESLint.md>)
+    - [02_JSDoc.md](<./19_JavaScript/04_その他CUI/02_JSDoc.md>)
+    - [03_Babel.md](<./19_JavaScript/04_その他CUI/03_Babel.md>)
+  - 05_文法
+    - [01_文法基礎.md](<./19_JavaScript/05_文法/01_文法基礎.md>)
+    - [02_変数・定数.md](<./19_JavaScript/05_文法/02_変数・定数.md>)
+    - [03_型.md](<./19_JavaScript/05_文法/03_型.md>)
+    - [04_配列・オブジェクト.md](<./19_JavaScript/05_文法/04_配列・オブジェクト.md>)
+    - [99_その他.md](<./19_JavaScript/05_文法/99_その他.md>)
   - 06_制御構造
     - [01_条件分岐.md](<./19_JavaScript/06_制御構造/01_条件分岐.md>)
     - [02_繰り返し.md](<./19_JavaScript/06_制御構造/02_繰り返し.md>)
