@@ -494,7 +494,8 @@
     - [01_共通.md](<./20_JavaScript/08_ブラウザ処理/01_共通.md>)
     - [02_jQuery.md](<./20_JavaScript/08_ブラウザ処理/02_jQuery.md>)
   - 99_その他
-    - [01_lodash.md](<./20_JavaScript/99_その他/01_lodash.md>)
+    - [01_文字列処理.md](<./20_JavaScript/99_その他/01_文字列処理.md>)
+    - [02_lodash.md](<./20_JavaScript/99_その他/02_lodash.md>)
 - 21_TypeScript
   - 01_CUI
     - [01_共通.md](<./21_TypeScript/01_CUI/01_共通.md>)
