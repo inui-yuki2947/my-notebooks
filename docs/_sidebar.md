@@ -206,7 +206,8 @@
   - 01_共通
     - [01_共通.md](<./08_MySQL/01_共通/01_共通.md>)
     - [02_CUI.md](<./08_MySQL/01_共通/02_CUI.md>)
-    - [03_mysqldump.md](<./08_MySQL/01_共通/03_mysqldump.md>)
+    - [03_起動・終了.md](<./08_MySQL/01_共通/03_起動・終了.md>)
+    - [04_mysqldump.md](<./08_MySQL/01_共通/04_mysqldump.md>)
   - 02_GUI
     - [01_MySQL WorkBench.md](<./08_MySQL/02_GUI/01_MySQL WorkBench.md>)
   - 03_文法

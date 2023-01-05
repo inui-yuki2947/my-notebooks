@@ -16,27 +16,6 @@
 | --------------------- | ----------------------------- |
 | `mysql -V, --version` | MySQLのバージョンを表示する。 |
 
-## mysql.server
-
-### コマンド
-
-| コマンド               | 概要                |
-| ---------------------- | ------------------- |
-| `mysql.server start`   | MySQLを起動する。   |
-| `mysql.server stop`    | MySQLを終了する。   |
-| `mysql.server restart` | MySQLを再起動する。 |
-
-## brew services
-
-### コマンド
-
-| コマンド                      | 概要                                  |
-| ----------------------------- | ------------------------------------- |
-| `brew services list`          | サービスの一覧を表示する。            |
-| `brew services start mysql`   | MySQLを起動し、自動起動をオンにする。 |
-| `brew services stop mysql`    | MySQLを終了し、自動起動をオフにする。 |
-| `brew services restart mysql` | MySQLを再起動する。                   |
-
 ## mysql
 
 ### コマンド
