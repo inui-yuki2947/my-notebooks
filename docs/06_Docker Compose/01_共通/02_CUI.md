@@ -1,4 +1,20 @@
-# Docker Compose/共通/その他
+# Docker Compose/共通/CUI
+
+## docker-compose version
+
+### コマンド
+
+| コマンド                 | 概要                                   |
+| ------------------------ | -------------------------------------- |
+| `docker-compose version` | Docker Composeのバージョンを表示する。 |
+
+## docker-compose --help
+
+### コマンド
+
+| コマンド                | 概要                               |
+| ----------------------- | ---------------------------------- |
+| `docker-compose --help` | Docker Composeのヘルプを表示する。 |
 
 ## docker-compose build
 

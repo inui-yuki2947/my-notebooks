@@ -1,4 +1,4 @@
-# Mac/Homebrew/ヘルプ
+# Mac/Homebrew/CUI
 
 ## brew -v
 

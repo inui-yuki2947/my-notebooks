@@ -1,4 +1,4 @@
-# GitHub/GitHub CLI/ヘルプ
+# GitHub/GitHub CLI/CUI
 
 ## gh --version
 

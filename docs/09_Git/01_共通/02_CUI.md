@@ -1,4 +1,4 @@
-# Git/共通/ヘルプ
+# Git/共通/CUI
 
 ## git version
 

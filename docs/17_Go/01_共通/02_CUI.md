@@ -1,4 +1,4 @@
-# Go/共通/ヘルプ
+# Go/共通/CUI
 
 ## go version
 

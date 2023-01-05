@@ -1,4 +1,4 @@
-# GoogleApps/clasp/ヘルプ
+# GoogleApps/clasp/CUI
 
 ## clasp -v
 
