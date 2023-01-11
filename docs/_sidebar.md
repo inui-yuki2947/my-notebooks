@@ -253,9 +253,9 @@
     - [04_削除.md](<./08_MySQL/11_アカウント/04_削除.md>)
     - [05_表示.md](<./08_MySQL/11_アカウント/05_表示.md>)
     - [06_権限.md](<./08_MySQL/11_アカウント/06_権限.md>)
-  - 12_用意済みスキーマ
-    - [01_mysql.md](<./08_MySQL/12_用意済みスキーマ/01_mysql.md>)
-    - [02_information_schema.md](<./08_MySQL/12_用意済みスキーマ/02_information_schema.md>)
+  - 12_定義済みスキーマ
+    - [01_mysql.md](<./08_MySQL/12_定義済みスキーマ/01_mysql.md>)
+    - [02_information_schema.md](<./08_MySQL/12_定義済みスキーマ/02_information_schema.md>)
   - 99_その他
     - [01_設定.md](<./08_MySQL/99_その他/01_設定.md>)
     - [02_準備済みステートメント.md](<./08_MySQL/99_その他/02_準備済みステートメント.md>)

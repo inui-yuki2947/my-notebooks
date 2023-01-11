@@ -1,4 +1,4 @@
-# MySQL/用意済みスキーマ/information_schema
+# MySQL/定義済みスキーマ/information_schema
 
 ## テーブル一覧
 

@@ -1,4 +1,4 @@
-# MySQL/用意済みスキーマ/mysql
+# MySQL/定義済みスキーマ/mysql
 
 ## テーブル一覧
 
