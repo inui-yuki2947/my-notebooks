@@ -305,11 +305,12 @@
     - [02_表現.md](<./10_GitHub/03_GitHub Actions/02_表現.md>)
     - [03_コンテキスト.md](<./10_GitHub/03_GitHub Actions/03_コンテキスト.md>)
     - [04_環境変数.md](<./10_GitHub/03_GitHub Actions/04_環境変数.md>)
-    - [05_プロパティ（ジョブ）.md](<./10_GitHub/03_GitHub Actions/05_プロパティ（ジョブ）.md>)
-    - [06_プロパティ（トリガー）.md](<./10_GitHub/03_GitHub Actions/06_プロパティ（トリガー）.md>)
-    - [07_プロパティ（ステップ）.md](<./10_GitHub/03_GitHub Actions/07_プロパティ（ステップ）.md>)
-    - [08_プロパティ（その他）.md](<./10_GitHub/03_GitHub Actions/08_プロパティ（その他）.md>)
-    - [09_よく使うアクション.md](<./10_GitHub/03_GitHub Actions/09_よく使うアクション.md>)
+    - [05_ワークフローコマンド.md](<./10_GitHub/03_GitHub Actions/05_ワークフローコマンド.md>)
+    - [06_プロパティ（ジョブ）.md](<./10_GitHub/03_GitHub Actions/06_プロパティ（ジョブ）.md>)
+    - [07_プロパティ（トリガー）.md](<./10_GitHub/03_GitHub Actions/07_プロパティ（トリガー）.md>)
+    - [08_プロパティ（ステップ）.md](<./10_GitHub/03_GitHub Actions/08_プロパティ（ステップ）.md>)
+    - [09_プロパティ（その他）.md](<./10_GitHub/03_GitHub Actions/09_プロパティ（その他）.md>)
+    - [10_よく使うアクション.md](<./10_GitHub/03_GitHub Actions/10_よく使うアクション.md>)
 - 11_AWK
   - 01_共通
     - [01_CUI.md](<./11_AWK/01_共通/01_CUI.md>)
