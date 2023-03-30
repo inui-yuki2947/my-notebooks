@@ -1,4 +1,4 @@
-# その他/Terraform/tfenv
+# Terraform/バージョン管理/tfenv
 
 ## 共通
 
