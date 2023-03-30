@@ -211,6 +211,8 @@
     - [01_tfenv.md](<./08_Terraform/02_バージョン管理/01_tfenv.md>)
   - 03_HCL
     - [01_共通.md](<./08_Terraform/03_HCL/01_共通.md>)
+    - [02_variable.md](<./08_Terraform/03_HCL/02_variable.md>)
+    - [03_output.md](<./08_Terraform/03_HCL/03_output.md>)
 - 09_MySQL
   - 01_共通
     - [01_共通.md](<./09_MySQL/01_共通/01_共通.md>)
