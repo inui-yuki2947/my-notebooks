@@ -7,12 +7,104 @@
 - Terraformでは、拡張子が`.tf`であるファイルを使用する。
 - `.tf`ファイルでは、HCL（HashiCorp Configuration Language）と呼ばれる、HashiCorp社開発の独自記法を使用する。
 
+### 例（0.13以降）
+
+```text
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+  region  = "us-west-2"
+}
+
+resource "aws_instance" "app_server" {
+  ami           = "ami-830c94e3"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}
+```
+
+### 例（0.12以前）
+
+```text
+provider "aws" {
+  version = "~> 4.16"
+  region  = "us-west-2"
+}
+
+resource "aws_instance" "app_server" {
+  ami           = "ami-830c94e3"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}
+```
+
+## terraformブロック
+
+### 概要
+
+- `terraform`ブロックは、必要なプロバイダ、及びそのバージョンの情報を記述する。
+
+### 書式
+
+```text
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+```
+
+## providerブロック
+
+### 概要
+
+- `provider`ブロックは、特定のプロバイダ（例：AWS）に関する情報を記述する。
+
+### 書式
+
+```text
+provider "aws" {
+  region  = "us-west-2"
+}
+```
+
+## resourceブロック
+
+### 概要
+
+- `resource`ブロックは、リソース（インフラのコンポーネント）の情報を記述する。
+
 ### 書式
 
 ```text
 resource "リソースの種類" "リソース名" {
-    設定項目1  =  値1
-    設定項目2  =  値2
-    設定項目3  =  値3
+  設定項目1  =  値1
+  設定項目2  =  値2
+  ...
 }
 ```
+
+## 参考資料
+
+- [Build Infrastructure | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build)
+- [Docs overview | hashicorp/aws | Terraform Registry](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
