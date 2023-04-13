@@ -199,7 +199,7 @@
   - 07_ネットワーキングとコンテンツ配信
     - [01_共通.md](<./07_AWS/07_ネットワーキングとコンテンツ配信/01_共通.md>)
   - 08_管理とガバナンス
-    - [01_共通.md](<./07_AWS/08_管理とガバナンス/01_共通.md>)
+    - [01_CloudWatch.md](<./07_AWS/08_管理とガバナンス/01_CloudWatch.md>)
   - 09_開発者用ツール
     - [01_CodePipeline.md](<./07_AWS/09_開発者用ツール/01_CodePipeline.md>)
   - 10_セキュリティ、ID、およびコンプライアンス
@@ -319,7 +319,7 @@
     - [02_表現.md](<./11_GitHub/03_GitHub Actions/02_表現.md>)
     - [03_コンテキスト.md](<./11_GitHub/03_GitHub Actions/03_コンテキスト.md>)
     - [04_環境変数.md](<./11_GitHub/03_GitHub Actions/04_環境変数.md>)
-    - [05_ワークフローコマンド.md](<./11_GitHub/03_GitHub Actions/05_ワークフローコマンド.md>)
+    - [05_ワークフローコマンド.md](<./11_GitHub/03_GitHub Actions/05_ワークフローコマンド.md>)
     - [06_プロパティ（ジョブ）.md](<./11_GitHub/03_GitHub Actions/06_プロパティ（ジョブ）.md>)
     - [07_プロパティ（トリガー）.md](<./11_GitHub/03_GitHub Actions/07_プロパティ（トリガー）.md>)
     - [08_プロパティ（ステップ）.md](<./11_GitHub/03_GitHub Actions/08_プロパティ（ステップ）.md>)
