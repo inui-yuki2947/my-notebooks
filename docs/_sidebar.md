@@ -217,6 +217,7 @@
     - [05_data.md](<./08_Terraform/03_HCL/05_data.md>)
     - [06_variable.md](<./08_Terraform/03_HCL/06_variable.md>)
     - [07_output.md](<./08_Terraform/03_HCL/07_output.md>)
+    - [08_locals.md](<./08_Terraform/03_HCL/08_locals.md>)
 - 09_MySQL
   - 01_共通
     - [01_共通.md](<./09_MySQL/01_共通/01_共通.md>)
