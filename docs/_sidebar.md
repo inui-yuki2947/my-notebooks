@@ -214,8 +214,9 @@
     - [02_terraform.md](<./08_Terraform/03_HCL/02_terraform.md>)
     - [03_provider.md](<./08_Terraform/03_HCL/03_provider.md>)
     - [04_resource.md](<./08_Terraform/03_HCL/04_resource.md>)
-    - [05_variable.md](<./08_Terraform/03_HCL/05_variable.md>)
-    - [06_output.md](<./08_Terraform/03_HCL/06_output.md>)
+    - [05_data.md](<./08_Terraform/03_HCL/05_data.md>)
+    - [06_variable.md](<./08_Terraform/03_HCL/06_variable.md>)
+    - [07_output.md](<./08_Terraform/03_HCL/07_output.md>)
 - 09_MySQL
   - 01_共通
     - [01_共通.md](<./09_MySQL/01_共通/01_共通.md>)
