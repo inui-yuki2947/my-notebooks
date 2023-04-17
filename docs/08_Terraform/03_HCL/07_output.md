@@ -4,7 +4,9 @@
 
 ### 概要
 
-- `output`ブロックは、`terraform apply`または`terraform output`の際に出力したい値を記述する。
+- `output`ブロックは、下記のような用途で使用する。
+  - 子モジュールが親モジュールに対して、リソースの属性を公開したい場合。
+  - `terraform apply`または`terraform output`の際に、値を出力したい場合。
 
 ### 書式
 
@@ -24,6 +26,13 @@ output "instance_id" {
 }
 ```
 
+### 参照
+
+| 記法                             | 概要                     |
+| -------------------------------- | ------------------------ |
+| `module.モジュール名.出力変数名` | 出力変数の値を参照する。 |
+
 ## 参考資料
 
+- [Output Values - Configuration Language | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/language/values/outputs)
 - [Query Data with Outputs | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-outputs)
