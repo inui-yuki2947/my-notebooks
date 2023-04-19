@@ -1,4 +1,4 @@
-# Go/共通/gore
+# Go/CUI/gore
 
 ## gore
 
