@@ -224,8 +224,9 @@
     - [01_共通.md](<./09_MySQL/01_共通/01_共通.md>)
   - 02_CUI
     - [01_共通.md](<./09_MySQL/02_CUI/01_共通.md>)
-    - [02_起動・終了.md](<./09_MySQL/02_CUI/02_起動・終了.md>)
-    - [03_mysqldump.md](<./09_MySQL/02_CUI/03_mysqldump.md>)
+    - [02_SQL実行.md](<./09_MySQL/02_CUI/02_SQL実行.md>)
+    - [03_起動・終了.md](<./09_MySQL/02_CUI/03_起動・終了.md>)
+    - [04_mysqldump.md](<./09_MySQL/02_CUI/04_mysqldump.md>)
   - 03_GUI
     - [01_MySQL WorkBench.md](<./09_MySQL/03_GUI/01_MySQL WorkBench.md>)
   - 04_文法
