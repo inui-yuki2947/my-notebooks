@@ -200,6 +200,7 @@
     - [01_共通.md](<./07_AWS/07_ネットワーキングとコンテンツ配信/01_共通.md>)
   - 08_管理とガバナンス
     - [01_CloudWatch.md](<./07_AWS/08_管理とガバナンス/01_CloudWatch.md>)
+    - [02_Systems Manager.md](<./07_AWS/08_管理とガバナンス/02_Systems Manager.md>)
   - 09_開発者用ツール
     - [01_CodePipeline.md](<./07_AWS/09_開発者用ツール/01_CodePipeline.md>)
   - 10_セキュリティ、ID、およびコンプライアンス
