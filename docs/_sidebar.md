@@ -208,18 +208,20 @@
 - 08_Terraform
   - 01_共通
     - [01_共通.md](<./08_Terraform/01_共通/01_共通.md>)
-  - 02_バージョン管理
-    - [01_tfenv.md](<./08_Terraform/02_バージョン管理/01_tfenv.md>)
-  - 03_HCL
-    - [01_共通.md](<./08_Terraform/03_HCL/01_共通.md>)
-    - [02_terraform.md](<./08_Terraform/03_HCL/02_terraform.md>)
-    - [03_provider.md](<./08_Terraform/03_HCL/03_provider.md>)
-    - [04_resource.md](<./08_Terraform/03_HCL/04_resource.md>)
-    - [05_resourceの属性.md](<./08_Terraform/03_HCL/05_resourceの属性.md>)
-    - [06_data.md](<./08_Terraform/03_HCL/06_data.md>)
-    - [07_variable.md](<./08_Terraform/03_HCL/07_variable.md>)
-    - [08_output.md](<./08_Terraform/03_HCL/08_output.md>)
-    - [09_locals.md](<./08_Terraform/03_HCL/09_locals.md>)
+  - 02_CUI
+    - [01_共通.md](<./08_Terraform/02_CUI/01_共通.md>)
+  - 03_バージョン管理
+    - [01_tfenv.md](<./08_Terraform/03_バージョン管理/01_tfenv.md>)
+  - 04_HCL
+    - [01_共通.md](<./08_Terraform/04_HCL/01_共通.md>)
+    - [02_terraform.md](<./08_Terraform/04_HCL/02_terraform.md>)
+    - [03_provider.md](<./08_Terraform/04_HCL/03_provider.md>)
+    - [04_resource.md](<./08_Terraform/04_HCL/04_resource.md>)
+    - [05_resourceの属性.md](<./08_Terraform/04_HCL/05_resourceの属性.md>)
+    - [06_data.md](<./08_Terraform/04_HCL/06_data.md>)
+    - [07_variable.md](<./08_Terraform/04_HCL/07_variable.md>)
+    - [08_output.md](<./08_Terraform/04_HCL/08_output.md>)
+    - [09_locals.md](<./08_Terraform/04_HCL/09_locals.md>)
 - 09_MySQL
   - 01_共通
     - [01_共通.md](<./09_MySQL/01_共通/01_共通.md>)
