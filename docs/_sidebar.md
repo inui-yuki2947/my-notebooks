@@ -230,6 +230,7 @@
     - [02_SQL実行.md](<./09_MySQL/02_CUI/02_SQL実行.md>)
     - [03_起動・終了.md](<./09_MySQL/02_CUI/03_起動・終了.md>)
     - [04_mysqldump.md](<./09_MySQL/02_CUI/04_mysqldump.md>)
+    - [05_mysql_config_editor.md](<./09_MySQL/02_CUI/05_mysql_config_editor.md>)
   - 03_GUI
     - [01_MySQL WorkBench.md](<./09_MySQL/03_GUI/01_MySQL WorkBench.md>)
   - 04_文法
