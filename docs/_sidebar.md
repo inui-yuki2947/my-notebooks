@@ -193,11 +193,10 @@
     - [02_terraform.md](<./07_Terraform/02_HCL/02_terraform.md>)
     - [03_provider.md](<./07_Terraform/02_HCL/03_provider.md>)
     - [04_resource.md](<./07_Terraform/02_HCL/04_resource.md>)
-    - [05_resourceの属性.md](<./07_Terraform/02_HCL/05_resourceの属性.md>)
-    - [06_data.md](<./07_Terraform/02_HCL/06_data.md>)
-    - [07_variable.md](<./07_Terraform/02_HCL/07_variable.md>)
-    - [08_output.md](<./07_Terraform/02_HCL/08_output.md>)
-    - [09_locals.md](<./07_Terraform/02_HCL/09_locals.md>)
+    - [05_data.md](<./07_Terraform/02_HCL/05_data.md>)
+    - [06_variable.md](<./07_Terraform/02_HCL/06_variable.md>)
+    - [07_output.md](<./07_Terraform/02_HCL/07_output.md>)
+    - [08_locals.md](<./07_Terraform/02_HCL/08_locals.md>)
 - 08_MySQL
   - 01_CUI
     - [01_mysql.md](<./08_MySQL/01_CUI/01_mysql.md>)
