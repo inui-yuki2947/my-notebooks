@@ -29,3 +29,9 @@ def handler_name(event, context):
     ...
     return some_value
 ```
+
+## 監視機能
+
+### 関数ログ
+
+- 関数ログは、 CloudWatch Logs グループ`/aws/lambda/<function name>`に出力される。
