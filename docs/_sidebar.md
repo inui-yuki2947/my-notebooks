@@ -197,6 +197,7 @@
     - [06_variable.md](<./07_Terraform/02_HCL/06_variable.md>)
     - [07_output.md](<./07_Terraform/02_HCL/07_output.md>)
     - [08_locals.md](<./07_Terraform/02_HCL/08_locals.md>)
+    - [09_表現.md](<./07_Terraform/02_HCL/09_表現.md>)
 - 08_MySQL
   - 01_CUI
     - [01_mysql.md](<./08_MySQL/01_CUI/01_mysql.md>)
