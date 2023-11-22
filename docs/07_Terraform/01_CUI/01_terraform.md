@@ -31,83 +31,29 @@
 
 - [Install | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/downloads)
 
-## terraform -version
-
-### コマンド
-
-| コマンド             | 概要                              |
-| -------------------- | --------------------------------- |
-| `terraform -version` | Terraformのバージョンを表示する。 |
-
-## terraform -help
-
-### コマンド
-
-| コマンド                         | 概要                                                |
-| -------------------------------- | --------------------------------------------------- |
-| `terraform -help [サブコマンド]` | Terraformの（指定したコマンドの）ヘルプを表示する。 |
-
-## terraform init, get
-
-### コマンド
-
-| コマンド                      | 概要                                                         |
-|---------------------------| ------------------------------------------------------------ |
-| `terraform init [ディレクトリ]` | 指定したディレクトリ（省略時はカレントディレクトリ）で、<br />Terraformの初期化を行う。（`.terraform`ディレクトリに各種ファイルを生成する） |
-| `terraform get [ディレクトリ]`  | ルートモジュールで記述されたモジュールを、`.terraform`ディレクトリにダウンロード（更新）する。<br />（※`terraform init`コマンドに包含された処理） |
-
-### 参考資料
-
-- [Initializing Working Directories - Terraform CLI | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/cli/init)
-
-## terraform fmt, validate
+## terraform
 
 ### コマンド
 
 | コマンド                            | 概要                                                         |
 | ----------------------------------- | ------------------------------------------------------------ |
+| `terraform -version`                | Terraformのバージョンを表示する。                            |
+| `terraform -help [サブコマンド]`    | Terraformの（指定したコマンドの）ヘルプを表示する。          |
+| `terraform init [ディレクトリ]`     | 指定したディレクトリ（省略時はカレントディレクトリ）で、<br />Terraformの初期化を行う。（`.terraform`ディレクトリに各種ファイルを生成する）<br />[Initializing Working Directories - Terraform CLI  Terraform HashiCorp Developer](https://developer.hashicorp.com/terraform/cli/init) |
+| `terraform get [ディレクトリ]`      | ルートモジュールで記述されたモジュールを、`.terraform`ディレクトリにダウンロード（更新）する。<br />（※`terraform init`コマンドに包含された処理） |
 | `terraform fmt [ディレクトリ]`      | 指定したディレクトリ（省略時はカレントディレクトリ）で、<br />フォーマットを修正し、修正を行ったファイルの一覧を出力する。 |
 | `terraform validate [ディレクトリ]` | 指定したディレクトリ（省略時はカレントディレクトリ）で、<br />設定ファイルの構文チェックを行い、不正な部分を出力する。 |
+| `terraform plan [ディレクトリ]`     | 指定したディレクトリ（省略時はカレントディレクトリ）で、<br />現在の設定で適用される差分を表示する。 |
+| `terraform apply [プランファイル]`  | 指定したプランファイル（省略時は`terraform plan`の実行結果）をもとに、<br />インフラを更新する。 |
+| `terraform output [名前]`           | 指定した名前（省略時は全て）の、出力変数の値を出力する。     |
+| `terraform import アドレス ID`      | 指定した既存リソースをインポートし、tfstateファイルに追記する。<br />インポートしたリソースを削除するには、`terraform state rm アドレス`を使用する。<br />[Command: import Terraform HashiCorp Developer](https://developer.hashicorp.com/terraform/cli/commands/import) |
 
 ### オプション
 
-| オプション   | 概要                                                         |
-| ------------ | ------------------------------------------------------------ |
-| `-recursive` | サブディレクトリを再帰的にチェックする。<br />（デフォルトではチェックしない） |
-
-## terraform plan, apply
-
-### コマンド
-
-| コマンド                           | 概要                                                         |
-| ---------------------------------- | ------------------------------------------------------------ |
-| `terraform plan [ディレクトリ]`    | 指定したディレクトリ（省略時はカレントディレクトリ）で、<br />現在の設定で適用される差分を表示する。 |
-| `terraform apply [プランファイル]` | 指定したプランファイル（省略時は`terraform plan`の実行結果）をもとに、<br />インフラを更新する。 |
-
-### オプション
-
-| コマンド           | 概要                         |
-| ------------------ | ---------------------------- |
-| `-target リソース` | 適用するリソースを限定する。 |
-
-## terraform output
-
-### コマンド
-
-| コマンド                  | 概要                                                     |
-| ------------------------- | -------------------------------------------------------- |
-| `terraform output [名前]` | 指定した名前（省略時は全て）の、出力変数の値を出力する。 |
-
-## terraform import
-
-### コマンド
-
-| コマンド                       | 概要                                                         |
-| ------------------------------ | ------------------------------------------------------------ |
-| `terraform import アドレス ID` | 指定した既存リソースをインポートし、tfstateファイルに追記する。 |
-
-- インポートしたリソースを削除するには、`terraform state rm アドレス`を使用する。
-- [Command: import | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/cli/commands/import)
+| コマンド          | オプション         | 概要                                                         |
+| ----------------- | ------------------ | ------------------------------------------------------------ |
+| `fmt`, `validate` | `-recursive`       | サブディレクトリを再帰的にチェックする。<br />（デフォルトではチェックしない） |
+| `plan`, `apply`   | `-target リソース` | 適用するリソースを限定する。                                 |
 
 ## terraform workspace
 
