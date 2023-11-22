@@ -131,11 +131,7 @@
     - [99_その他.md](<./03_Mac/02_GUI/99_その他.md>)
   - 03_CUI
     - [01_共通.md](<./03_Mac/03_CUI/01_共通.md>)
-  - 04_Homebrew
-    - [01_共通.md](<./03_Mac/04_Homebrew/01_共通.md>)
-    - [02_CUI.md](<./03_Mac/04_Homebrew/02_CUI.md>)
-    - [03_パッケージ管理.md](<./03_Mac/04_Homebrew/03_パッケージ管理.md>)
-    - [99_その他.md](<./03_Mac/04_Homebrew/99_その他.md>)
+    - [02_Homebrew.md](<./03_Mac/03_CUI/02_Homebrew.md>)
 - 04_Windows
   - 01_共通
     - [01_共通.md](<./04_Windows/01_共通/01_共通.md>)
