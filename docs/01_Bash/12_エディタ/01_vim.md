@@ -1,4 +1,4 @@
-# Editor/vim/共通
+# Bash/エディタ/vim
 
 ## vim, vimtutor
 

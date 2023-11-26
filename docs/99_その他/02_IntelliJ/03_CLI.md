@@ -1,4 +1,4 @@
-# Editor/IntelliJ/CLI
+# その他/IntelliJ/CLI
 
 ## idea
 

@@ -78,6 +78,9 @@
     - [07_日時.md](<./01_Bash/11_設定/07_日時.md>)
     - [08_日時その他.md](<./01_Bash/11_設定/08_日時その他.md>)
     - [99_その他.md](<./01_Bash/11_設定/99_その他.md>)
+  - 12_エディタ
+    - [01_vim.md](<./01_Bash/12_エディタ/01_vim.md>)
+    - [02_nano.md](<./01_Bash/12_エディタ/02_nano.md>)
   - 99_その他
     - [01_コマンド実行.md](<./01_Bash/99_その他/01_コマンド実行.md>)
     - [02_コマンドヘルプ.md](<./01_Bash/99_その他/02_コマンドヘルプ.md>)
@@ -494,30 +497,21 @@
     - [01_共通.md](<./23_GoogleApps/03_文法/01_共通.md>)
     - [02_スプレッドシート.md](<./23_GoogleApps/03_文法/02_スプレッドシート.md>)
     - [03_スクリプト実行・情報.md](<./23_GoogleApps/03_文法/03_スクリプト実行・情報.md>)
-- 24_Editor
-  - 01_vim
-    - [01_共通.md](<./24_Editor/01_vim/01_共通.md>)
-  - 02_nano
-    - [01_共通.md](<./24_Editor/02_nano/01_共通.md>)
-  - 03_IntelliJ
-    - [01_共通.md](<./24_Editor/03_IntelliJ/01_共通.md>)
-    - [02_ショートカット.md](<./24_Editor/03_IntelliJ/02_ショートカット.md>)
-    - [03_CLI.md](<./24_Editor/03_IntelliJ/03_CLI.md>)
-- 25_テキスト
+- 24_テキスト
   - 01_XML
-    - [01_XPath.md](<./25_テキスト/01_XML/01_XPath.md>)
+    - [01_XPath.md](<./24_テキスト/01_XML/01_XPath.md>)
   - 02_JSON,YAML
-    - [01_JSON.md](<./25_テキスト/02_JSON,YAML/01_JSON.md>)
-    - [02_YAML.md](<./25_テキスト/02_JSON,YAML/02_YAML.md>)
-    - [03_jq.md](<./25_テキスト/02_JSON,YAML/03_jq.md>)
-    - [04_yq.md](<./25_テキスト/02_JSON,YAML/04_yq.md>)
-    - [05_jq表現.md](<./25_テキスト/02_JSON,YAML/05_jq表現.md>)
+    - [01_JSON.md](<./24_テキスト/02_JSON,YAML/01_JSON.md>)
+    - [02_YAML.md](<./24_テキスト/02_JSON,YAML/02_YAML.md>)
+    - [03_jq.md](<./24_テキスト/02_JSON,YAML/03_jq.md>)
+    - [04_yq.md](<./24_テキスト/02_JSON,YAML/04_yq.md>)
+    - [05_jq表現.md](<./24_テキスト/02_JSON,YAML/05_jq表現.md>)
   - 03_Markdown
-    - [01_共通.md](<./25_テキスト/03_Markdown/01_共通.md>)
-    - [02_markdownlint-cli.md](<./25_テキスト/03_Markdown/02_markdownlint-cli.md>)
-    - [03_docsify.md](<./25_テキスト/03_Markdown/03_docsify.md>)
+    - [01_共通.md](<./24_テキスト/03_Markdown/01_共通.md>)
+    - [02_markdownlint-cli.md](<./24_テキスト/03_Markdown/02_markdownlint-cli.md>)
+    - [03_docsify.md](<./24_テキスト/03_Markdown/03_docsify.md>)
   - 04_PlantUML
-    - [01_共通.md](<./25_テキスト/04_PlantUML/01_共通.md>)
+    - [01_共通.md](<./24_テキスト/04_PlantUML/01_共通.md>)
 - 99_その他
   - 01_情報工学
     - [01_応用情報技術者試験.md](<./99_その他/01_情報工学/01_応用情報技術者試験.md>)
@@ -529,27 +523,31 @@
     - [07_HTTP.md](<./99_その他/01_情報工学/07_HTTP.md>)
     - [08_暗号化.md](<./99_その他/01_情報工学/08_暗号化.md>)
     - [99_その他.md](<./99_その他/01_情報工学/99_その他.md>)
-  - 02_Swagger
-    - [01_共通.md](<./99_その他/02_Swagger/01_共通.md>)
-  - 03_Postman
-    - [01_共通.md](<./99_その他/03_Postman/01_共通.md>)
-    - [02_Newman.md](<./99_その他/03_Postman/02_Newman.md>)
-  - 04_ビルドツール
-    - [01_共通.md](<./99_その他/04_ビルドツール/01_共通.md>)
-    - [02_Make.md](<./99_その他/04_ビルドツール/02_Make.md>)
-  - 05_ブラウザ
-    - [01_Chrome.md](<./99_その他/05_ブラウザ/01_Chrome.md>)
-  - 06_Selenium
-    - [01_共通.md](<./99_その他/06_Selenium/01_共通.md>)
-    - [02_初期化・終了.md](<./99_その他/06_Selenium/02_初期化・終了.md>)
-    - [03_ブラウザ.md](<./99_その他/06_Selenium/03_ブラウザ.md>)
-    - [04_Web要素.md](<./99_その他/06_Selenium/04_Web要素.md>)
-    - [99_その他.md](<./99_その他/06_Selenium/99_その他.md>)
-  - 07_Slack
-    - [01_共通.md](<./99_その他/07_Slack/01_共通.md>)
-    - [02_slackcat.md](<./99_その他/07_Slack/02_slackcat.md>)
-  - 08_Android
-    - [01_共通.md](<./99_その他/08_Android/01_共通.md>)
+  - 02_IntelliJ
+    - [01_共通.md](<./99_その他/02_IntelliJ/01_共通.md>)
+    - [02_ショートカット.md](<./99_その他/02_IntelliJ/02_ショートカット.md>)
+    - [03_CLI.md](<./99_その他/02_IntelliJ/03_CLI.md>)
+  - 03_Swagger
+    - [01_共通.md](<./99_その他/03_Swagger/01_共通.md>)
+  - 04_Postman
+    - [01_共通.md](<./99_その他/04_Postman/01_共通.md>)
+    - [02_Newman.md](<./99_その他/04_Postman/02_Newman.md>)
+  - 05_ビルドツール
+    - [01_共通.md](<./99_その他/05_ビルドツール/01_共通.md>)
+    - [02_Make.md](<./99_その他/05_ビルドツール/02_Make.md>)
+  - 06_ブラウザ
+    - [01_Chrome.md](<./99_その他/06_ブラウザ/01_Chrome.md>)
+  - 07_Selenium
+    - [01_共通.md](<./99_その他/07_Selenium/01_共通.md>)
+    - [02_初期化・終了.md](<./99_その他/07_Selenium/02_初期化・終了.md>)
+    - [03_ブラウザ.md](<./99_その他/07_Selenium/03_ブラウザ.md>)
+    - [04_Web要素.md](<./99_その他/07_Selenium/04_Web要素.md>)
+    - [99_その他.md](<./99_その他/07_Selenium/99_その他.md>)
+  - 08_Slack
+    - [01_共通.md](<./99_その他/08_Slack/01_共通.md>)
+    - [02_slackcat.md](<./99_その他/08_Slack/02_slackcat.md>)
+  - 09_Android
+    - [01_共通.md](<./99_その他/09_Android/01_共通.md>)
   - 99_その他
     - [01_VirtualBox.md](<./99_その他/99_その他/01_VirtualBox.md>)
     - [99_その他.md](<./99_その他/99_その他/99_その他.md>)

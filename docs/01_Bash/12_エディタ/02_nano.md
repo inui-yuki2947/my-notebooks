@@ -1,4 +1,4 @@
-# Editor/nano/共通
+# Bash/エディタ/nano
 
 ## 共通
 
