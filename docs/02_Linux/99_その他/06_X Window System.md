@@ -52,13 +52,13 @@
 - Xのログは、`/var/log/Xorg.0.log`に格納される。
 - デスクトップアプリケーションのログは、`~/.xsession-errors`に格納される。
 
-### startx
+## startx
 
 - `startx`コマンドは、X Window Systemを起動する。
 
-### xhost
+## xhost
 
-- コマンド
+### コマンド
 
 |コマンド|概要|
 |---|---|
@@ -70,12 +70,12 @@
   export DISPLAY=Xサーバーのホスト名:ディスプレイ番号
   ```
 
-- 例
+### 例
 
-  ```bash
-  [localpc]  $ xhost +remotepc
-  [remotepc] $ export DISPLAY=localpc:0
-  ```
+```bash
+[localpc]  $ xhost +remotepc
+[remotepc] $ export DISPLAY=localpc:0
+```
 
 ## グラフィカルデスクトップ
 
@@ -104,8 +104,6 @@
 - より快適なデスクトップ環境として、**Xfce**などもある。
 
 ### リモートデスクトップ
-
-- 一覧
 
 | 名称                                                         | 概要                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
