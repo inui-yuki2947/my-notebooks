@@ -1,16 +1,4 @@
-# AWS/ネットワーキングとコンテンツ配信/共通
-
-## CloudFront
-
-- CloudFrontは、CDNのこと。
-
-## ELB
-
-- ELB (Elastic Load Balancing)は、AWSのロードバランサー。
-
-## Route 53
-
-- Route 53は、DNSのこと。
+# AWS/ネットワーキングとコンテンツ配信/VPC
 
 ## VPC
 

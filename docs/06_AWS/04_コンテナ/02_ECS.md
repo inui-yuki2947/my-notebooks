@@ -6,6 +6,10 @@
 
 - ECS (Elastic Container Service)は、AWSのフルマネージドコンテナオーケストレーションサービス。
 
+### Fargate
+
+- Fargateは、必要に応じてEC2インスタンスを起動し、その中にコンテナを割り当てて実行するしくみ。
+
 ## aws ecs
 
 ### コマンド
