@@ -174,9 +174,11 @@
     - [03_ElasticCache.md](<./06_AWS/06_データベース/03_ElasticCache.md>)
   - 07_ネットワーキングとコンテンツ配信
     - [01_VPC.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/01_VPC.md>)
-    - [02_ELB.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/02_ELB.md>)
-    - [03_CloudFront.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/03_CloudFront.md>)
-    - [04_Route 53.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/04_Route 53.md>)
+    - [02_Direct Connect.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/02_Direct Connect.md>)
+    - [03_VPN.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/03_VPN.md>)
+    - [04_ELB.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/04_ELB.md>)
+    - [05_CloudFront.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/05_CloudFront.md>)
+    - [06_Route 53.md](<./06_AWS/07_ネットワーキングとコンテンツ配信/06_Route 53.md>)
   - 08_管理とガバナンス
     - [01_CloudWatch.md](<./06_AWS/08_管理とガバナンス/01_CloudWatch.md>)
     - [02_Systems Manager.md](<./06_AWS/08_管理とガバナンス/02_Systems Manager.md>)
