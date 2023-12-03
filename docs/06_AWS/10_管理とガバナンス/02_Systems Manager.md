@@ -1,5 +1,16 @@
 # AWS/管理とガバナンス/Systems Manager
 
+## 共通
+
+### 概要
+
+- AWS Systems Managerは、AWSアプリケーションおよびリソースのオペレーションハブである。
+- [AWS Systems Manager とは? - AWS Systems Manager](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/what-is-systems-manager.html)
+
+### Session Manager
+
+- Session Managerは、秘密鍵の管理をせずにEC2インスタンスにログインできる仕組みである。
+
 ## aws ssm
 
 ### コマンド

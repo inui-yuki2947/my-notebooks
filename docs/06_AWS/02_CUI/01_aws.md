@@ -2,22 +2,20 @@
 
 ## 共通
 
-### 参考資料
+### 概要
 
-- [AWS Command Line Interface Documentation](https://docs.aws.amazon.com/cli/index.html)
+- AWS Command Line Interface（AWS CLI）は、コマンドラインシェルでコマンドを使用して AWSサービスとやり取りするツールである。
+
+- [AWS Command Line Interface とはどのようなものですか。 - AWS Command Line Interface](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-welcome.html)
 
 ## インストール
 
 ### Mac
 
-- コマンド
-
-  ```bash
-  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
-  sudo installer -pkg AWSCLIV2.pkg -target /
-  ```
-
-- [AWS CLI の最新バージョンをインストールまたは更新します。 - AWS Command Line Interface](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/getting-started-install.html)
+```bash
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+```
 
 ## aws
 
