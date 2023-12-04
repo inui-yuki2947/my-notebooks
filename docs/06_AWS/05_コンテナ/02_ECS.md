@@ -4,7 +4,8 @@
 
 ### 概要
 
-- ECS (Elastic Container Service)は、AWSのフルマネージドコンテナオーケストレーションサービス。
+- Amazon Elastic Container Service（Amazon ECS）は、AWSのフルマネージドコンテナオーケストレーションサービスである。
+- [Amazon Elastic Container Service とは - Amazon Elastic Container Service](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/Welcome.html)
 
 ### Fargate
 
