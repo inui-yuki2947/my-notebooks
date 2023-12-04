@@ -1,4 +1,4 @@
-# AWS/アプリケーション統合 /Step Functions
+# AWS/アプリケーション統合/Step Functions
 
 ## 共通
 

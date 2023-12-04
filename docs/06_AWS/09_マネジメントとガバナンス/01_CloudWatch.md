@@ -1,4 +1,4 @@
-# AWS/管理とガバナンス/CloudWatch
+# AWS/マネジメントとガバナンス/CloudWatch
 
 ## 共通
 

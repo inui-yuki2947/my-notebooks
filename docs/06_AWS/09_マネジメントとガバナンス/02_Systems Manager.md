@@ -1,4 +1,4 @@
-# AWS/管理とガバナンス/Systems Manager
+# AWS/マネジメントとガバナンス/Systems Manager
 
 ## 共通
 

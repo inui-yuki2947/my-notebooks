@@ -1,4 +1,4 @@
-# AWS/開発者用ツール/CodePipeline
+# AWS/デベロッパーツール/CodePipeline
 
 ## aws codepipeline
 

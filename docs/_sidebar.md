@@ -159,37 +159,39 @@
     - [01_共通.md](<./06_AWS/01_共通/01_共通.md>)
   - 02_CUI
     - [01_aws.md](<./06_AWS/02_CUI/01_aws.md>)
-  - 03_コンピューティング
-    - [01_EC2.md](<./06_AWS/03_コンピューティング/01_EC2.md>)
-    - [02_Lambda.md](<./06_AWS/03_コンピューティング/02_Lambda.md>)
-    - [03_Batch.md](<./06_AWS/03_コンピューティング/03_Batch.md>)
-  - 04_暗号化とPKI
-    - [01_ACM.md](<./06_AWS/04_暗号化とPKI/01_ACM.md>)
+  - 03_アプリケーション統合
+    - [01_Step Functions.md](<./06_AWS/03_アプリケーション統合/01_Step Functions.md>)
+  - 04_コンピューティング
+    - [01_EC2.md](<./06_AWS/04_コンピューティング/01_EC2.md>)
+    - [02_Lambda.md](<./06_AWS/04_コンピューティング/02_Lambda.md>)
+    - [03_Batch.md](<./06_AWS/04_コンピューティング/03_Batch.md>)
   - 05_コンテナ
     - [01_ECR.md](<./06_AWS/05_コンテナ/01_ECR.md>)
     - [02_ECS.md](<./06_AWS/05_コンテナ/02_ECS.md>)
-  - 06_ストレージ
-    - [01_S3.md](<./06_AWS/06_ストレージ/01_S3.md>)
+  - 06_暗号化とPKI
+    - [01_ACM.md](<./06_AWS/06_暗号化とPKI/01_ACM.md>)
   - 07_データベース
     - [01_RDS.md](<./06_AWS/07_データベース/01_RDS.md>)
     - [02_DynamoDB.md](<./06_AWS/07_データベース/02_DynamoDB.md>)
     - [03_ElasticCache.md](<./06_AWS/07_データベース/03_ElasticCache.md>)
-  - 08_移行と転送
-    - [01_DataSync.md](<./06_AWS/08_移行と転送/01_DataSync.md>)
-  - 09_ネットワーキングとコンテンツ配信
-    - [01_VPC.md](<./06_AWS/09_ネットワーキングとコンテンツ配信/01_VPC.md>)
-    - [02_Direct Connect.md](<./06_AWS/09_ネットワーキングとコンテンツ配信/02_Direct Connect.md>)
-    - [03_VPN.md](<./06_AWS/09_ネットワーキングとコンテンツ配信/03_VPN.md>)
-    - [04_ELB.md](<./06_AWS/09_ネットワーキングとコンテンツ配信/04_ELB.md>)
-    - [05_CloudFront.md](<./06_AWS/09_ネットワーキングとコンテンツ配信/05_CloudFront.md>)
-    - [06_Route 53.md](<./06_AWS/09_ネットワーキングとコンテンツ配信/06_Route 53.md>)
-  - 10_管理とガバナンス
-    - [01_CloudWatch.md](<./06_AWS/10_管理とガバナンス/01_CloudWatch.md>)
-    - [02_Systems Manager.md](<./06_AWS/10_管理とガバナンス/02_Systems Manager.md>)
-  - 12_開発者用ツール
-    - [01_CodePipeline.md](<./06_AWS/12_開発者用ツール/01_CodePipeline.md>)
-  - 13_セキュリティ、ID、およびコンプライアンス
-    - [01_IAM.md](<./06_AWS/13_セキュリティ、ID、およびコンプライアンス/01_IAM.md>)
+  - 08_デベロッパーツール
+    - [01_CodePipeline.md](<./06_AWS/08_デベロッパーツール/01_CodePipeline.md>)
+  - 09_マネジメントとガバナンス
+    - [01_CloudWatch.md](<./06_AWS/09_マネジメントとガバナンス/01_CloudWatch.md>)
+    - [02_Systems Manager.md](<./06_AWS/09_マネジメントとガバナンス/02_Systems Manager.md>)
+  - 10_移行と転送
+    - [01_DataSync.md](<./06_AWS/10_移行と転送/01_DataSync.md>)
+  - 11_ネットワーキングとコンテンツ配信
+    - [01_VPC.md](<./06_AWS/11_ネットワーキングとコンテンツ配信/01_VPC.md>)
+    - [02_Direct Connect.md](<./06_AWS/11_ネットワーキングとコンテンツ配信/02_Direct Connect.md>)
+    - [03_VPN.md](<./06_AWS/11_ネットワーキングとコンテンツ配信/03_VPN.md>)
+    - [04_ELB.md](<./06_AWS/11_ネットワーキングとコンテンツ配信/04_ELB.md>)
+    - [05_CloudFront.md](<./06_AWS/11_ネットワーキングとコンテンツ配信/05_CloudFront.md>)
+    - [06_Route 53.md](<./06_AWS/11_ネットワーキングとコンテンツ配信/06_Route 53.md>)
+  - 12_セキュリティ、アイデンティティ、コンプライアンス
+    - [01_IAM.md](<./06_AWS/12_セキュリティ、アイデンティティ、コンプライアンス/01_IAM.md>)
+  - 13_ストレージ
+    - [01_S3.md](<./06_AWS/13_ストレージ/01_S3.md>)
 - 07_Terraform
   - 01_CUI
     - [01_terraform.md](<./07_Terraform/01_CUI/01_terraform.md>)
