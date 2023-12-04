@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-set -e
 
 # IntelliJのGUIのGitではシェルの設定ファイルが読み込まれないことがあるため、明示的に読み込む。
-. "$HOME/.profile"
+. "$HOME/.bash_profile"
+
+set -e
 
 cd "$(dirname "$0")/.."
 
