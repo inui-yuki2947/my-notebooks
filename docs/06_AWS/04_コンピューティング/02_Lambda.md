@@ -6,9 +6,6 @@
 
 - Lambdaは、データやリクエストのリアルタイム処理やバックエンドの処理を、自動実行するしくみ。
 - Lambdaを記述する言語としては、PythonとNode.jsがよく使われる。
-
-### 参考資料
-
 - [AWS Lambda の概要 - AWS Lambda](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/welcome.html)
 
 ## 関数

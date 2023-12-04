@@ -160,7 +160,10 @@
   - 02_CUI
     - [01_aws.md](<./06_AWS/02_CUI/01_aws.md>)
   - 03_アプリケーション統合
-    - [01_Step Functions.md](<./06_AWS/03_アプリケーション統合/01_Step Functions.md>)
+    - [01_EventBridge.md](<./06_AWS/03_アプリケーション統合/01_EventBridge.md>)
+    - [02_SNS.md](<./06_AWS/03_アプリケーション統合/02_SNS.md>)
+    - [03_SQS.md](<./06_AWS/03_アプリケーション統合/03_SQS.md>)
+    - [04_Step Functions.md](<./06_AWS/03_アプリケーション統合/04_Step Functions.md>)
   - 04_コンピューティング
     - [01_EC2.md](<./06_AWS/04_コンピューティング/01_EC2.md>)
     - [02_Lambda.md](<./06_AWS/04_コンピューティング/02_Lambda.md>)
@@ -168,17 +171,24 @@
   - 05_コンテナ
     - [01_ECR.md](<./06_AWS/05_コンテナ/01_ECR.md>)
     - [02_ECS.md](<./06_AWS/05_コンテナ/02_ECS.md>)
+    - [03_EKS.md](<./06_AWS/05_コンテナ/03_EKS.md>)
   - 06_暗号化とPKI
     - [01_ACM.md](<./06_AWS/06_暗号化とPKI/01_ACM.md>)
   - 07_データベース
     - [01_RDS.md](<./06_AWS/07_データベース/01_RDS.md>)
     - [02_DynamoDB.md](<./06_AWS/07_データベース/02_DynamoDB.md>)
     - [03_ElasticCache.md](<./06_AWS/07_データベース/03_ElasticCache.md>)
+    - [04_Neptune.md](<./06_AWS/07_データベース/04_Neptune.md>)
   - 08_デベロッパーツール
-    - [01_CodePipeline.md](<./06_AWS/08_デベロッパーツール/01_CodePipeline.md>)
+    - [01_CodeBuild.md](<./06_AWS/08_デベロッパーツール/01_CodeBuild.md>)
+    - [02_CodePipeline.md](<./06_AWS/08_デベロッパーツール/02_CodePipeline.md>)
+    - [03_X-Ray.md](<./06_AWS/08_デベロッパーツール/03_X-Ray.md>)
   - 09_マネジメントとガバナンス
-    - [01_CloudWatch.md](<./06_AWS/09_マネジメントとガバナンス/01_CloudWatch.md>)
-    - [02_Systems Manager.md](<./06_AWS/09_マネジメントとガバナンス/02_Systems Manager.md>)
+    - [01_CloudFormation.md](<./06_AWS/09_マネジメントとガバナンス/01_CloudFormation.md>)
+    - [02_CloudTrail.md](<./06_AWS/09_マネジメントとガバナンス/02_CloudTrail.md>)
+    - [03_Config.md](<./06_AWS/09_マネジメントとガバナンス/03_Config.md>)
+    - [04_CloudWatch.md](<./06_AWS/09_マネジメントとガバナンス/04_CloudWatch.md>)
+    - [05_Systems Manager.md](<./06_AWS/09_マネジメントとガバナンス/05_Systems Manager.md>)
   - 10_移行と転送
     - [01_DataSync.md](<./06_AWS/10_移行と転送/01_DataSync.md>)
   - 11_ネットワーキングとコンテンツ配信
@@ -191,7 +201,9 @@
   - 12_セキュリティ、アイデンティティ、コンプライアンス
     - [01_IAM.md](<./06_AWS/12_セキュリティ、アイデンティティ、コンプライアンス/01_IAM.md>)
   - 13_ストレージ
-    - [01_S3.md](<./06_AWS/13_ストレージ/01_S3.md>)
+    - [01_EBS.md](<./06_AWS/13_ストレージ/01_EBS.md>)
+    - [02_EFS.md](<./06_AWS/13_ストレージ/02_EFS.md>)
+    - [03_S3.md](<./06_AWS/13_ストレージ/03_S3.md>)
 - 07_Terraform
   - 01_CUI
     - [01_terraform.md](<./07_Terraform/01_CUI/01_terraform.md>)
