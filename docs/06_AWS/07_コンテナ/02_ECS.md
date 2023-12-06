@@ -7,9 +7,14 @@
 - Amazon Elastic Container Service（Amazon ECS）は、AWSのフルマネージドコンテナオーケストレーションサービスである。
 - [Amazon Elastic Container Service とは - Amazon Elastic Container Service](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/Welcome.html)
 
-### Fargate
+### AWS Fargate
 
-- Fargateは、必要に応じてEC2インスタンスを起動し、その中にコンテナを割り当てて実行するしくみ。
+- AWS Fargateは、必要に応じてEC2インスタンスを起動し、その中にコンテナを割り当てて実行するしくみである。
+- [AWS Fargateとは? - Amazon ECS](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/userguide/what-is-fargate.html)
+
+### Amazon ECS Anywhere
+
+- Amazon ECS Anywhereを用いると、ECSをユーザーが所有するインフラストラクチャ上で実行できる。
 
 ## aws ecs
 

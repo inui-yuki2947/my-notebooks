@@ -160,54 +160,76 @@
   - 02_CUI
     - [01_aws.md](<./06_AWS/02_CUI/01_aws.md>)
   - 03_分析
-    - [01_Athena.md](<./06_AWS/03_分析/01_Athena.md>)
-    - [02_Glue.md](<./06_AWS/03_分析/02_Glue.md>)
-    - [03_Redshift.md](<./06_AWS/03_分析/03_Redshift.md>)
+    - [01_AppFlow.md](<./06_AWS/03_分析/01_AppFlow.md>)
+    - [02_Athena.md](<./06_AWS/03_分析/02_Athena.md>)
+    - [03_Glue.md](<./06_AWS/03_分析/03_Glue.md>)
+    - [04_Redshift.md](<./06_AWS/03_分析/04_Redshift.md>)
+    - [05_QuickSight.md](<./06_AWS/03_分析/05_QuickSight.md>)
+    - [06_Kinesis.md](<./06_AWS/03_分析/06_Kinesis.md>)
   - 04_アプリケーション統合
     - [01_EventBridge.md](<./06_AWS/04_アプリケーション統合/01_EventBridge.md>)
     - [02_SNS.md](<./06_AWS/04_アプリケーション統合/02_SNS.md>)
     - [03_SQS.md](<./06_AWS/04_アプリケーション統合/03_SQS.md>)
     - [04_Step Functions.md](<./06_AWS/04_アプリケーション統合/04_Step Functions.md>)
-  - 05_コンピューティング
-    - [01_EC2.md](<./06_AWS/05_コンピューティング/01_EC2.md>)
-    - [02_Lambda.md](<./06_AWS/05_コンピューティング/02_Lambda.md>)
-    - [03_Batch.md](<./06_AWS/05_コンピューティング/03_Batch.md>)
-  - 06_コンテナ
-    - [01_ECR.md](<./06_AWS/06_コンテナ/01_ECR.md>)
-    - [02_ECS.md](<./06_AWS/06_コンテナ/02_ECS.md>)
-    - [03_EKS.md](<./06_AWS/06_コンテナ/03_EKS.md>)
-  - 07_暗号化とPKI
-    - [01_ACM.md](<./06_AWS/07_暗号化とPKI/01_ACM.md>)
-  - 08_データベース
-    - [01_RDS.md](<./06_AWS/08_データベース/01_RDS.md>)
-    - [02_DynamoDB.md](<./06_AWS/08_データベース/02_DynamoDB.md>)
-    - [03_ElasticCache.md](<./06_AWS/08_データベース/03_ElasticCache.md>)
-    - [04_Neptune.md](<./06_AWS/08_データベース/04_Neptune.md>)
-  - 09_デベロッパーツール
-    - [01_CodeBuild.md](<./06_AWS/09_デベロッパーツール/01_CodeBuild.md>)
-    - [02_CodePipeline.md](<./06_AWS/09_デベロッパーツール/02_CodePipeline.md>)
-    - [03_X-Ray.md](<./06_AWS/09_デベロッパーツール/03_X-Ray.md>)
-  - 10_マネジメントとガバナンス
-    - [01_CloudFormation.md](<./06_AWS/10_マネジメントとガバナンス/01_CloudFormation.md>)
-    - [02_CloudTrail.md](<./06_AWS/10_マネジメントとガバナンス/02_CloudTrail.md>)
-    - [03_Config.md](<./06_AWS/10_マネジメントとガバナンス/03_Config.md>)
-    - [04_CloudWatch.md](<./06_AWS/10_マネジメントとガバナンス/04_CloudWatch.md>)
-    - [05_Systems Manager.md](<./06_AWS/10_マネジメントとガバナンス/05_Systems Manager.md>)
-  - 11_移行と転送
-    - [01_DataSync.md](<./06_AWS/11_移行と転送/01_DataSync.md>)
-  - 12_ネットワーキングとコンテンツ配信
-    - [01_VPC.md](<./06_AWS/12_ネットワーキングとコンテンツ配信/01_VPC.md>)
-    - [02_Direct Connect.md](<./06_AWS/12_ネットワーキングとコンテンツ配信/02_Direct Connect.md>)
-    - [03_VPN.md](<./06_AWS/12_ネットワーキングとコンテンツ配信/03_VPN.md>)
-    - [04_ELB.md](<./06_AWS/12_ネットワーキングとコンテンツ配信/04_ELB.md>)
-    - [05_CloudFront.md](<./06_AWS/12_ネットワーキングとコンテンツ配信/05_CloudFront.md>)
-    - [06_Route 53.md](<./06_AWS/12_ネットワーキングとコンテンツ配信/06_Route 53.md>)
-  - 13_セキュリティ、アイデンティティ、コンプライアンス
-    - [01_IAM.md](<./06_AWS/13_セキュリティ、アイデンティティ、コンプライアンス/01_IAM.md>)
-  - 14_ストレージ
-    - [01_EBS.md](<./06_AWS/14_ストレージ/01_EBS.md>)
-    - [02_EFS.md](<./06_AWS/14_ストレージ/02_EFS.md>)
-    - [03_S3.md](<./06_AWS/14_ストレージ/03_S3.md>)
+  - 05_ビジネスアプリケーション
+    - [01_Pinpoint.md](<./06_AWS/05_ビジネスアプリケーション/01_Pinpoint.md>)
+    - [02_SES.md](<./06_AWS/05_ビジネスアプリケーション/02_SES.md>)
+  - 06_コンピューティング
+    - [01_Batch.md](<./06_AWS/06_コンピューティング/01_Batch.md>)
+    - [02_EC2.md](<./06_AWS/06_コンピューティング/02_EC2.md>)
+    - [03_Lambda.md](<./06_AWS/06_コンピューティング/03_Lambda.md>)
+    - [04_Lightsail.md](<./06_AWS/06_コンピューティング/04_Lightsail.md>)
+    - [05_Elastic Beanstalk.md](<./06_AWS/06_コンピューティング/05_Elastic Beanstalk.md>)
+    - [06_Serverless Application Repository.md](<./06_AWS/06_コンピューティング/06_Serverless Application Repository.md>)
+  - 07_コンテナ
+    - [01_ECR.md](<./06_AWS/07_コンテナ/01_ECR.md>)
+    - [02_ECS.md](<./06_AWS/07_コンテナ/02_ECS.md>)
+    - [03_EKS.md](<./06_AWS/07_コンテナ/03_EKS.md>)
+  - 08_暗号化とPKI
+    - [01_ACM.md](<./06_AWS/08_暗号化とPKI/01_ACM.md>)
+  - 09_データベース
+    - [01_RDS.md](<./06_AWS/09_データベース/01_RDS.md>)
+    - [02_DynamoDB.md](<./06_AWS/09_データベース/02_DynamoDB.md>)
+    - [03_ElasticCache.md](<./06_AWS/09_データベース/03_ElasticCache.md>)
+    - [04_Neptune.md](<./06_AWS/09_データベース/04_Neptune.md>)
+  - 10_デベロッパーツール
+    - [01_CodeBuild.md](<./06_AWS/10_デベロッパーツール/01_CodeBuild.md>)
+    - [02_CodePipeline.md](<./06_AWS/10_デベロッパーツール/02_CodePipeline.md>)
+    - [03_X-Ray.md](<./06_AWS/10_デベロッパーツール/03_X-Ray.md>)
+  - 11_フロントエンドウェブ＆モバイル
+    - [01_Amplify.md](<./06_AWS/11_フロントエンドウェブ＆モバイル/01_Amplify.md>)
+    - [02_AppSync.md](<./06_AWS/11_フロントエンドウェブ＆モバイル/02_AppSync.md>)
+    - [03_Device Farm.md](<./06_AWS/11_フロントエンドウェブ＆モバイル/03_Device Farm.md>)
+  - 12_マネジメントとガバナンス
+    - [01_CloudFormation.md](<./06_AWS/12_マネジメントとガバナンス/01_CloudFormation.md>)
+    - [02_CloudTrail.md](<./06_AWS/12_マネジメントとガバナンス/02_CloudTrail.md>)
+    - [03_CloudWatch.md](<./06_AWS/12_マネジメントとガバナンス/03_CloudWatch.md>)
+    - [04_Compute Optimizer.md](<./06_AWS/12_マネジメントとガバナンス/04_Compute Optimizer.md>)
+    - [05_Config.md](<./06_AWS/12_マネジメントとガバナンス/05_Config.md>)
+    - [06_Systems Manager.md](<./06_AWS/12_マネジメントとガバナンス/06_Systems Manager.md>)
+  - 13_メディアサービス
+    - [01_Elastic Transcoder.md](<./06_AWS/13_メディアサービス/01_Elastic Transcoder.md>)
+  - 14_移行と転送
+    - [01_Application Discovery Service.md](<./06_AWS/14_移行と転送/01_Application Discovery Service.md>)
+    - [02_Application Migration Service.md](<./06_AWS/14_移行と転送/02_Application Migration Service.md>)
+    - [03_DataSync.md](<./06_AWS/14_移行と転送/03_DataSync.md>)
+    - [04_Migration Hub.md](<./06_AWS/14_移行と転送/04_Migration Hub.md>)
+  - 15_ネットワーキングとコンテンツ配信
+    - [01_VPC.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/01_VPC.md>)
+    - [02_Direct Connect.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/02_Direct Connect.md>)
+    - [03_VPN.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/03_VPN.md>)
+    - [04_ELB.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/04_ELB.md>)
+    - [05_CloudFront.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/05_CloudFront.md>)
+    - [06_Route 53.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/06_Route 53.md>)
+    - [07_API Gateway.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/07_API Gateway.md>)
+  - 16_セキュリティ、アイデンティティ、コンプライアンス
+    - [01_IAM.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/01_IAM.md>)
+  - 17_ストレージ
+    - [01_Backup.md](<./06_AWS/17_ストレージ/01_Backup.md>)
+    - [02_EBS.md](<./06_AWS/17_ストレージ/02_EBS.md>)
+    - [03_EFS.md](<./06_AWS/17_ストレージ/03_EFS.md>)
+    - [04_FSx.md](<./06_AWS/17_ストレージ/04_FSx.md>)
+    - [05_S3.md](<./06_AWS/17_ストレージ/05_S3.md>)
 - 07_Terraform
   - 01_CUI
     - [01_terraform.md](<./07_Terraform/01_CUI/01_terraform.md>)
