@@ -162,10 +162,12 @@
   - 03_分析
     - [01_AppFlow.md](<./06_AWS/03_分析/01_AppFlow.md>)
     - [02_Athena.md](<./06_AWS/03_分析/02_Athena.md>)
-    - [03_Glue.md](<./06_AWS/03_分析/03_Glue.md>)
-    - [04_Redshift.md](<./06_AWS/03_分析/04_Redshift.md>)
-    - [05_QuickSight.md](<./06_AWS/03_分析/05_QuickSight.md>)
-    - [06_Kinesis.md](<./06_AWS/03_分析/06_Kinesis.md>)
+    - [03_Data Pipeline.md](<./06_AWS/03_分析/03_Data Pipeline.md>)
+    - [04_EMR.md](<./06_AWS/03_分析/04_EMR.md>)
+    - [05_Glue.md](<./06_AWS/03_分析/05_Glue.md>)
+    - [06_Redshift.md](<./06_AWS/03_分析/06_Redshift.md>)
+    - [07_QuickSight.md](<./06_AWS/03_分析/07_QuickSight.md>)
+    - [08_Kinesis.md](<./06_AWS/03_分析/08_Kinesis.md>)
   - 04_アプリケーション統合
     - [01_EventBridge.md](<./06_AWS/04_アプリケーション統合/01_EventBridge.md>)
     - [02_SNS.md](<./06_AWS/04_アプリケーション統合/02_SNS.md>)
