@@ -553,7 +553,6 @@
     - [02_YAML.md](<./24_テキスト/02_JSON,YAML/02_YAML.md>)
     - [03_jq.md](<./24_テキスト/02_JSON,YAML/03_jq.md>)
     - [04_yq.md](<./24_テキスト/02_JSON,YAML/04_yq.md>)
-    - [05_jq表現.md](<./24_テキスト/02_JSON,YAML/05_jq表現.md>)
   - 03_Markdown
     - [01_共通.md](<./24_テキスト/03_Markdown/01_共通.md>)
     - [02_markdownlint-cli.md](<./24_テキスト/03_Markdown/02_markdownlint-cli.md>)
