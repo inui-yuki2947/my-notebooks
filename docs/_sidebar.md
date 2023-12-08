@@ -244,6 +244,7 @@
     - [05_data.md](<./07_Terraform/02_HCL/05_data.md>)
     - [06_変数と出力.md](<./07_Terraform/02_HCL/06_変数と出力.md>)
     - [07_表現.md](<./07_Terraform/02_HCL/07_表現.md>)
+    - [08_モジュール.md](<./07_Terraform/02_HCL/08_モジュール.md>)
 - 08_MySQL
   - 01_CUI
     - [01_mysql.md](<./08_MySQL/01_CUI/01_mysql.md>)
