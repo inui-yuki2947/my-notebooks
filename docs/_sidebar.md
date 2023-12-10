@@ -208,7 +208,12 @@
     - [03_CloudWatch.md](<./06_AWS/12_マネジメントとガバナンス/03_CloudWatch.md>)
     - [04_Compute Optimizer.md](<./06_AWS/12_マネジメントとガバナンス/04_Compute Optimizer.md>)
     - [05_Config.md](<./06_AWS/12_マネジメントとガバナンス/05_Config.md>)
-    - [06_Systems Manager.md](<./06_AWS/12_マネジメントとガバナンス/06_Systems Manager.md>)
+    - [06_Control Tower.md](<./06_AWS/12_マネジメントとガバナンス/06_Control Tower.md>)
+    - [07_License Manager.md](<./06_AWS/12_マネジメントとガバナンス/07_License Manager.md>)
+    - [08_Proton.md](<./06_AWS/12_マネジメントとガバナンス/08_Proton.md>)
+    - [09_Service Catalog.md](<./06_AWS/12_マネジメントとガバナンス/09_Service Catalog.md>)
+    - [10_Systems Manager.md](<./06_AWS/12_マネジメントとガバナンス/10_Systems Manager.md>)
+    - [11_Trusted Advisor.md](<./06_AWS/12_マネジメントとガバナンス/11_Trusted Advisor.md>)
   - 13_メディアサービス
     - [01_Elastic Transcoder.md](<./06_AWS/13_メディアサービス/01_Elastic Transcoder.md>)
   - 14_移行と転送
@@ -216,6 +221,7 @@
     - [02_Application Migration Service.md](<./06_AWS/14_移行と転送/02_Application Migration Service.md>)
     - [03_DataSync.md](<./06_AWS/14_移行と転送/03_DataSync.md>)
     - [04_Migration Hub.md](<./06_AWS/14_移行と転送/04_Migration Hub.md>)
+    - [05_Transfer Family.md](<./06_AWS/14_移行と転送/05_Transfer Family.md>)
   - 15_ネットワーキングとコンテンツ配信
     - [01_VPC.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/01_VPC.md>)
     - [02_Direct Connect.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/02_Direct Connect.md>)
@@ -225,13 +231,24 @@
     - [06_Route 53.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/06_Route 53.md>)
     - [07_API Gateway.md](<./06_AWS/15_ネットワーキングとコンテンツ配信/07_API Gateway.md>)
   - 16_セキュリティ、アイデンティティ、コンプライアンス
-    - [01_IAM.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/01_IAM.md>)
+    - [01_Artifact.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/01_Artifact.md>)
+    - [02_AuditManager.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/02_AuditManager.md>)
+    - [03_Firewall Manager.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/03_Firewall Manager.md>)
+    - [04_GuardDuty.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/04_GuardDuty.md>)
+    - [05_IAM.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/05_IAM.md>)
+    - [06_Inspector.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/06_Inspector.md>)
+    - [07_Macie.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/07_Macie.md>)
+    - [08_Security Hub.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/08_Security Hub.md>)
+    - [09_Shield.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/09_Shield.md>)
+    - [10_WAF.md](<./06_AWS/16_セキュリティ、アイデンティティ、コンプライアンス/10_WAF.md>)
   - 17_ストレージ
     - [01_Backup.md](<./06_AWS/17_ストレージ/01_Backup.md>)
     - [02_EBS.md](<./06_AWS/17_ストレージ/02_EBS.md>)
     - [03_EFS.md](<./06_AWS/17_ストレージ/03_EFS.md>)
     - [04_FSx.md](<./06_AWS/17_ストレージ/04_FSx.md>)
     - [05_S3.md](<./06_AWS/17_ストレージ/05_S3.md>)
+    - [06_Storage Gateway.md](<./06_AWS/17_ストレージ/06_Storage Gateway.md>)
+    - [07_Snow Family.md](<./06_AWS/17_ストレージ/07_Snow Family.md>)
 - 07_Terraform
   - 01_CUI
     - [01_terraform.md](<./07_Terraform/01_CUI/01_terraform.md>)
