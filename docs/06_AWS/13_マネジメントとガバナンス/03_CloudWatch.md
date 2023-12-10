@@ -7,6 +7,20 @@
 - Amazon CloudWatchは、AWSサービスでのリソースのモニタリングと管理を行うサービスである。
 - [Amazon CloudWatch とは - Amazon CloudWatch](https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)
 
+### メトリクス
+
+- CloudWatchで取得・監視する項目のことを**「メトリクス」**と呼ぶ。
+- デフォルトでAWSから提供されているメトリクスを**「標準メトリクス」**、それ以外を**「カスタムメトリクス」**と呼ぶ。
+
+### モニタリング
+
+- CloudWatchでEC2を監視する場合、無料の「基本モニタリング」と、有料の「詳細モニタリング」が提供されている。
+
+### CloudWatch Events
+
+- CloudWatch Eventsは、AWS上のリソースの状態を監視し、あるイベントをトリガーにアクションを実行する機能である。
+- 類似サービスとして、CloudWatch Eventsが機能強化されたEventBridgeというサービスがある。
+
 ## CloudWatch Logs Insights
 
 ### 例
