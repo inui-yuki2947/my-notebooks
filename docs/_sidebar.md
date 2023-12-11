@@ -195,6 +195,8 @@
     - [03_EKS.md](<./06_AWS/08_コンテナ/03_EKS.md>)
   - 09_暗号化とPKI
     - [01_ACM.md](<./06_AWS/09_暗号化とPKI/01_ACM.md>)
+    - [02_CloudHSM.md](<./06_AWS/09_暗号化とPKI/02_CloudHSM.md>)
+    - [03_KMS.md](<./06_AWS/09_暗号化とPKI/03_KMS.md>)
   - 10_データベース
     - [01_DocumentDB.md](<./06_AWS/10_データベース/01_DocumentDB.md>)
     - [02_DynamoDB.md](<./06_AWS/10_データベース/02_DynamoDB.md>)
