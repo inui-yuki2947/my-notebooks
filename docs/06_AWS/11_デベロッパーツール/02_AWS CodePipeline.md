@@ -4,7 +4,7 @@
 
 ### 概要
 
-- AWS CodePipelineは、ソフトウェアをリリースするために必要なステップのモデル化、視覚化、および自動化に使用できる継続的な配信サービスである。
+- **AWS CodePipeline**は、ソフトウェアをリリースするために必要なステップのモデル化、視覚化、および自動化に使用できる継続的な配信サービスである。
 - [AWS CodePipeline の概要 - AWS CodePipeline](https://docs.aws.amazon.com/ja_jp/codepipeline/latest/userguide/welcome.html)
 
 ## aws codepipeline

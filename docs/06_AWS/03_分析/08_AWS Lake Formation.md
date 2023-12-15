@@ -4,4 +4,5 @@
 
 ### 概要
 
-- AWS Lake Formationは、データレイクを簡単に構築・管理できるサービスである。
+- **AWS Lake Formation**は、データレイクを簡単に構築・管理できるサービスである。
+- [AWS Lake Formation の概要 - AWS Lake Formation](https://docs.aws.amazon.com/ja_jp/lake-formation/latest/dg/what-is-lake-formation.html)

@@ -4,7 +4,7 @@
 
 ### 概要
 
-- Amazon Virtual Private Cloud（Amazon VPC）とは、AWS上の特定のリージョンに、独立したネットワーク空間を作成できるサービスである。
+- **Amazon Virtual Private Cloud（Amazon VPC）**とは、AWS上の特定のリージョンに、独立したネットワーク空間を作成できるサービスである。
 
 - [Amazon VPC とは? - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/what-is-amazon-vpc.html)
 

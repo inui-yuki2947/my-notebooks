@@ -4,7 +4,7 @@
 
 ### 概要
 
-- AWS Batchを使用すると、AWS クラウドでバッチコンピューティングワークロードを実行できる。
+- **AWS Batch**を使用すると、AWS クラウドでバッチコンピューティングワークロードを実行できる。
 - [AWS Batch とは? - AWS Batch](https://docs.aws.amazon.com/ja_jp/batch/latest/userguide/what-is-batch.html)
 
 ## aws batch

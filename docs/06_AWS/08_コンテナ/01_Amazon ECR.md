@@ -4,7 +4,7 @@
 
 ### 概要
 
-- Amazon Elastic Container Registry（Amazon ECR）は、マネージドコンテナイメージレジストリサービスである。
+- **Amazon Elastic Container Registry（Amazon ECR）**は、マネージドコンテナイメージレジストリサービスである。
 - [Amazon Elastic Container Registry とは - Amazon ECR](https://docs.aws.amazon.com/ja_jp/AmazonECR/latest/userguide/what-is-ecr.html)
 
 ## aws ecr

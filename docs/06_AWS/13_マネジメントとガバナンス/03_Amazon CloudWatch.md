@@ -4,7 +4,7 @@
 
 ### 概要
 
-- Amazon CloudWatchは、AWSサービスでのリソースのモニタリングと管理を行うサービスである。
+- **Amazon CloudWatch**は、AWSサービスでのリソースのモニタリングと管理を行うサービスである。
 - [Amazon CloudWatch とは - Amazon CloudWatch](https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)
 
 ### メトリクス

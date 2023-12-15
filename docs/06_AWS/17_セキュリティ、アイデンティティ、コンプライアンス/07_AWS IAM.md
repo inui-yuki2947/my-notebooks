@@ -4,7 +4,7 @@
 
 ### 概要
 
-- AWS IAM（Identity and Access Management）は、AWSにおける認証機能。
+- **AWS IAM（Identity and Access Management）**は、AWSにおける認証機能。
 - [IAM とは - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/introduction.html)
 
 ### ID

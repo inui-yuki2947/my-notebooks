@@ -4,5 +4,5 @@
 
 ### 概要
 
-- Amazon Timestreamは、サーバーレスの時系列データベースサービスである。
+- **Amazon Timestream**は、サーバーレスの時系列データベースサービスである。
 - [What is Amazon Timestream? - Amazon Timestream](https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html)

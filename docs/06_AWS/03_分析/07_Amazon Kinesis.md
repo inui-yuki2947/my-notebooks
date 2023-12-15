@@ -4,7 +4,8 @@
 
 ### 概要
 
-- **Amazon Kinesis Data Streams**は、データレコードの大量のストリームをリアルタイムで収集し処理するサービスであり、**シャード**と呼ばれる単位でデータを分割して並列処理できる。
+- **Amazon Kinesis Data Streams**は、データレコードの大量のストリームをリアルタイムで収集し処理するサービスであり、
+  **シャード**と呼ばれる単位でデータを分割して並列処理できる。
 - [Amazon Kinesis Data Streams とは - Amazon Kinesis Data Streams](https://docs.aws.amazon.com/ja_jp/streams/latest/dev/introduction.html)
 
 ## Amazon Kinesis Data Firehose
