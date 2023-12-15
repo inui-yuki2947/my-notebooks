@@ -5,5 +5,13 @@
 ### 概要
 
 - **Amazon EC2 Auto Scaling**は、複数のAZを利用して、EC2インスタンスをスケールアウト・スケールインすることができる。
-- **「クールダウン」**は、Auto Scalingが連続で実行されないように、Auto Scalingの待ち時間を設定する機能である。
+- **クールダウン**は、Auto Scalingが連続で実行されないように、Auto Scalingの待ち時間を設定する機能である。
+- **ライフサイクルフック**では、Auto ScalingによるEC2インスタンスの起動または終了を一時的に待機させて、指定したアクションを実行することができる。
 - [Amazon EC2 Auto Scaling とは - Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
+
+### 設定
+
+- EC2 Auto Salingを実行するには、スケーリングプラン、起動設定、Auto Scalingグループの3つを設定する。
+- **スケーリングプラン**は、いつどのような条件でAuto Scalingを実行するかを定義する。
+- **起動設定**は、Auto Scalingの実行時に起動するEC2インスタンスの情報を定義する。
+- **Auto Scalingグループ**は、EC2インスタンスの管理を行う範囲を指す。

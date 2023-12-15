@@ -15,3 +15,10 @@
 - **Amazon Kinesis Data Firehose**は、独自のアプリケーションを構築することなく、ストリーミングデータをAWSの各サービス（S3など）に簡単に配信・保存できるサービスである。
 
 - [Amazon Kinesis Data Firehose とは何ですか? - Amazon Kinesis Data Firehose](https://docs.aws.amazon.com/ja_jp/firehose/latest/dev/what-is-this-service.html)
+
+## Amazon Kinesis Data Analytics
+
+### 概要
+
+- **Amazon Kinesis Data Analytics**は、ストリーミングデータに対してSQLクエリを実行し、リアルタイム分析を行うサービスである。
+- [Amazon Kinesis Data Analytics for SQL Applications とは - Amazon Kinesis Data Analytics for SQL Applications 開発者ガイド](https://docs.aws.amazon.com/ja_jp/kinesisanalytics/latest/dev/what-is.html)
