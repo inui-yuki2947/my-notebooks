@@ -6,6 +6,7 @@
 
 - RDS (Relational Database Service)は、主要なRDB製品を利用できるサービス。
 - **リードレプリカ**を使用することで、読み取りスループットを向上させることができる。
+- プライマリインスタンスに障害が起きた場合は、リードレプリカがプリマリインスタンスに昇格する。
 - [Amazon Relational Database Service (Amazon RDS) とは - Amazon Relational Database Service](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Welcome.html)
 
 ### バックアップと復元
