@@ -64,9 +64,3 @@
 
 - VM Import/Exportを使用すると、仮想マシン（VM）イメージを既存の仮想化環境からAmazon EC2にインポートし、それを元の環境にエクスポートすることができる。
 - [VM Import/Export とは - VM Import/Export](https://docs.aws.amazon.com/ja_jp/vm-import/latest/userguide/what-is-vmimport.html)
-
-### Auto Scaling
-
-- EC2 Auto Scalingは、複数のAZを利用して、EC2インスタンスをスケールアウト・スケールインすることができる。
-- **「クールダウン」**は、Auto Scalingが連続で実行されないように、Auto Scalingの待ち時間を設定する機能である。
-- [Amazon EC2 Auto Scaling とは - Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
