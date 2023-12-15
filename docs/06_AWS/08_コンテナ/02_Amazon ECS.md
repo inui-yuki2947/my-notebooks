@@ -9,7 +9,7 @@
 
 ### AWS Fargate
 
-- **AWS Fargate**は、必要に応じてEC2インスタンスを起動し、その中にコンテナを割り当てて実行するしくみである。
+- ECSはEC2でもデプロイ可能だが、**AWS Fargate**を使うと、必要に応じてEC2インスタンスを起動し、その中にコンテナを割り当てて実行することができる。
 - [AWS Fargateとは? - Amazon ECS](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/userguide/what-is-fargate.html)
 
 ### Amazon ECS Anywhere
