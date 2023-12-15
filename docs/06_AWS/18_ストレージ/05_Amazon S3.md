@@ -9,6 +9,7 @@
 - **マルチパートアップロード**を用いると、大容量のオブジェクトを分割してアップロードできる。
 - **Amazon S3 Transfer Acceleration**は、エッジロケーションを用いてクライアントとS3間の通信化を高速化する。
 - デフォルトでは全てのS3オブジェクトはプライベートだが、**署名付きURL**を用いると、一定時間だけオブジェクトを他のユーザーと共有できる。
+- リクエスタ支払いを設定すると、ユーザ側にオブジェクトへのアクセス料金を支払わせることが出来る
 - [Amazon S3 とは - Amazon Simple Storage Service](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/Welcome.html)
 
 ### ストレージクラス

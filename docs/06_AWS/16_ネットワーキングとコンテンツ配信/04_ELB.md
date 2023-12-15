@@ -9,6 +9,8 @@
 - ELBは、バックエンドインスタンスが正常に動作しているか**ヘルスチェック**を行う。
 - **スティッキーセッション**を使用すると、セッションが続いている間は同じクライアントを同じサーバへ誘導できる。
 - **クロスゾーン負荷分散**を使用すると、複数のAZに登録された全てのインスタンスに対して、リクエストを均等に分散する。
+- ELBをSSL終端とすることができる。
+- ALBでアクセスログを有効化すると、アクセスログがS3にアップロードされる。
 - [Elastic Load Balancing とは? - Elastic Load Balancing](https://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 
 ### 種類
