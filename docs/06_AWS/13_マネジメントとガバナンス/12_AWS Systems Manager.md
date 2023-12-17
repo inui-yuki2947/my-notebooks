@@ -11,6 +11,10 @@
 
 - **Session Manager**は、秘密鍵の管理をせずにEC2インスタンスにログインできる仕組みである。
 
+### Patch Manager
+
+- **Patch Manager**は、マネージドノードにパッチを適用するプロセスを自動化する。
+
 ## aws ssm
 
 ### コマンド
