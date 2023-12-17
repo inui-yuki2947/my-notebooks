@@ -11,6 +11,10 @@
 
 - **Session Manager**は、秘密鍵の管理をせずにEC2インスタンスにログインできる仕組みである。
 
+### Run Command
+
+- **Run Command**では、マネージドノードの設定を安全にリモートで管理することができる。
+
 ### Patch Manager
 
 - **Patch Manager**は、マネージドノードにパッチを適用するプロセスを自動化する。
