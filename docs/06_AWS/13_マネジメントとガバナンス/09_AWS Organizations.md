@@ -6,4 +6,5 @@
 
 - **AWS Organizations**は、複数のAWSアカウント作成の自動化やグループ化による集中管理などを行うサービスである。
 - **サービスコントロールポリシー（SCP）**は、Organizationsで管理されている複数のAWSアカウントに対して、IAMポリシーのような権限制御を統合的に管理・適用する機能である。
+- Organizationsに参加するには、管理アカウントの所有者が、追加したいアカウントにリクエストを招待する。
 - [AWS Organizations の概要 - AWS Organizations](https://docs.aws.amazon.com/ja_jp/organizations/latest/userguide/orgs_introduction.html)
