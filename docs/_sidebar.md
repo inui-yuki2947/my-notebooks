@@ -207,9 +207,10 @@
     - [07_Amazon RDS.md](<./06_AWS/10_データベース/07_Amazon RDS.md>)
     - [08_Amazon Timestream.md](<./06_AWS/10_データベース/08_Amazon Timestream.md>)
   - 11_デベロッパーツール
-    - [01_AWS CodeBuild.md](<./06_AWS/11_デベロッパーツール/01_AWS CodeBuild.md>)
-    - [02_AWS CodePipeline.md](<./06_AWS/11_デベロッパーツール/02_AWS CodePipeline.md>)
-    - [03_AWS X-Ray.md](<./06_AWS/11_デベロッパーツール/03_AWS X-Ray.md>)
+    - [01_AWS CloudShell.md](<./06_AWS/11_デベロッパーツール/01_AWS CloudShell.md>)
+    - [02_AWS CodeBuild.md](<./06_AWS/11_デベロッパーツール/02_AWS CodeBuild.md>)
+    - [03_AWS CodePipeline.md](<./06_AWS/11_デベロッパーツール/03_AWS CodePipeline.md>)
+    - [04_AWS X-Ray.md](<./06_AWS/11_デベロッパーツール/04_AWS X-Ray.md>)
   - 12_フロントエンドウェブ＆モバイル
     - [01_AWS Amplify.md](<./06_AWS/12_フロントエンドウェブ＆モバイル/01_AWS Amplify.md>)
     - [02_AWS AppSync.md](<./06_AWS/12_フロントエンドウェブ＆モバイル/02_AWS AppSync.md>)
@@ -228,6 +229,7 @@
     - [11_AWS Service Catalog.md](<./06_AWS/13_マネジメントとガバナンス/11_AWS Service Catalog.md>)
     - [12_AWS Systems Manager.md](<./06_AWS/13_マネジメントとガバナンス/12_AWS Systems Manager.md>)
     - [13_AWS Trusted Advisor.md](<./06_AWS/13_マネジメントとガバナンス/13_AWS Trusted Advisor.md>)
+    - [14_AWSユーザー通知.md](<./06_AWS/13_マネジメントとガバナンス/14_AWSユーザー通知.md>)
   - 14_メディアサービス
     - [01_Amazon Elastic Transcoder.md](<./06_AWS/14_メディアサービス/01_Amazon Elastic Transcoder.md>)
   - 15_移行と転送
