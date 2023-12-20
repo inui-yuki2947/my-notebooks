@@ -5,6 +5,7 @@
 ### 概要
 
 - **Amazon EC2（Elastic Compute Cloud）**は、サーバー・OS・ソフトウェアなどを一式レンタルできるサービス。
+- EC2はデフォルトでは5分間隔でCloudWatchにメトリクスを送信するが、インスタンスの詳細なモニタリングを有効にしている場合、1分間隔で送信する。
 - [Amazon EC2 とは - Amazon Elastic Compute Cloud](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/concepts.html)
 
 ### Amazon マシンイメージ（AMI）
