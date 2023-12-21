@@ -5,22 +5,31 @@
 ### 概要
 
 - **AWS IAM（Identity and Access Management）**は、AWSにおける認証機能。
-- [IAM とは - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/introduction.html)
-
-### ID
-
-- **IAMユーザー**は、AWSで作成したエンティティのこと。
-- AWS CLIやAWS SDKでは、IAMユーザーごとに作成できる**アクセスキーID**と**シークレットアクセスキー**を使用する。
-- **IAMグループ**は、IAMユーザーの集合。IAMユーザーあたり10までのグループに所属できる。
-- **IAMロール**は、「AWSのリソースに付与するもの」で、IAMポリシーをグルーピングしたもの。
 - **信頼されたエンティティ**とは、ロールをアタッチできるサービス。
 - **IDフェデレーション**は、会社や組織で既に導入されている認証の仕組みとAWSの認証を紐付けし、シングルサインオンを実現する機能である。
-- **AWS Security Token Service（AWS STS）**を使用して、AWSへの一時的なアクセスキーを発行することができる。
 - AWSアカウントは、エイリアスを1つだけ持つことができる。
+- [IAM とは - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/introduction.html)
 
-### アクセス管理
+### IAMユーザー
+
+- **IAMユーザー**は、AWSで作成したエンティティのこと。
+- IAMユーザーの認証には、ID・パスワードの組み合わせと、
+  **アクセスキーID**と**シークレットアクセスキー**の組み合わせ（AWS CLIやAWS SDKで使用）がある。
+
+### IAMグループ
+
+- **IAMグループ**は、IAMユーザーの集合。
+- IAMユーザーあたり10までのグループに所属できる。
+
+### IAMロール
+
+- **IAMロール**は、「AWSのリソースに付与するもの」で、IAMポリシーをグルーピングしたもの。
+- **スイッチロール**とは、特定のIAMユーザーから別のIAMロールに切り替えること。
+
+### IAMポリシー
 
 - **IAMポリシー**は、実行者がどのサービスにアクセスできるかを設定する機能。
+- IAMポリシーには、アイデンティティベースのポリシー、リソースベースのポリシーなどがある。
 - 権限の優先度は、**明示的な拒否、明示的な許可、暗示的な拒否**の順。
 - 種類
 
@@ -29,3 +38,11 @@
     | AWS管理ポリシー        | AWSが感知する、事前に定義されたポリシーのテンプレート。      |
     | カスタマー管理ポリシー | AWSのユーザーが自身で作成・カスタマイズできるポリシー。      |
     | インラインポリシー     | 1 つの IAMアイデンティティ（ユーザー・グループ・ロール）に埋め込まれたポリシー。 |
+
+### AWS STS
+
+- **AWS Security Token Service（AWS STS）**を使用して、AWSへの一時的なアクセスキーを発行することができる。
+
+### IAM Access Analyzer
+
+- **IAM Access Analyzer**は、外部エンティティと共有されている組織内のリソースやアカウント（Amazon S3バケットやIAMロールなど）を識別するのに役立つ。

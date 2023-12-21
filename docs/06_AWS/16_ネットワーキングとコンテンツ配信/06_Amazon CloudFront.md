@@ -10,4 +10,9 @@
 - **フィールドレベル暗号化**は、個人情報に関わるような機密性の高いデータのセキュリティを確保するための機能である。
 - **オリジンアクセスアイデンティティ（OAI）**を使用することで、CloudFrontのみにS3バケットへのアクセスを許可することができる。
 - Amazon CloudFrontが生成されると自動的にディストリビューションドメイン名が生成され、それを使ってCloudFrontに接続することが出来る。
+- キャッシュヒット率の改善には以下の方法がある。
+  - オブジェクトのTTLを増やす。
+  - オリジンが固有のオブジェクトを返す必要なクエリ文字列パラメータ、Cookie、またはリクエスト ヘッダーのみを転送するようにディストリビューションを設定する。
+  - 圧縮が必要ない場合は、Accept-Encoding ヘッダーを削除する。
+  - HTTPを使用したメディア コンテンツを提供する。
 - [Amazon CloudFront とは何ですか? - Amazon CloudFront](https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)

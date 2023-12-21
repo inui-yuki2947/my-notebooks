@@ -4,7 +4,7 @@
 
 ### 概要
 
-- **AWS Systems Manager**は、AWSアプリケーションおよびリソースのオペレーションハブである。
+- **AWS Systems Manager（SSM）**は、AWSアプリケーションおよびリソースのオペレーションハブである。
 - [AWS Systems Manager とは? - AWS Systems Manager](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/what-is-systems-manager.html)
 
 ### Session Manager
@@ -15,9 +15,21 @@
 
 - **Run Command**では、マネージドノードの設定を安全にリモートで管理することができる。
 
+### State Manager
+
+- **State Manager**は、EC2インスタンスやオンプレミスサーバーなどを事前定義された状態に保つためのプロセスを自動化する。
+
 ### Patch Manager
 
 - **Patch Manager**は、マネージドノードにパッチを適用するプロセスを自動化する。
+
+### Automation
+
+- **Automation**は、Automation Document（JSON, YAML）で処理を記述し、自動実行する。
+
+### Parameter Store
+
+- **Parameter Store**は、パスワードなどの文字列情報を保存する。
 
 ## aws ssm
 
