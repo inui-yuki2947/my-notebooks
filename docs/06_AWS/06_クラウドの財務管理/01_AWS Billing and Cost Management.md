@@ -19,4 +19,5 @@
 ### 概要
 
 - **AWS Budgets**では、予算を作成できる。
+- AWS Budgetでは、コストまたは使用量が予算額を超えた（または超えると予測された）場合に警告するカスタム予算を設定できる。
 - [AWS Budgets を用いてコストを管理する - AWS コスト管理](https://docs.aws.amazon.com/ja_jp/cost-management/latest/userguide/budgets-managing-costs.html)

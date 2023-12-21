@@ -5,6 +5,7 @@
 ### 概要
 
 - **Amazon CloudWatch**は、AWSサービスでのリソースのモニタリングと管理を行うサービスである。
+- CloudWatchエージェントをオンプレミス環境にインストールすることで、そのメトリクスを取得可能である。
 - [Amazon CloudWatch とは - Amazon CloudWatch](https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)
 
 ### メトリクス
