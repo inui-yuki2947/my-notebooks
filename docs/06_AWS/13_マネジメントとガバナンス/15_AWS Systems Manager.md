@@ -7,6 +7,10 @@
 - **AWS Systems Manager（SSM）**は、AWSアプリケーションおよびリソースのオペレーションハブである。
 - [AWS Systems Manager とは? - AWS Systems Manager](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/what-is-systems-manager.html)
 
+### Fleet Manager
+
+- **Fleet Manager**は、AWSまたはオンプレミスで実行されているノードをリモートで管理するのに役立つ。
+
 ### Session Manager
 
 - **Session Manager**は、秘密鍵の管理をせずにEC2インスタンスにログインできる仕組みである。

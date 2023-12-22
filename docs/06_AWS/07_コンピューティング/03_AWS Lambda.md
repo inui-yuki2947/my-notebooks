@@ -5,9 +5,21 @@
 ### 概要
 
 - **AWS Lambda**は、データやリクエストのリアルタイム処理やバックエンドの処理を、自動実行するしくみ。
-- **Lambda@Edge**は、CloudFrontのエッジロケーション上でLambdaのプログラムを実行するサービスであり、通常のLambdaを上回るパフォーマンスと待ち時間の短縮を実現する。
 - Lambdaを記述する言語としては、PythonとNode.jsがよく使われる。
 - [AWS Lambda の概要 - AWS Lambda](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/welcome.html)
+
+### Lambdaレイヤー
+
+- **Lambdaレイヤー**は、Lambda関数で使用できるライブラリ・依存関係をパッケージ化して、Lambda関数間で共有可能にする機能である。
+
+### バージョニングとエイリアス
+
+- **バージョニング**は、コードの更新時に新旧のバージョンを共存する機能である。
+- **エイリアス**は、本番環境とは別の環境を作成する機能である。
+
+### Lambda@Edge
+
+- **Lambda@Edge**は、CloudFrontのエッジロケーション上でLambdaのプログラムを実行するサービスであり、通常のLambdaを上回るパフォーマンスと待ち時間の短縮を実現する。
 
 ## 関数
 

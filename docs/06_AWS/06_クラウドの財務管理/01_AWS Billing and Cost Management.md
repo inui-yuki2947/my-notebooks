@@ -12,6 +12,8 @@
 ### 概要
 
 - **AWS Cost Explorer**は、AWS Cost and Usage Reportのデータをグラフィカルに可視化したり検索できるサービスである。
+- 日付範囲に未来の日付を含めることで、コスト予測を作成することができる。
+- Saving Plansは、Cost Explorerから購入する。
 - [AWS Cost Explorer を用いてコストを分析する - AWS コスト管理](https://docs.aws.amazon.com/ja_jp/cost-management/latest/userguide/ce-what-is.html)
 
 ## AWS Budgets

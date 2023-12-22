@@ -25,7 +25,7 @@
 ### CloudWatch Events
 
 - **CloudWatch Events**は、AWS上のリソースの状態を監視し、あるイベントをトリガーにアクションを実行する機能である。
-- 類似サービスとして、CloudWatch Eventsが機能強化されたEventBridgeというサービスがある。
+- Amazon EventBridgeは、CloudWatch Eventsの上位互換である。
 
 ### CloudWatch Logs
 

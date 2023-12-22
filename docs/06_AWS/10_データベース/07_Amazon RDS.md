@@ -34,6 +34,8 @@
 
 - **Amazon Aurora**は、PostgreSQLやMySQLと互換性のある、AWS固有のデータベースサービスである。
 - Amazon Auroraは、PostgreSQLやMySQLよりも性能やスループットが優れている。
+- **Protection Groups**は、データを10GBずつのグループに分けて各AZに保存する機能である。
+- **BackTrack**は、チェックポイントに状態を巻き戻す機能である。
 - **Auroraマルチマスタークラスター**は、全てのデータベースインスタンスでデータの読み取り・書き込み処理を行う構成のことである。
 - **Amazon Aurora Global Database**を使用すると、複数リージョンにAuroraクラスターをデプロイすることができる。
 - **Aurora Serverless**は、通常はデータベースインスタンスが起動しておらず、SQLのリクエストを受け取って初めてデータベースインスタンスが起動するサービスである。

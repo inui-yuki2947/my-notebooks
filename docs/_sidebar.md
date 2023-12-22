@@ -228,10 +228,11 @@
     - [10_AWS OpsWorks.md](<./06_AWS/13_マネジメントとガバナンス/10_AWS OpsWorks.md>)
     - [11_AWS Organizations.md](<./06_AWS/13_マネジメントとガバナンス/11_AWS Organizations.md>)
     - [12_AWS Proton.md](<./06_AWS/13_マネジメントとガバナンス/12_AWS Proton.md>)
-    - [13_AWS Service Catalog.md](<./06_AWS/13_マネジメントとガバナンス/13_AWS Service Catalog.md>)
-    - [14_AWS Systems Manager.md](<./06_AWS/13_マネジメントとガバナンス/14_AWS Systems Manager.md>)
-    - [15_AWS Trusted Advisor.md](<./06_AWS/13_マネジメントとガバナンス/15_AWS Trusted Advisor.md>)
-    - [16_AWSユーザー通知.md](<./06_AWS/13_マネジメントとガバナンス/16_AWSユーザー通知.md>)
+    - [13_AWS Resource Groups.md](<./06_AWS/13_マネジメントとガバナンス/13_AWS Resource Groups.md>)
+    - [14_AWS Service Catalog.md](<./06_AWS/13_マネジメントとガバナンス/14_AWS Service Catalog.md>)
+    - [15_AWS Systems Manager.md](<./06_AWS/13_マネジメントとガバナンス/15_AWS Systems Manager.md>)
+    - [16_AWS Trusted Advisor.md](<./06_AWS/13_マネジメントとガバナンス/16_AWS Trusted Advisor.md>)
+    - [17_AWSユーザー通知.md](<./06_AWS/13_マネジメントとガバナンス/17_AWSユーザー通知.md>)
   - 14_メディアサービス
     - [01_Amazon Elastic Transcoder.md](<./06_AWS/14_メディアサービス/01_Amazon Elastic Transcoder.md>)
   - 15_移行と転送
