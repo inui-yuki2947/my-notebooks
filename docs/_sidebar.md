@@ -182,6 +182,7 @@
     - [02_Amazon SES.md](<./06_AWS/05_ビジネスアプリケーション/02_Amazon SES.md>)
   - 06_クラウドの財務管理
     - [01_AWS Billing and Cost Management.md](<./06_AWS/06_クラウドの財務管理/01_AWS Billing and Cost Management.md>)
+    - [02_AWS Pricing Calculator.md](<./06_AWS/06_クラウドの財務管理/02_AWS Pricing Calculator.md>)
   - 07_コンピューティング
     - [01_AWS Batch.md](<./06_AWS/07_コンピューティング/01_AWS Batch.md>)
     - [02_Amazon EC2.md](<./06_AWS/07_コンピューティング/02_Amazon EC2.md>)
