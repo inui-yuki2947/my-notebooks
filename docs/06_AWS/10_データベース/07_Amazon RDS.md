@@ -5,6 +5,7 @@
 ### 概要
 
 - **Amazon RDS（Relational Database Service）**は、主要なRDB製品を利用できるサービス。
+- RDSストレージのオートスケーリングを使用すると、自動的に容量をスケールする。
 - [Amazon Relational Database Service (Amazon RDS) とは - Amazon Relational Database Service](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Welcome.html)
 
 ### リードレプリカ
