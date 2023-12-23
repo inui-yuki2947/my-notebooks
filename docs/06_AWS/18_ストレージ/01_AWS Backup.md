@@ -5,6 +5,7 @@
 ### 概要
 
 - **AWS Backup**は、フルマネージド型のバックアップサービスである。
+- EC2、S3、EBS、RDSなどがサポート対象である。
 - **RPO（Recovery Point Objective）**は、目標復旧時点（障害発生時点から前回バックアップまでの時間）。
 - **RTO（Recovery Time Objective）**は、目標復旧時間。
 - [AWS Backup とは? - AWS Backup](https://docs.aws.amazon.com/ja_jp/aws-backup/latest/devguide/whatisbackup.html)

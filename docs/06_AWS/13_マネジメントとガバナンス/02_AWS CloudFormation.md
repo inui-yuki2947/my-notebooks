@@ -8,6 +8,7 @@
 - CloudFormationの設定ファイルを**テンプレート**、
   テンプレートに従ってプロビジョニングされるAWSリソースの集合を**スタック**と呼ぶ。
 - **スタックポリシー**を設定すると、スタックのリソースが更新されないようにできる。
+- Lambda関数をカスタムリソースに関連付けると、カスタムリソースが作成、更新、または削除されるたびに関数が呼び出される。
 - [AWS CloudFormation の概要 - AWS CloudFormation](https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/Welcome.html)
 
 ### スタック

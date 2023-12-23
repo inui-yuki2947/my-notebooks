@@ -6,6 +6,7 @@
 
 - **Amazon RDS（Relational Database Service）**は、主要なRDB製品を利用できるサービス。
 - RDSストレージのオートスケーリングを使用すると、自動的に容量をスケールする。
+- **Performance Insights**を使用すると、DBロード（DB負荷）をモニタリングできる。
 - [Amazon Relational Database Service (Amazon RDS) とは - Amazon Relational Database Service](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Welcome.html)
 
 ### リードレプリカ
@@ -35,7 +36,7 @@
 - **Amazon Aurora**は、PostgreSQLやMySQLと互換性のある、AWS固有のデータベースサービスである。
 - Amazon Auroraは、PostgreSQLやMySQLよりも性能やスループットが優れている。
 - **Protection Groups**は、データを10GBずつのグループに分けて各AZに保存する機能である。
-- **BackTrack**は、チェックポイントに状態を巻き戻す機能である。
+- **バックトラック（BackTrack）**は、同じDBクラスタで、簡単にチェックポイントに状態を巻き戻す機能である。
 - **Auroraマルチマスタークラスター**は、全てのデータベースインスタンスでデータの読み取り・書き込み処理を行う構成のことである。
 - **Amazon Aurora Global Database**を使用すると、複数リージョンにAuroraクラスターをデプロイすることができる。
 - **Aurora Serverless**は、通常はデータベースインスタンスが起動しておらず、SQLのリクエストを受け取って初めてデータベースインスタンスが起動するサービスである。
