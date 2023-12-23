@@ -14,9 +14,9 @@
 
 - EBSでは、スナップショットを用いてバックアップを取得することができる。
 
-### Amazon Data Lifecycle Manager
+### Amazon Data Lifecycle Manager（Amazon DLM）
 
-- **Amazon Data Lifecycle Manager**を使用して、EBS スナップショットとEBS-backed AMIの作成、保持、削除を自動化できる。
+- **Amazon Data Lifecycle Manager（Amazon DLM）**を使用して、EBS スナップショットとEBS-backed AMIの作成、保持、削除を自動化できる。
 
 ### ボリュームタイプ
 
