@@ -5,9 +5,7 @@
 ### 概要
 
 - **AWS IAM（Identity and Access Management）**は、AWSにおける認証機能。
-- **信頼されたエンティティ**とは、ロールをアタッチできるサービス。
-- **IDフェデレーション**は、会社や組織で既に導入されている認証の仕組みとAWSの認証を紐付けし、シングルサインオンを実現する機能である。
-- AWSアカウントは、エイリアスを1つだけ持つことができる。
+- **プリンシパル**とは、ユーザー、ロールなどAWSにアクセスする主体である。
 - [IAM とは - AWS Identity and Access Management](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/introduction.html)
 
 ### IAMユーザー
@@ -46,3 +44,8 @@
 ### IAM Access Analyzer
 
 - **IAM Access Analyzer**は、外部エンティティと共有されている組織内のリソースやアカウント（Amazon S3バケットやIAMロールなど）を識別するのに役立つ。
+
+### その他
+
+- **信頼されたエンティティ**とは、ロールをアタッチできるサービス。
+- **IDフェデレーション**は、会社や組織で既に導入されている認証の仕組みとAWSの認証を紐付けし、シングルサインオンを実現する機能である。
