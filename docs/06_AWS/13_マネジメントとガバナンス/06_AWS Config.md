@@ -10,3 +10,5 @@
 ### AWS Configルール
 
 - **AWS Configルール**を使用すると、現在のリソース構成がルールに則っているかを評価することができる。
+- ルールの評価方法には、Event-Based EvaluationsとPeriodic Evaluationsがある。
+- Systems ManagerのAutomation機能などと連携し、非準拠のリソースの自動修復をすることができる。
