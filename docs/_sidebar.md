@@ -208,10 +208,11 @@
     - [07_Amazon RDS.md](<./06_AWS/10_データベース/07_Amazon RDS.md>)
     - [08_Amazon Timestream.md](<./06_AWS/10_データベース/08_Amazon Timestream.md>)
   - 11_デベロッパーツール
-    - [01_AWS CloudShell.md](<./06_AWS/11_デベロッパーツール/01_AWS CloudShell.md>)
-    - [02_AWS CodeBuild.md](<./06_AWS/11_デベロッパーツール/02_AWS CodeBuild.md>)
-    - [03_AWS CodePipeline.md](<./06_AWS/11_デベロッパーツール/03_AWS CodePipeline.md>)
-    - [04_AWS X-Ray.md](<./06_AWS/11_デベロッパーツール/04_AWS X-Ray.md>)
+    - [01_AWS Cloud9.md](<./06_AWS/11_デベロッパーツール/01_AWS Cloud9.md>)
+    - [02_AWS CloudShell.md](<./06_AWS/11_デベロッパーツール/02_AWS CloudShell.md>)
+    - [03_AWS CodeBuild.md](<./06_AWS/11_デベロッパーツール/03_AWS CodeBuild.md>)
+    - [04_AWS CodePipeline.md](<./06_AWS/11_デベロッパーツール/04_AWS CodePipeline.md>)
+    - [05_AWS X-Ray.md](<./06_AWS/11_デベロッパーツール/05_AWS X-Ray.md>)
   - 12_フロントエンドウェブ＆モバイル
     - [01_AWS Amplify.md](<./06_AWS/12_フロントエンドウェブ＆モバイル/01_AWS Amplify.md>)
     - [02_AWS AppSync.md](<./06_AWS/12_フロントエンドウェブ＆モバイル/02_AWS AppSync.md>)
