@@ -4,7 +4,9 @@
 
 ### 概要
 
-- **AWS Lambda**は、データやリクエストのリアルタイム処理やバックエンドの処理を、自動実行するしくみ。
+- **AWS Lambda**は、イベントドリブントリガーをもとにアクションや条件分岐を構築するFaaSサービスである。
+- AWS Lambdaは、サーバーレスかつフルマネージドで、関数の実行中のみ課金される。
+- AWS Lambdaの最大実行時間は、900秒＝15分である。
 - Lambdaを記述する言語としては、PythonとNode.jsがよく使われる。
 - [AWS Lambda の概要 - AWS Lambda](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/welcome.html)
 
@@ -20,6 +22,10 @@
 ### Lambda@Edge
 
 - **Lambda@Edge**は、CloudFrontのエッジロケーション上でLambdaのプログラムを実行するサービスであり、通常のLambdaを上回るパフォーマンスと待ち時間の短縮を実現する。
+
+### 関数ログ
+
+- 関数ログは、 CloudWatch Logs グループ`/aws/lambda/<function name>`に出力される。
 
 ## 関数
 
@@ -39,9 +45,3 @@ def handler_name(event, context):
     ...
     return some_value
 ```
-
-## 監視機能
-
-### 関数ログ
-
-- 関数ログは、 CloudWatch Logs グループ`/aws/lambda/<function name>`に出力される。

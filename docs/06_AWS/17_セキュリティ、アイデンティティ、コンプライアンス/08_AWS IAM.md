@@ -40,6 +40,7 @@
 ### AWS STS
 
 - **AWS Security Token Service（AWS STS）**を使用して、AWSへの一時的なアクセスキーを発行することができる。
+- **AssumeRole**とは、IAMロールを引き受けることである。
 
 ### IAM Access Analyzer
 
@@ -47,5 +48,5 @@
 
 ### その他
 
+- **Permissions Boundary**を設定すると、IAMエンティティの権限は、Permissions PolicyとPermissions BoundaryのAND部分となる。
 - **信頼されたエンティティ**とは、ロールをアタッチできるサービス。
-- **IDフェデレーション**は、会社や組織で既に導入されている認証の仕組みとAWSの認証を紐付けし、シングルサインオンを実現する機能である。
