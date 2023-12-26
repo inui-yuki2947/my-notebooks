@@ -9,6 +9,9 @@
 - デプロイされたAPIのホスト名のことを、**APIエンドポイント**と呼ぶ。
 - [Amazon API Gateway とは何ですか? - Amazon API Gateway](https://docs.aws.amazon.com/ja_jp/apigateway/latest/developerguide/welcome.html)
 
+## ステージ
+- APIステージは、APIのライフサイクル状態への論理的なリファレンスである。（例:dev、prod、beta、v2など）
+
 ### APIエンドポイントタイプ
 
 | 種類                          | 概要                                          |
