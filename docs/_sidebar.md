@@ -201,7 +201,7 @@
   - 10_データベース
     - [01_Amazon DocumentDB.md](<./06_AWS/10_データベース/01_Amazon DocumentDB.md>)
     - [02_Amazon DynamoDB.md](<./06_AWS/10_データベース/02_Amazon DynamoDB.md>)
-    - [03_Amazon ElasticCache.md](<./06_AWS/10_データベース/03_Amazon ElasticCache.md>)
+    - [03_Amazon ElastiCache.md](<./06_AWS/10_データベース/03_Amazon ElastiCache.md>)
     - [04_Amazon Keyspaces.md](<./06_AWS/10_データベース/04_Amazon Keyspaces.md>)
     - [05_Amazon Neptune.md](<./06_AWS/10_データベース/05_Amazon Neptune.md>)
     - [06_Amazon QLDB.md](<./06_AWS/10_データベース/06_Amazon QLDB.md>)

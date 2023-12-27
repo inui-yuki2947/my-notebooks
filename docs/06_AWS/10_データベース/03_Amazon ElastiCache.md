@@ -1,4 +1,4 @@
-# AWS/データベース/Amazon ElasticCache
+# AWS/データベース/Amazon ElastiCache
 
 ## 共通
 
