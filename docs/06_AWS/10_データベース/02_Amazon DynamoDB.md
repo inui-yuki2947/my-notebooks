@@ -4,20 +4,24 @@
 
 ### 概要
 
-- **Amazon DynamoDB**は、キーバリューストア型のデータベース。
+- **Amazon DynamoDB**は、キーバリューストア型でサーバーレスのデータベース。
 - Amazon DynamoDBでは、データは自動的に3箇所のAZに保存される。
+- [Amazon DynamoDB とは - Amazon DynamoDB](https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/Introduction.html)
+
+### 整合性
+
 - Amazon DynamoDBでは、**結果整合性モデル**を採用しており、処理は高速だが最新の結果が反映されていないことがある。
 - **「強力な整合性」**を備えた読み込みを行うと、書き込みが反映された最新データを確実に読み取ることができる。
-- [Amazon DynamoDB とは - Amazon DynamoDB](https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/Introduction.html)
+
+### TTL
+
+- DB内の各項目には、**TTL（Time To Live）**を設けることができる。
 
 ### DynamoDB Streams
 
 - **DynamoDB Streams**は、CUD変更履歴をストリームに保持する機能である。
-- DynamoDB Streamsを使用すると、AWS Lambda関数を呼び出すイベントを作成できる。
-
-### グローバルテーブル
-
-- **グローバルテーブル**を使用すると、複数リージョンに同一テーブルを作成することができる。
+- AWS Lambdaと連携すると、イベントを検出して他サービスに通知できる。
+- DynamoDB Streamsを有効にすると、**グローバルテーブル**（複数リージョンに配置した書き込み可能なテーブル）を作成できる。
 
 ### DAX
 
@@ -30,10 +34,11 @@
 | 種類                 | 概要                                                         |
 | -------------------- | ------------------------------------------------------------ |
 | オンデマンド         | データの読み書きに対して課金が発生。<br />事前のパフォーマンスの予測は不要。 |
-| プロビジョニング済み | 事前に1秒あたりの読み書きの回数を予測する。                  |
+| プロビジョニング済み | 事前に1秒あたりの読み書きの回数を予測する。<br />継続的なリクエストが発生する場合に適する。 |
 
 ### キーの設計
 
+- Amazon DynamoDBでは、パーティションキー、ソートキーを設定することができる。
 - **パーティションキー**は、パーティションごとに一意であるため、主キーとして使うこともできる。
 - **ソートキー**は、パーティションキーと合わせて複合主キーとして使われる。
 
