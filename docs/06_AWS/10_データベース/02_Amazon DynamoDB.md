@@ -13,6 +13,7 @@
 ### DynamoDB Streams
 
 - **DynamoDB Streams**は、CUD変更履歴をストリームに保持する機能である。
+- DynamoDB Streamsを使用すると、AWS Lambda関数を呼び出すイベントを作成できる。
 
 ### グローバルテーブル
 
