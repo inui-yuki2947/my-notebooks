@@ -210,9 +210,13 @@
   - 11_デベロッパーツール
     - [01_AWS Cloud9.md](<./06_AWS/11_デベロッパーツール/01_AWS Cloud9.md>)
     - [02_AWS CloudShell.md](<./06_AWS/11_デベロッパーツール/02_AWS CloudShell.md>)
-    - [03_AWS CodeBuild.md](<./06_AWS/11_デベロッパーツール/03_AWS CodeBuild.md>)
-    - [04_AWS CodePipeline.md](<./06_AWS/11_デベロッパーツール/04_AWS CodePipeline.md>)
-    - [05_AWS X-Ray.md](<./06_AWS/11_デベロッパーツール/05_AWS X-Ray.md>)
+    - [03_AWS CodeArtifact.md](<./06_AWS/11_デベロッパーツール/03_AWS CodeArtifact.md>)
+    - [04_AWS CodeBuild.md](<./06_AWS/11_デベロッパーツール/04_AWS CodeBuild.md>)
+    - [05_AWS CodeCommit.md](<./06_AWS/11_デベロッパーツール/05_AWS CodeCommit.md>)
+    - [06_AWS CodeDeploy.md](<./06_AWS/11_デベロッパーツール/06_AWS CodeDeploy.md>)
+    - [07_AWS CodePipeline.md](<./06_AWS/11_デベロッパーツール/07_AWS CodePipeline.md>)
+    - [08_AWS CodeStar.md](<./06_AWS/11_デベロッパーツール/08_AWS CodeStar.md>)
+    - [09_AWS X-Ray.md](<./06_AWS/11_デベロッパーツール/09_AWS X-Ray.md>)
   - 12_フロントエンドウェブ＆モバイル
     - [01_AWS Amplify.md](<./06_AWS/12_フロントエンドウェブ＆モバイル/01_AWS Amplify.md>)
     - [02_AWS AppSync.md](<./06_AWS/12_フロントエンドウェブ＆モバイル/02_AWS AppSync.md>)
