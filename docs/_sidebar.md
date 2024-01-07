@@ -459,7 +459,9 @@
     - [01_pyenv.md](<./14_Python/01_CUI/01_pyenv.md>)
 - 15_Java
   - 01_CUI
-    - [01_java.md](<./15_Java/01_CUI/01_java.md>)
+    - [01_共通.md](<./15_Java/01_CUI/01_共通.md>)
+    - [02_java.md](<./15_Java/01_CUI/02_java.md>)
+    - [03_sdk.md](<./15_Java/01_CUI/03_sdk.md>)
   - 02_文法
     - [01_共通.md](<./15_Java/02_文法/01_共通.md>)
     - [02_変数.md](<./15_Java/02_文法/02_変数.md>)
@@ -472,7 +474,7 @@
     - [01_クラス.md](<./15_Java/04_モジュール化/01_クラス.md>)
 - 16_Kotlin
   - 01_CUI
-    - [01_kotlinc-jvm.md](<./16_Kotlin/01_CUI/01_kotlinc-jvm.md>)
+    - [01_kotlin.md](<./16_Kotlin/01_CUI/01_kotlin.md>)
   - 02_文法
     - [01_共通.md](<./16_Kotlin/02_文法/01_共通.md>)
   - 03_SpringBoot
