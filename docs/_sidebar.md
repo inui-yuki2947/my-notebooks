@@ -588,6 +588,7 @@
 - 24_テキスト
   - 01_XML
     - [01_XPath.md](<./24_テキスト/01_XML/01_XPath.md>)
+    - [02_xmlstarlet.md](<./24_テキスト/01_XML/02_xmlstarlet.md>)
   - 02_JSON,YAML
     - [01_JSON.md](<./24_テキスト/02_JSON,YAML/01_JSON.md>)
     - [02_YAML.md](<./24_テキスト/02_JSON,YAML/02_YAML.md>)
