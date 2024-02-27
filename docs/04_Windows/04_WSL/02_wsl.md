@@ -1,4 +1,4 @@
-# Windows/WSL/コマンド
+# Windows/WSL/wsl
 
 ## wsl
 
