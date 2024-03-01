@@ -587,8 +587,10 @@
     - [03_スクリプト実行・情報.md](<./23_GoogleApps/03_文法/03_スクリプト実行・情報.md>)
 - 24_テキスト
   - 01_XML
-    - [01_XPath.md](<./24_テキスト/01_XML/01_XPath.md>)
-    - [02_xmlstarlet.md](<./24_テキスト/01_XML/02_xmlstarlet.md>)
+    - [01_XML.md](<./24_テキスト/01_XML/01_XML.md>)
+    - [02_XSL.md](<./24_テキスト/01_XML/02_XSL.md>)
+    - [03_XPath.md](<./24_テキスト/01_XML/03_XPath.md>)
+    - [04_xmlstarlet.md](<./24_テキスト/01_XML/04_xmlstarlet.md>)
   - 02_JSON,YAML
     - [01_JSON.md](<./24_テキスト/02_JSON,YAML/01_JSON.md>)
     - [02_YAML.md](<./24_テキスト/02_JSON,YAML/02_YAML.md>)
