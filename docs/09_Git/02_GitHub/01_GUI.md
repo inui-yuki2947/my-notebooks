@@ -1,6 +1,6 @@
 # Git/GitHub/GUI
 
-## Settings
+## アカウント設定
 
 ### Emails
 
@@ -15,6 +15,28 @@
 
 - Personal access tokensは、GitHub APIまたはコマンドラインを使用するときに、GitHubへの認証でパスワードの代わりに使用される。
 - [個人アクセストークンを使用する - GitHub Docs](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+## リポジトリ設定
+
+### Branches
+
+- Branch protection rules
+  
+  | 項目                                         | おすすめ設定                                           |
+  | -------------------------------------------- | ------------------------------------------------------ |
+  | Require a pull request before merging        | Require approvals                                      |
+  | Require status checks to pass before merging | Require branches to be up to date before merging       |
+  | Include administrators                       | ON（ONにすると、管理者もこのルールを無視できなくなる） |
+
+### Environments
+
+- Environmentsを設定すると、デプロイ時に環境を切り替えることができる。
+- [デプロイに環境を使用する - GitHub Docs](https://docs.github.com/ja/actions/deployment/targeting-different-environments/using-environments-for-deployment)
+
+### Deploy keys
+
+- デプロイキーを使用すると、GitHub.com のリポジトリからサーバーにプロジェクトを起動できる。
+- [デプロイキーの管理 - GitHub Docs](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
 
 ## Issue, PRの検索
 
@@ -35,16 +57,6 @@
 ### 参考資料
 
 - [Issue およびプルリクエストを検索する - GitHub Docs](https://docs.github.com/ja/search-github/searching-on-github/searching-issues-and-pull-requests)
-
-## Branch protection
-
-### おすすめ設定
-
-- Require a pull request before merging
-  - Require approvals
-- Require status checks to pass before merging
-  - Require branches to be up to date before merging
-- Include administrators（これをチェックすると、管理者もこのルールを無視できなくなる）
 
 ## フォーク
 
