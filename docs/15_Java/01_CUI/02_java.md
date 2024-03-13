@@ -12,6 +12,12 @@
 apt install openjdk-17-jdk
 ```
 
+### SDKMAN
+
+```bash
+sdk install java 17.0.10-librca
+```
+
 ## java
 
 ### コマンド
