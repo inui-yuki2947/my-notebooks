@@ -59,3 +59,19 @@ brew install gradle
 
 - **gradlew**は、gradleコマンドを適切なバージョンで実行するためのラッパー（Gradle + インストーラー）である。
 - [Building Java Applications with libraries Sample](https://docs.gradle.org/current/samples/sample_building_java_applications_multi_project.html?_gl=1*namqo8*_ga*MTYzOTM0OTk2Ny4xNzEwMTUwMjk4*_ga_7W7NC6YNPT*MTcxMjczODAwMy45LjEuMTcxMjczODQzMC42MC4wLjA.)
+
+## settings.gradle
+
+### 例
+
+```groovy
+rootProject.name = 'demo'
+include('app', 'list', 'utilities')
+```
+
+### 項目
+
+| 項目                              | 概要                         |
+| --------------------------------- | ---------------------------- |
+| `rootProject.name = 名前`         | ビルドの名前を定義する。     |
+| `include(サブプロジェクト1, ...)` | サブプロジェクトを定義する。 |
