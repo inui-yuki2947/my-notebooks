@@ -16,6 +16,12 @@ brew install rbenv ruby-build
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
+### Ubuntu
+
+```bash
+sudo apt install rbenv
+```
+
 ## rbenv
 
 ### コマンド
