@@ -58,6 +58,39 @@
 
 - [Issue およびプルリクエストを検索する - GitHub Docs](https://docs.github.com/ja/search-github/searching-on-github/searching-issues-and-pull-requests)
 
+## CODEOWNERS
+
+### ファイル
+
+| ファイル                                                     | 概要                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `CODEOWNERS`<br />`.github/CODEOWNERS`<br />`docs/CODEOWNERS` | 当リポジトリでPRが開かれた際、<br />自動的に当ファイルに記載のユーザー（グループ）にレビュー依頼がなされる。 |
+
+### 例
+
+```text
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @global-owner1 and @global-owner2 will be requested for
+# review when someone opens a pull request.
+*       @global-owner1 @global-owner2
+
+# Order is important; the last matching pattern takes the most
+# precedence. When someone opens a pull request that only
+# modifies JS files, only @js-owner and not the global
+# owner(s) will be requested for a review.
+*.js    @js-owner #This is an inline comment.
+
+...
+```
+
+### 参考資料
+
+- [コードオーナーについて - GitHub Docs](https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+
 ## フォーク
 
 - 「フォーク」は、リモートリポジトリを自分のアカウントの**リモートリポジトリ**にコピーすること。
