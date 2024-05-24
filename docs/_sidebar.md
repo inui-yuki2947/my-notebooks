@@ -433,7 +433,8 @@
     - [99_その他.md](<./13_Ruby on Rails/01_共通/99_その他.md>)
 - 14_Python
   - 01_CUI
-    - [01_pyenv.md](<./14_Python/01_CUI/01_pyenv.md>)
+    - [01_python.md](<./14_Python/01_CUI/01_python.md>)
+    - [02_pyenv.md](<./14_Python/01_CUI/02_pyenv.md>)
 - 15_Java
   - 01_CUI
     - [01_共通.md](<./15_Java/01_CUI/01_共通.md>)
