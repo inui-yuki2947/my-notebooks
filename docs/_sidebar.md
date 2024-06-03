@@ -561,6 +561,7 @@
 - 21_TypeScript
   - 01_CUI
     - [01_tsc.md](<./21_TypeScript/01_CUI/01_tsc.md>)
+    - [02_tscofig.md](<./21_TypeScript/01_CUI/02_tscofig.md>)
   - 02_文法
     - [01_共通.md](<./21_TypeScript/02_文法/01_共通.md>)
     - [02_プリミティブ型.md](<./21_TypeScript/02_文法/02_プリミティブ型.md>)
