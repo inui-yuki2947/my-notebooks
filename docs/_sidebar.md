@@ -436,6 +436,10 @@
     - [01_python.md](<./14_Python/01_CUI/01_python.md>)
     - [02_pyenv.md](<./14_Python/01_CUI/02_pyenv.md>)
     - [03_pip.md](<./14_Python/01_CUI/03_pip.md>)
+  - 02_文法
+    - [01_共通.md](<./14_Python/02_文法/01_共通.md>)
+    - [02_変数・定数.md](<./14_Python/02_文法/02_変数・定数.md>)
+    - [03_型.md](<./14_Python/02_文法/03_型.md>)
 - 15_Java
   - 01_CUI
     - [01_共通.md](<./15_Java/01_CUI/01_共通.md>)
