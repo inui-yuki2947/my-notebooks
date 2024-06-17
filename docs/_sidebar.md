@@ -435,6 +435,7 @@
   - 01_CUI
     - [01_python.md](<./14_Python/01_CUI/01_python.md>)
     - [02_pyenv.md](<./14_Python/01_CUI/02_pyenv.md>)
+    - [03_pip.md](<./14_Python/01_CUI/03_pip.md>)
 - 15_Java
   - 01_CUI
     - [01_共通.md](<./15_Java/01_CUI/01_共通.md>)
