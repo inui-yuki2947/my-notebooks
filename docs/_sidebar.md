@@ -585,8 +585,9 @@
     - [01_共通.md](<./23_Vuejs/02_Nuxtjs/01_共通.md>)
 - 24_GoogleApps
   - 01_CUI
-    - [01_clasp.md](<./24_GoogleApps/01_CUI/01_clasp.md>)
-    - [02_skicka.md](<./24_GoogleApps/01_CUI/02_skicka.md>)
+    - [01_gcloud.md](<./24_GoogleApps/01_CUI/01_gcloud.md>)
+    - [02_clasp.md](<./24_GoogleApps/01_CUI/02_clasp.md>)
+    - [03_skicka.md](<./24_GoogleApps/01_CUI/03_skicka.md>)
   - 02_GUI
     - [01_スプレッドシート.md](<./24_GoogleApps/02_GUI/01_スプレッドシート.md>)
   - 03_文法
