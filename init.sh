@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-# 「docsify」「markdownlint-cli」をインストールする。
-sudo npm install -g docsify-cli
-sudo npm install -g markdownlint-cli
-
-# コミット前のGitフックを設定する。
+if ! npm list -g --depth=0 docsify-cli &> /dev/null; then
+  sudo npm install -g docsify-cli
+fi
+if ! npm list -g --depth=0 markdownlint-cli &> /dev/null; then
+  sudo npm install -g markdownlint-cli
+fi
 git config core.hooksPath .githooks
