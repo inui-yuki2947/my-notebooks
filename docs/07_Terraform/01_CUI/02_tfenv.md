@@ -28,3 +28,5 @@
 | `tfenv list`                 | インストールされたTerraformのバージョンの一覧を表示する。 |
 | `tfenv list-remote`          | インストール可能なTerraformのバージョンの一覧を表示する。 |
 | `tfenv use [バージョン]`     | 指定したバージョンのTerraformを使用する。                 |
+
+- バージョンとしては、`0.8.0`や`latest`が指定可能。
