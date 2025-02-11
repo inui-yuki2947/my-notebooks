@@ -2,9 +2,9 @@
 set -e
 
 if ! npm list -g --depth=0 docsify-cli &> /dev/null; then
-  sudo npm install -g docsify-cli
+  npm install -g docsify-cli
 fi
 if ! npm list -g --depth=0 markdownlint-cli &> /dev/null; then
-  sudo npm install -g markdownlint-cli
+  npm install -g markdownlint-cli
 fi
 git config core.hooksPath .githooks
