@@ -2,7 +2,15 @@
 
 ## インストール
 
+### インストーラーの場合
+
 - [gcloud CLI をインストールする  |  Google Cloud CLI Documentation](https://cloud.google.com/sdk/docs/install?hl=ja)
+
+### Homebrewの場合
+
+```bash
+brew install --cask google-cloud-sdk
+```
 
 ## gcloud
 
