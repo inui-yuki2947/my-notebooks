@@ -20,7 +20,9 @@ brew install --cask google-cloud-sdk
 | -------------------------------------------- | ------------------------------------------------------------ |
 | `gcloud init`                                | 対話的に初期化を行う。<br />（`gcloud auth login`や`gcloud config`等の処理が包含されている） |
 | `gcloud auth login`                          | 認証を行う。                                                 |
+| `gcloud auth revoke`                         | 認証を削除する。                                             |
 | `gcloud auth application-default login`      | **アプリケーション用の**認証を行う。                         |
+| `gcloud auth application-default revoke`     | **アプリケーション用の**認証を削除する。                     |
 | `gcloud projects list`                       | プロジェクトの一覧を表示する。                               |
 | `gcloud services list`                       | 使用可能なサービスの一覧を表示する。                         |
 | `gcloud config list`                         | Google Cloud CLIの設定の一覧を表示する。                     |
